@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_snc_bam_you_i_0.admin" name="x_snc_bam_you_i_0.admin">65fa6ee3838742107d786970ceaad32d</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2024-07-03 17:01:43</sys_created_on>
+        <sys_id>edfa6ee3838742107d786970ceaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>65fa6ee3838742107d786970ceaad32d</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_embedded_help_role_edfa6ee3838742107d786970ceaad32f</sys_update_name>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:01:43</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

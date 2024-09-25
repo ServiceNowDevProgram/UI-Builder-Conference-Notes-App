@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_snc_bam_you_i_0_conference_notes_search_profile_default_spell_check_dictionary">985d3fa3830f42107d786970ceaad3ab</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="conference-notes Search Profile">cb4dfba3330f4210bbd031354d42cc0f</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2024-07-03 23:01:32</sys_created_on>
+        <sys_id>dc5d3fa3830f42107d786970ceaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_bam_you_i_0_conference_notes_search_profile_default_spell_check_dictionary.conference-notes Search Profile</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_dc5d3fa3830f42107d786970ceaad3ae</sys_update_name>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2024-07-03 23:01:32</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

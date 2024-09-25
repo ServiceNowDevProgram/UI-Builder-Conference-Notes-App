@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="company_organization" label="Company/Organization" language="en" table="x_snc_bam_you_i_0_contact">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>company_organization</element>
+            <help/>
+            <hint/>
+            <label>Company/Organization</label>
+            <language>en</language>
+            <name>x_snc_bam_you_i_0_contact</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2024-07-03 22:49:46</sys_created_on>
+            <sys_id>b79ab7ef83cb42107d786970ceaad39b</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_name>Company/Organization</sys_name>
+            <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_bam_you_i_0_contact_company_organization_en</sys_update_name>
+            <sys_updated_by>MGOPW</sys_updated_by>
+            <sys_updated_on>2024-07-03 23:14:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

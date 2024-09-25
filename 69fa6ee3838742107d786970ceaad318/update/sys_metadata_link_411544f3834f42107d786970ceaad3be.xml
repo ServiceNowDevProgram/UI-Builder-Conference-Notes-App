@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4fda3bef83cb42107d786970ceaad3a0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number_counter">
+    <sys_number_counter action="INSERT_OR_UPDATE">
+        <number>1005</number>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2024-07-03 22:50:48</sys_created_on>
+        <sys_id>4fda3bef83cb42107d786970ceaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2024-07-03 22:50:48</sys_updated_on>
+        <table display_value="" name="x_snc_bam_you_i_0_contact">x_snc_bam_you_i_0_contact</table>
+    </sys_number_counter>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2024-07-03 23:35:27</sys_created_on>
+        <sys_id>411544f3834f42107d786970ceaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1005</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_metadata_link_411544f3834f42107d786970ceaad3be</sys_update_name>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2024-07-03 23:35:27</sys_updated_on>
+        <tablename>sys_number_counter</tablename>
+    </sys_metadata_link>
+</record_update>

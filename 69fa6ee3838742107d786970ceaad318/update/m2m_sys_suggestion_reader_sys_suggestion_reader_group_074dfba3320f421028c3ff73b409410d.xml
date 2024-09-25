@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_suggestion_reader_sys_suggestion_reader_group">
+    <m2m_sys_suggestion_reader_sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <reader_requested_fields/>
+        <reader_searchable_fields/>
+        <sys_class_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2024-07-03 23:01:28</sys_created_on>
+        <sys_id>074dfba3320f421028c3ff73b409410d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_suggestion_reader_group_id display_value="Popular Search Reader Group for Starter Workspace - Workspace Search">0b4dfba3320f421054104ae21851940c</sys_suggestion_reader_group_id>
+        <sys_suggestion_reader_id display_value="Popular Query Reader">ddf6d5b77320001052c7d5fdbdf6a76f</sys_suggestion_reader_id>
+        <sys_update_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group_074dfba3320f421028c3ff73b409410d</sys_update_name>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2024-07-03 23:01:28</sys_updated_on>
+    </m2m_sys_suggestion_reader_sys_suggestion_reader_group>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>true</can_share>
+        <can_write>true</can_write>
+        <dashboard display_value="U&amp;I Conference notes">834dfba3820f421094dbd7d057046c09</dashboard>
+        <group/>
+        <owner>true</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2024-07-03 23:01:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c5d3fa3830f42107d786970ceaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>834dfba3820f421094dbd7d057046c09</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>par_dashboard_permission_0c5d3fa3830f42107d786970ceaad331</sys_update_name>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2024-07-03 23:01:31</sys_updated_on>
+        <user display_value="Maria Gabriela Waechter">66ae5dd7c32bf1106f53f2da050131af</user>
+    </par_dashboard_permission>
+</record_update>

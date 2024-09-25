@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Contact">5c5d3fa3830f42107d786970ceaad3a5</ais_search_source>
+        <label>Contact</label>
+        <name>Contact</name>
+        <order>100</order>
+        <search_context_config display_value="U&amp;I Conference notes AI Search Configuration">4f4dbba3cc0f4210449f1ef4826450fa</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2024-07-03 23:01:33</sys_created_on>
+        <sys_id>e85d3fa3830f42107d786970ceaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contact</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_search_filter_e85d3fa3830f42107d786970ceaad3b6</sys_update_name>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2024-07-03 23:01:33</sys_updated_on>
+    </sys_search_filter>
+</record_update>

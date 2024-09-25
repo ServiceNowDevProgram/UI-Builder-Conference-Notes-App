@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category">
+    <sys_ux_registry_m2m_category action="INSERT_OR_UPDATE">
+        <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
+        <order/>
+        <page_registry display_value="U&amp;I Conference notes">434dfba3410f421039b870acd9fc5e10</page_registry>
+        <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2024-07-03 23:01:28</sys_created_on>
+        <sys_id>8b4dbba3770f4210c9dc4d82de75c8f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_registry_m2m_category_8b4dbba3770f4210c9dc4d82de75c8f1</sys_update_name>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2024-07-03 23:01:28</sys_updated_on>
+    </sys_ux_registry_m2m_category>
+</record_update>

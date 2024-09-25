@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="U&amp;I Conference notes App Config">074dfba3440f42107ea67b33b7086b10</app_config>
+        <description/>
+        <extension_point/>
+        <fields>sysid</fields>
+        <icon/>
+        <name>Visualization Designer</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>visualization-designer</route_type>
+        <screen_type display_value="Visualization Designer">834dbba3560f4210cad76f496aab27f9</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2024-07-03 23:01:29</sys_created_on>
+        <sys_id>8b4dbba3a90f42107749b6d126566ff7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visualization Designer</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_app_route_8b4dbba3a90f42107749b6d126566ff7</sys_update_name>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2024-07-03 23:01:29</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=8b4dbba3a90f42107749b6d126566ff7"/>
+</record_update>

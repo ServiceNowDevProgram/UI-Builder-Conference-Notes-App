@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>U&amp;I Conference notes_menu_config</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2024-07-03 23:01:31</sys_created_on>
+        <sys_id>845d3fa3830f42107d786970ceaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>U&amp;I Conference notes_menu_config</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_845d3fa3830f42107d786970ceaad34b</sys_update_name>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2024-07-03 23:01:31</sys_updated_on>
+    </sys_ux_list_menu_config>
+</record_update>

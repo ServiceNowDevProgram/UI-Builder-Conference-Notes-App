@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_dictionary">
+    <ais_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <auto_refresh>24</auto_refresh>
+        <blocked_field/>
+        <case_sensitive>false</case_sensitive>
+        <data_source>x_snc_bam_you_i_0_contact</data_source>
+        <derived>true</derived>
+        <field/>
+        <label>conference-notes Search Profile Default Spell Check Dictionary</label>
+        <last_derived/>
+        <locale>en</locale>
+        <name>x_snc_bam_you_i_0_conference_notes_search_profile_default_spell_check_dictionary</name>
+        <publish_id/>
+        <punctuation_sensitive>false</punctuation_sensitive>
+        <state>NEW</state>
+        <sys_class_name>ais_dictionary</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2024-07-03 23:01:32</sys_created_on>
+        <sys_id>985d3fa3830f42107d786970ceaad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_bam_you_i_0_conference_notes_search_profile_default_spell_check_dictionary</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>ais_dictionary_985d3fa3830f42107d786970ceaad3ab</sys_update_name>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2024-07-03 23:01:32</sys_updated_on>
+        <type>SPELLCHECK</type>
+    </ais_dictionary>
+</record_update>

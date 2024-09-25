@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="phone_number" label="Phone number" language="en" table="x_snc_bam_you_i_0_contact">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>phone_number</element>
+            <help/>
+            <hint/>
+            <label>Phone number</label>
+            <language>en</language>
+            <name>x_snc_bam_you_i_0_contact</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2024-07-03 22:41:44</sys_created_on>
+            <sys_id>9ec8336f83cb42107d786970ceaad39a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Phone number</sys_name>
+            <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_bam_you_i_0_contact_phone_number_en</sys_update_name>
+            <sys_updated_by>MGOPW</sys_updated_by>
+            <sys_updated_on>2024-07-03 22:41:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

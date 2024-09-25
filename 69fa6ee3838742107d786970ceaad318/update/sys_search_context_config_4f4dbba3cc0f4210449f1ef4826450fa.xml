@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <collapse_attachment>false</collapse_attachment>
+        <enable_exact_match>true</enable_exact_match>
+        <evam_definition display_value="AI Search For Next Search">f78b729b53d801109fa9ddeeff7b1201</evam_definition>
+        <genius_results_limit>1</genius_results_limit>
+        <hit_highlighting>false</hit_highlighting>
+        <log_signals_server_side>false</log_signals_server_side>
+        <name>U&amp;I Conference notes AI Search Configuration</name>
+        <search_engine>ai_search</search_engine>
+        <search_profile display_value="conference-notes Search Profile">cb4dfba3330f4210bbd031354d42cc0f</search_profile>
+        <search_results_limit>10</search_results_limit>
+        <show_tab_counts>true</show_tab_counts>
+        <spell_check>true</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2024-07-03 23:01:28</sys_created_on>
+        <sys_id>4f4dbba3cc0f4210449f1ef4826450fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>U&amp;I Conference notes AI Search Configuration</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_search_context_config_4f4dbba3cc0f4210449f1ef4826450fa</sys_update_name>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2024-07-03 23:01:28</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=4f4dbba3cc0f4210449f1ef4826450fa"/>
+</record_update>

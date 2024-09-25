@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="U&amp;I Conference notes">834dfba3820f421094dbd7d057046c09</dashboard>
+        <experience display_value="U&amp;I Conference notes">434dfba3410f421039b870acd9fc5e10</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2024-07-03 23:01:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>034dbba30f0f421043b1488ede59fdfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>par_dashboard_visibility_034dbba30f0f421043b1488ede59fdfb</sys_update_name>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2024-07-03 23:01:27</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>

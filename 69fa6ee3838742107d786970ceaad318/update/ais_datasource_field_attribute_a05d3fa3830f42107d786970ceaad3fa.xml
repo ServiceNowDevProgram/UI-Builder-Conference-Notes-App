@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_field_attribute">
+    <ais_datasource_field_attribute action="INSERT_OR_UPDATE">
+        <attribute display_value="map_to">f734a634c7320010d1cfd9795cc26094</attribute>
+        <datasource display_value="Contact Table">585d3fa3830f42107d786970ceaad39c</datasource>
+        <field>sys_updated_on</field>
+        <source>x_snc_bam_you_i_0_contact</source>
+        <sys_class_name>ais_datasource_field_attribute</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2024-07-03 23:01:33</sys_created_on>
+        <sys_id>a05d3fa3830f42107d786970ceaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_bam_you_i_0_contact.sys_updated_on</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>ais_datasource_field_attribute_a05d3fa3830f42107d786970ceaad3fa</sys_update_name>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2024-07-03 23:01:33</sys_updated_on>
+        <value>sort_by_date</value>
+    </ais_datasource_field_attribute>
+</record_update>
