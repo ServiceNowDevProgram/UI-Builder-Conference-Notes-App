@@ -231,10 +231,12 @@
     
 ]</data>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <dispatched_events>034dbba3a00f4210f4a9fc432b2428f5</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
+        <form_factors/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -297,6 +299,7 @@
         <root_component_config>{}</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
         <state_properties>[
     
 ]</state_properties>
@@ -313,5 +316,4 @@
         <sys_updated_by>MGOPW</sys_updated_by>
         <sys_updated_on>2024-07-03 23:01:29</sys_updated_on>
     </sys_ux_macroponent>
-    <sys_translated_text action="delete_multiple" query="documentkey=034dbba3d60f42107487b2169cc93fee"/>
 </record_update>
