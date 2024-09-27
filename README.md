@@ -15,12 +15,10 @@ This repository is part of a larger coordinated effort by the ServiceNow Develop
 - [Resources](#resources)
 
 # How do I participate?
-When you fork the repository and add it to your instance, you'll be greeted by the `U&I Conference notes` workspace with a default landing page. Here's what you need to do to participate:
-1. Create a variant of the Home page, name it after your github user name. DO NOT include any personal information in the variants or data you might add to the app. 
-2. Read the instructions and follow the stories on the [Build Along Month project](https://sn.works/BuildAlongMonth) page.
-3. Go beyond the stories and make something super awesome!
-
-Avoid editing other people's variants, as this could create collissions and cause your pull request to be rejected. You can submit multiple pull requests to update your own variant as you iterate through your work, you aren't limited to just one submission. 
+🔔🔔🔔
+<br>**_Please follow all guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file_**<br>
+Missing to do so may result in your Pull Requst being rejected or even marked as SPAM.
+🔔🔔🔔
 
 
 # Resources
