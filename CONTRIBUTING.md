@@ -16,7 +16,7 @@ When you fork the repository and add it to your instance, you'll be greeted by t
 
 Avoid editing other people's variants, as this could create collissions and cause your pull request to be rejected. You can submit multiple pull requests to update your own variant as you iterate through your work, you aren't limited to just one submission. 
 
-**Note: if you encounter an error stating "Private application scope" when you go to build the pages in UI Builder, you should give yourself the x_snc_bam_you_i_0.user and x_snc_bam_you_i_0.admin roles.**
+**Note: if you encounter an error stating "Private application scope" when you go to build the pages in UI Builder, you should give yourself the `x_snc_bam_you_i_0.user` and `x_snc_bam_you_i_0.admin` roles.**
 
 ## Helpful resources
 
