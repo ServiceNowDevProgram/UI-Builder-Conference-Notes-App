@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputTable": null,
+        "inputSysId": null,
+        "inputQuery": null,
+        "view": "workspace-uampi-conference-notes-0",
+        "forcedViewName": null,
+        "detailsContext": null,
+        "activityLogs": null,
+        "inputExtraParams": null,
+        "fields": null,
+        "screen": null,
+        "selectedTabIndex": null,
+        "userPrefs": null
+    },
+    "table": "contact (x_snc_bam_you_i_0_contact)",
+    "sysId": "-1"
+}</macroponent_config>
+        <screen display_value="phr-nk">cccbcbb42b4dda10ac9bf691ce91bf02</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 16:27:16</sys_created_on>
+        <sys_id>0ccbcbb42b4dda10ac9bf691ce91bf05</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_0ccbcbb42b4dda10ac9bf691ce91bf05</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 18:26:42</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>
