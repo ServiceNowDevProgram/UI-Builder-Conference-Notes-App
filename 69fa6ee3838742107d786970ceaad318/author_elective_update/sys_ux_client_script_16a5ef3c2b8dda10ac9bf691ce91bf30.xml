@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="phr-nk">44cbcbb42b4dda10ac9bf691ce91bf00</macroponent>
+        <name>form_default/sysId</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return -1;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 18:21:30</sys_created_on>
+        <sys_id>16a5ef3c2b8dda10ac9bf691ce91bf30</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>form_default/sysId</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_client_script_16a5ef3c2b8dda10ac9bf691ce91bf30</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 18:21:30</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</application>
+        <file_path/>
+        <instance_id>fc9989a4ebe8d690e483f459bad0cd82</instance_id>
+        <instance_name>empflenoci2</instance_name>
+        <name>sys_ux_client_script_16a5ef3c2b8dda10ac9bf691ce91bf30</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="phr-nk"&gt;44cbcbb42b4dda10ac9bf691ce91bf00&lt;/macroponent&gt;&lt;name&gt;form_default/sysId&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return -1;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-02 18:21:30&lt;/sys_created_on&gt;&lt;sys_id&gt;16a5ef3c2b8dda10ac9bf691ce91bf30&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;form_default/sysId&lt;/sys_name&gt;&lt;sys_package display_value="BAM - You &amp;amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0"&gt;69fa6ee3838742107d786970ceaad318&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BAM - You &amp;amp; I Builder Live! Conference Notes"&gt;69fa6ee3838742107d786970ceaad318&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_16a5ef3c2b8dda10ac9bf691ce91bf30&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-02 18:21:30&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1929177427</payload_hash>
+        <record_name>form_default/sysId</record_name>
+        <reverted_from/>
+        <source>e07b36742b0dda10ac9bf691ce91bf49</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 18:21:30</sys_created_on>
+        <sys_id>d5e5277c2b8dda10ac9bf691ce91bf20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1924e773edf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 18:21:30</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>99e5277c9f8dda1032640959d846d81f</update_guid>
+        <update_guid_history>99e5277c9f8dda1032640959d846d81f:-1929177427</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 18:23:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>69843128fad74b8ea5b3808ee544c6d1</sys_id>
+        <sys_metadata>16a5ef3c2b8dda10ac9bf691ce91bf30</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>form_default/sysId</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_scope_delete display_value="">8e6b586c18d945e4a392cb47d16fdc89</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_16a5ef3c2b8dda10ac9bf691ce91bf30</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_16a5ef3c2b8dda10ac9bf691ce91bf30">d5e5277c2b8dda10ac9bf691ce91bf20</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 18:23:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
