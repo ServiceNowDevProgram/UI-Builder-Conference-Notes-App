@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="67fb696147095610f3f96433846d4304" extends="task" label="Contact task" max_length="40" name="x_snc_bam_you_i_0_contact_task" type="collection">
+        <element label="Contact" max_length="32" name="contact" reference="x_snc_bam_you_i_0_contact" type="reference"/>
+    </element>
+</database>
