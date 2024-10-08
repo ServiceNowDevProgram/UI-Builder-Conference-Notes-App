@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Group issue">cdad87a2c34556502f84fc84e4013159</macroponent>
+        <name>Handle events of management method field</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var {
+        name,
+        payload
+    } = event;
+
+    var managementMethodFieldObj = api.state.managementMethodField;
+    if (name === 'NOW_SELECT#SELECTED_ITEM_SET') {
+
+        if (event.elementId == 'management_method') {
+            if (payload.value) {
+                managementMethodFieldObj.selectedItem = payload.value;
+                api.setState('managementMethodField', managementMethodFieldObj);
+                var messageObj = api.state.messages;
+                if (payload.value == '10') {
+                    // Triggering a warning message when manage parent is selected
+                    messageObj.mgmtMethod.dismissed = false;
+                }
+                else{
+                    // Removing warning message when manage child is selected
+                    messageObj.mgmtMethod.dismissed = true;
+                }
+                api.setState('messages', messageObj);
+                api.data.look_up_records.refresh();
+                api.data.get_row_count_of_table.refresh();
+
+            }
+
+        }
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-10-08 03:04:54</sys_created_on>
+        <sys_id>d5ad87a2c34556502f84fc84e40131ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Handle events of management method field</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_client_script_d5ad87a2c34556502f84fc84e40131ef</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 03:04:54</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

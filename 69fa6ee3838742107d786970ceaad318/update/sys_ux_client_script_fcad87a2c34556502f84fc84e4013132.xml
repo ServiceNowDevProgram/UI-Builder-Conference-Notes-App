@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="send_assessments default">fcad47a2c34556502f84fc84e40131be</macroponent>
+        <name>Send</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (api.context.props.table == "sn_grc_profile_type" || api.context.props.table == "sn_privacy_processing_activity") {
+        const {
+            NowDateTime
+        } = imports['sn_uxf.core_libraries']();
+        var internalFormat = "YYYY-MM-DD";
+        var userFormat = api.context.session.user.dateFormat.toUpperCase();
+        var curDate = NowDateTime().format(internalFormat);
+
+        var dueDate = api.state.dueDate;
+        if (dueDate) {
+            dueDate = NowDateTime(dueDate, userFormat).format(internalFormat);
+        }
+
+        if (dueDate && NowDateTime(dueDate).isBefore(curDate)) {
+            helpers
+                .translate('Due date cannot be in the past')
+                .then((val) => {
+                    api.setState('dueDateErrorMessage', val);
+                });
+            api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                items: [{
+                    id: "record-alert-1",
+                    status: "critical",
+                    icon: "info-circle-outline",
+                    content: api.state.dueDateErrorMessage,
+                    action: {
+                        type: "dismiss"
+                    }
+                }]
+            });
+            return;
+        }
+    }
+
+    api.data.send_assessments_1.execute({
+        "sysIds": api.context.props.sysIds,
+        "recordId": api.context.props.sysId,
+        "tableName": api.context.props.table,
+        "assessmentTemplate": api.state.assessemntTemplateId,
+        "dueDate": api.state.dueDate
+    });
+
+    if (api.context.props.table == 'sn_grc_profile_type') {
+        api.emit("RECORD#RELATED_LIST_REFRESH_REQUESTED", {
+            relatedListName: 'sn_grc_m2m_profile_profile_type.profile_type'
+        });
+    }
+
+    api.emit("RECORD_PAGE_TABS#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "alert2",
+            status: "info",
+            icon: "info-circle-outline",
+            content: api.state.successMessage,
+            action: {
+                type: "dismiss"
+            },
+        }]
+    });
+    
+    helpers.modal.close();
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-10-08 03:04:53</sys_created_on>
+        <sys_id>fcad87a2c34556502f84fc84e4013132</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Send</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_client_script_fcad87a2c34556502f84fc84e4013132</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 03:04:53</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

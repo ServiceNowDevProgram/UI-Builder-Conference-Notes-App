@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Group issue">cdad87a2c34556502f84fc84e4013159</macroponent>
+        <name>Get list of items for parent issue field</name>
+        <preset/>
+        <required_translations>[
+    {
+        "message": "Searching..."
+    }
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    var children = [];
+    var headerLabel = helpers.translateSync("Searching...");
+    const output = api.data.look_up_records.results;
+    if (output) {
+        headerLabel = api.data.get_row_count_of_table.output.resultMessage;
+        children = output.map(element => ({
+            id: element._row_data.uniqueValue,
+            label: element.short_description.value
+        }));
+    }
+
+    var headerWithChild = {
+        id: "searchResult",
+        label: headerLabel,
+        children: children
+    };
+    return [headerWithChild];
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-10-08 03:04:54</sys_created_on>
+        <sys_id>49ad87a2c34556502f84fc84e40131b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get list of items for parent issue field</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_client_script_49ad87a2c34556502f84fc84e40131b4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 03:04:54</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>
