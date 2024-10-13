@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="one_api_service_plan_feature">
+    <one_api_service_plan_feature action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability_condition/>
+        <applicability_condition_table/>
+        <applicability_script><![CDATA[(function(featureInput, previousFeatureOutputs) {  
+	/* customize condition logic here, return true or false */  
+	return true;
+  })(featureInput, previousFeatureOutputs);]]></applicability_script>
+        <applicability_type>script</applicability_type>
+        <delay_output_processing>false</delay_output_processing>
+        <depends_on/>
+        <depends_on_list/>
+        <error_policy>continue_service_plan_execution</error_policy>
+        <feature display_value="1dbdf571fc387110f87736513ef7b2af">1f2e0f9483591210b36f7fdfeeaad3ba</feature>
+        <return_request>false</return_request>
+        <service_plan display_value="Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25">2f2e0f9483591210b36f7fdfeeaad3c1</service_plan>
+        <sys_class_name>one_api_service_plan_feature</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 13:36:36</sys_created_on>
+        <sys_id>6b2e0f9483591210b36f7fdfeeaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25: 1dbdf571fc387110f87736513ef7b2af</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>one_api_service_plan_feature_6b2e0f9483591210b36f7fdfeeaad3c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 13:36:36</sys_updated_on>
+        <timeout_policy>continue_service_plan_execution</timeout_policy>
+        <timeout_sec>240</timeout_sec>
+    </one_api_service_plan_feature>
+</record_update>

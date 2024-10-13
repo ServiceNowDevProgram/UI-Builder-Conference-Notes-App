@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Event information" section_id="12f4665c83551210b36f7fdfeeaad304" sys_domain="global" table="x_snc_bam_you_i_0_contact" version="3" view="New">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>event_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-13 10:36:35</sys_created_on>
+            <sys_id>e2f4665c83551210b36f7fdfeeaad320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="12f4265c83551210b36f7fdfeeaad3fd">12f4665c83551210b36f7fdfeeaad304</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-13 10:36:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>session_attended</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-13 10:36:35</sys_created_on>
+            <sys_id>eaf4665c83551210b36f7fdfeeaad320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="12f4265c83551210b36f7fdfeeaad3fd">12f4665c83551210b36f7fdfeeaad304</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-13 10:36:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-13 10:36:35</sys_created_on>
+            <sys_id>e2f4665c83551210b36f7fdfeeaad321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="12f4265c83551210b36f7fdfeeaad3fd">12f4665c83551210b36f7fdfeeaad304</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-13 10:36:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>event_role</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-13 10:36:35</sys_created_on>
+            <sys_id>eaf4665c83551210b36f7fdfeeaad321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="12f4265c83551210b36f7fdfeeaad3fd">12f4665c83551210b36f7fdfeeaad304</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-13 10:36:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Event information</caption>
+            <header>false</header>
+            <name>x_snc_bam_you_i_0_contact</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-13 10:36:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12f4665c83551210b36f7fdfeeaad304</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_bam_you_i_0_contact</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+            <sys_update_name>sys_ui_section_12f4665c83551210b36f7fdfeeaad304</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-13 10:36:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="New" name="New">12f4265c83551210b36f7fdfeeaad3fd</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</application>
+        <file_path/>
+        <instance_id>05a08338db9ef5d8f697684e1396198c</instance_id>
+        <instance_name>dev200683</instance_name>
+        <name>sys_ui_section_12f4665c83551210b36f7fdfeeaad304</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Event information" section_id="12f4665c83551210b36f7fdfeeaad304" sys_domain="global" table="x_snc_bam_you_i_0_contact" version="3" view="New"><sys_ui_element action="INSERT_OR_UPDATE"><element>event_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-13 10:36:35</sys_created_on><sys_id>e2f4665c83551210b36f7fdfeeaad320</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="12f4265c83551210b36f7fdfeeaad3fd">12f4665c83551210b36f7fdfeeaad304</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-13 10:36:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>session_attended</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-13 10:36:35</sys_created_on><sys_id>eaf4665c83551210b36f7fdfeeaad320</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="12f4265c83551210b36f7fdfeeaad3fd">12f4665c83551210b36f7fdfeeaad304</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-13 10:36:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-13 10:36:35</sys_created_on><sys_id>e2f4665c83551210b36f7fdfeeaad321</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="12f4265c83551210b36f7fdfeeaad3fd">12f4665c83551210b36f7fdfeeaad304</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-13 10:36:35</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>event_role</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-13 10:36:35</sys_created_on><sys_id>eaf4665c83551210b36f7fdfeeaad321</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="12f4265c83551210b36f7fdfeeaad3fd">12f4665c83551210b36f7fdfeeaad304</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-13 10:36:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Event information</caption><header>false</header><name>x_snc_bam_you_i_0_contact</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-13 10:36:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>12f4665c83551210b36f7fdfeeaad304</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_bam_you_i_0_contact</sys_name><sys_overrides/><sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package><sys_policy/><sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope><sys_update_name>sys_ui_section_12f4665c83551210b36f7fdfeeaad304</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-13 10:36:34</sys_updated_on><sys_user/><title>false</title><view display_value="New" name="New">12f4265c83551210b36f7fdfeeaad3fd</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1068584783</payload_hash>
+        <record_name>Contact</record_name>
+        <reverted_from/>
+        <source>6b6896d883151210b36f7fdfeeaad3e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 10:36:35</sys_created_on>
+        <sys_id>aef4665c83551210b36f7fdfeeaad323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19285738c6a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 10:36:35</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>26f4665cee551210099b74e5e85fb323</update_guid>
+        <update_guid_history>26f4665cee551210099b74e5e85fb323:-1068584783</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 10:44:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>6c0068aa0e6c4e2a985b0cd1cfd0af01</sys_id>
+        <sys_metadata>12f4665c83551210b36f7fdfeeaad304</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event information</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_parent display_value="Contact">4a08ffeb83cb42107d786970ceaad3b9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_scope_delete display_value="">8e6b586c18d945e4a392cb47d16fdc89</sys_scope_delete>
+        <sys_update_name>sys_ui_section_12f4665c83551210b36f7fdfeeaad304</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_12f4665c83551210b36f7fdfeeaad304">aef4665c83551210b36f7fdfeeaad323</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 10:44:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

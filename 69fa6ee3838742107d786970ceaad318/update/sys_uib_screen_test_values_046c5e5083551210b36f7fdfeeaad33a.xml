@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "actionConfigId": "df28e3db0f1210107d20409dc4767ee0",
+        "activityLogs": null,
+        "detailsContext": null,
+        "fields": null,
+        "forcedViewName": null,
+        "inputActionLayoutId": null,
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "a53f7b67830f42107d786970ceaad3e4",
+        "inputTable": "x_snc_bam_you_i_0_contact",
+        "isMappedToAppShell": true,
+        "overrideAppContextConfigIds": false,
+        "requireExplicitEventMapping": null,
+        "ribbonConfigId": "cb4dbba3110f4210b083d3baf6f856f3",
+        "screen": null,
+        "selectedTabIndex": null,
+        "shouldDisplayFormErrorsAsPageAlerts": null,
+        "shouldSuppressGlobalEvents": true,
+        "userPrefs": null,
+        "view": "workspace-uampi-conference-notes-0"
+    },
+    "table": "x_snc_bam_you_i_0_contact",
+    "sysId": "a53f7b67830f42107d786970ceaad3e4",
+    "query": "",
+    "views": "",
+    "activityLogs": "",
+    "extraParams": "",
+    "fields": "",
+    "screen": "",
+    "selectedTabIndex": "",
+    "userPrefs": ""
+}</macroponent_config>
+        <screen display_value="Default">006c5e5083551210b36f7fdfeeaad337</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 09:59:01</sys_created_on>
+        <sys_id>046c5e5083551210b36f7fdfeeaad33a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_046c5e5083551210b36f7fdfeeaad33a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 10:45:00</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

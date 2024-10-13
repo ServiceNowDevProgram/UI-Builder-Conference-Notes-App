@@ -28,7 +28,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>255</max_length>
         <name>x_snc_bam_you_i_0_contact</name>
         <next_element/>
@@ -52,8 +52,8 @@
         <sys_policy/>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_bam_you_i_0_contact_email</sys_update_name>
-        <sys_updated_by>MGOPW</sys_updated_by>
-        <sys_updated_on>2024-07-03 23:14:58</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 10:44:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

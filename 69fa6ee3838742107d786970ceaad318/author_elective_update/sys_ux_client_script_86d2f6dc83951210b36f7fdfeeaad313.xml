@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">406c5e5083551210b36f7fdfeeaad334</macroponent>
+        <name>Field Validation</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+console.log(JSON.stringify(event.payload,null,4));
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 13:09:54</sys_created_on>
+        <sys_id>86d2f6dc83951210b36f7fdfeeaad313</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Field Validation</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_client_script_86d2f6dc83951210b36f7fdfeeaad313</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 14:30:21</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</application>
+        <file_path/>
+        <instance_id>05a08338db9ef5d8f697684e1396198c</instance_id>
+        <instance_name>dev200683</instance_name>
+        <name>sys_ux_client_script_86d2f6dc83951210b36f7fdfeeaad313</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;406c5e5083551210b36f7fdfeeaad334&lt;/macroponent&gt;&lt;name&gt;Field Validation&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+console.log(JSON.stringify(event.payload,null,4));
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-13 13:09:54&lt;/sys_created_on&gt;&lt;sys_id&gt;86d2f6dc83951210b36f7fdfeeaad313&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Field Validation&lt;/sys_name&gt;&lt;sys_package display_value="BAM - You &amp;amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0"&gt;69fa6ee3838742107d786970ceaad318&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BAM - You &amp;amp; I Builder Live! Conference Notes"&gt;69fa6ee3838742107d786970ceaad318&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_86d2f6dc83951210b36f7fdfeeaad313&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-13 14:30:21&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1280799535</payload_hash>
+        <record_name>Field Validation</record_name>
+        <reverted_from/>
+        <source>6b6896d883151210b36f7fdfeeaad3e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 14:30:21</sys_created_on>
+        <sys_id>fa7a1f5483991210b36f7fdfeeaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192864991f30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 14:30:21</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>327a1f54f69912107f63b9c71de1a989</update_guid>
+        <update_guid_history>327a1f54f69912107f63b9c71de1a989:-1280799535,1c18875c8a1912106a916822930edaa4:-1366519561</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 14:32:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>222d555985af41c396e25a478d2c1b19</sys_id>
+        <sys_metadata>86d2f6dc83951210b36f7fdfeeaad313</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Validation</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_scope_delete display_value="">8e6b586c18d945e4a392cb47d16fdc89</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_86d2f6dc83951210b36f7fdfeeaad313</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_86d2f6dc83951210b36f7fdfeeaad313">fa7a1f5483991210b36f7fdfeeaad389</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 14:32:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
