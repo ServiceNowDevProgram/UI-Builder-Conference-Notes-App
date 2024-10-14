@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="contract_sla">
+    <contract_sla action="DELETE">
+        <active>true</active>
+        <adv_condition_type>none</adv_condition_type>
+        <cancel_condition/>
+        <collection>x_snc_bam_you_i_0_contact_task</collection>
+        <condition_class/>
+        <duration>1970-01-31 00:00:00</duration>
+        <duration_type/>
+        <enable_logging>false</enable_logging>
+        <flow display_value="Default SLA flow">828f267973333300e289235f04f6a7a3</flow>
+        <name>Reminder 30 days</name>
+        <pause_condition/>
+        <relative_duration_works_on>Task record</relative_duration_works_on>
+        <reset_action>cancel</reset_action>
+        <reset_condition/>
+        <resume_condition/>
+        <retroactive>false</retroactive>
+        <retroactive_pause>true</retroactive_pause>
+        <schedule display_value="24 x 7">38fa64edc0a8016400f4a5724b0434b8</schedule>
+        <schedule_source>sla_definition</schedule_source>
+        <schedule_source_field/>
+        <set_start_to/>
+        <start_condition/>
+        <stop_condition/>
+        <sys_class_name>contract_sla</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 18:57:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2bce1938c3955a109511bb2ed40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reminder 30 days</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>contract_sla_2bce1938c3955a109511bb2ed40131fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 18:57:18</sys_updated_on>
+        <target>resolution</target>
+        <timezone/>
+        <timezone_source>task.caller_id.time_zone</timezone_source>
+        <type>SLA</type>
+        <vendor/>
+        <when_to_cancel>on_condition</when_to_cancel>
+        <when_to_resume>on_condition</when_to_resume>
+        <workflow/>
+    </contract_sla>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</application>
+        <file_path/>
+        <instance_id>945baa2f1b514e1839a54089bd4bcb0f</instance_id>
+        <instance_name>dev258282</instance_name>
+        <name>contract_sla_2bce1938c3955a109511bb2ed40131fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="contract_sla"><contract_sla action="INSERT_OR_UPDATE"><active>true</active><adv_condition_type>none</adv_condition_type><cancel_condition/><collection>x_snc_bam_you_i_0_contact_task</collection><condition_class/><duration>1970-01-31 00:00:00</duration><duration_type/><enable_logging>false</enable_logging><flow display_value="Default SLA flow">828f267973333300e289235f04f6a7a3</flow><name>Reminder 30 days</name><pause_condition/><relative_duration_works_on>Task record</relative_duration_works_on><reset_action>cancel</reset_action><reset_condition/><resume_condition/><retroactive>false</retroactive><retroactive_pause>true</retroactive_pause><schedule display_value="24 x 7">38fa64edc0a8016400f4a5724b0434b8</schedule><schedule_source>sla_definition</schedule_source><schedule_source_field/><set_start_to/><start_condition/><stop_condition/><sys_class_name>contract_sla</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-14 18:57:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2bce1938c3955a109511bb2ed40131fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reminder 30 days</sys_name><sys_overrides/><sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package><sys_policy/><sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope><sys_update_name>contract_sla_2bce1938c3955a109511bb2ed40131fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-14 18:57:18</sys_updated_on><target>resolution</target><timezone/><timezone_source>task.caller_id.time_zone</timezone_source><type>SLA</type><vendor/><when_to_cancel>on_condition</when_to_cancel><when_to_resume>on_condition</when_to_resume><workflow/></contract_sla></record_update>]]></payload>
+        <payload_hash>1852775083</payload_hash>
+        <record_name>Reminder 30 days</record_name>
+        <reverted_from/>
+        <source>698afd14c39d16109511bb2ed401315b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 18:57:19</sys_created_on>
+        <sys_id>03216d38c3955a109511bb2ed401313c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1928c64595b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 18:57:19</sys_updated_on>
+        <type>SLA Definition</type>
+        <update_guid>07216d3834955a10e9febfde0702f33b</update_guid>
+        <update_guid_history>07216d3834955a10e9febfde0702f33b:1852775083</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Reminder 30 days">3f156978c3195a109511bb2ed40131eb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 19:14:34</sys_created_on>
+        <sys_db_object display_value="" name="contract_sla">contract_sla</sys_db_object>
+        <sys_id>d1f7a713898c451883af8bb89f56dfa4</sys_id>
+        <sys_metadata>2bce1938c3955a109511bb2ed40131fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reminder 30 days</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_scope_delete display_value="">8e6b586c18d945e4a392cb47d16fdc89</sys_scope_delete>
+        <sys_update_name>contract_sla_2bce1938c3955a109511bb2ed40131fb</sys_update_name>
+        <sys_update_version display_value="contract_sla_2bce1938c3955a109511bb2ed40131fb">03216d38c3955a109511bb2ed401313c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 19:14:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
