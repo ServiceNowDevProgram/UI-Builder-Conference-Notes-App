@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Contact Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Contact Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">4c4cbf2af832021008dd9cfea425ac61</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 14:34:25</sys_created_on>
+        <sys_id>5a6bd750c35512109511bb2ed40131eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contact Task</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_wizard_answer_5a6bd750c35512109511bb2ed40131eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 14:34:25</sys_updated_on>
+        <table/>
+        <target_url>x_snc_bam_you_i_0_contact_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
