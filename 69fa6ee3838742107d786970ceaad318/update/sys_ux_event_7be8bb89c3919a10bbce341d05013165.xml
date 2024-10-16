@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>MODAL_SELECTED_RELAY_05eee970c35d5210bbce341d05013113</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Open or close modal dialog Relay (Default)</label>
+        <props>[
+    {
+        "defaultValue": null,
+        "description": "Select an available modal dialog",
+        "fieldType": "string",
+        "interfaceApiName": "global.modal",
+        "label": "Modal",
+        "name": "modalId",
+        "type": "string",
+        "typeMetadata": {
+            "schema": {
+                "type": "string"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "The title of the modal. This will be announced by screen readers",
+        "fieldType": "string",
+        "label": "Header Label",
+        "name": "headerLabel",
+        "type": "string",
+        "typeMetadata": {
+            "schema": {
+                "type": "string"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": true,
+        "description": "Option to open the modal dialog",
+        "fieldType": "boolean",
+        "label": "Open modal dialog",
+        "name": "showModal",
+        "type": "boolean",
+        "typeMetadata": {
+            "schema": {
+                "type": "boolean"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": false,
+        "description": "When true, the state of the content of the modal is preserved",
+        "fieldType": "boolean",
+        "label": "Preserve modal state",
+        "name": "preserveState",
+        "type": "boolean",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Modal display options allows users to add properties that are forwarded directly to the modal. An example would be setting properties such as { \"size\": \"lg\"} to control Modal size or if you were using a bare modal you could include \"disableDismiss\": true } to remove the (X) functionality from the modal.",
+        "fieldType": "json",
+        "label": "Display options (advanced)",
+        "name": "displayOptions",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "disableDismiss": {
+                        "type": "boolean"
+                    },
+                    "size": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "boolean",
+        "interfaceApiName": "global.modal",
+        "label": "Use bare modal",
+        "name": "bare",
+        "type": "boolean",
+        "typeMetadata": {
+            "schema": {
+                "type": "boolean"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Viewport component id to be rendered in the modal",
+        "disabled": true,
+        "fieldType": "string",
+        "label": "Viewport ID",
+        "name": "viewportElementId",
+        "type": "string",
+        "typeMetadata": {
+            "schema": {
+                "type": "string"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Route to be rendered in the viewport inside the modal",
+        "disabled": true,
+        "fieldType": "string",
+        "label": "Viewport Route",
+        "name": "viewportRoute",
+        "type": "string",
+        "typeMetadata": {
+            "schema": {
+                "type": "string"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Fields which are required to render the viewport contents in the modal",
+        "fieldType": "json",
+        "label": "Viewport Fields",
+        "name": "viewportFields",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {},
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Params which are optional to render the viewport contents in the modal",
+        "fieldType": "json",
+        "label": "Viewport Params",
+        "name": "viewportParams",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {},
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Display options (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Fields which are required to render the viewport contents in the modal",
+  "comment" : ""
+}, {
+  "message" : "Header Label",
+  "comment" : ""
+}, {
+  "message" : "Modal",
+  "comment" : ""
+}, {
+  "message" : "Modal display options allows users to add properties that are forwarded directly to the modal. An example would be setting properties such as { \"size\": \"lg\"} to control Modal size or if you were using a bare modal you could include \"disableDismiss\": true } to remove the (X) functionality from the modal.",
+  "comment" : ""
+}, {
+  "message" : "Open modal dialog",
+  "comment" : ""
+}, {
+  "message" : "Option to open the modal dialog",
+  "comment" : ""
+}, {
+  "message" : "Params which are optional to render the viewport contents in the modal",
+  "comment" : ""
+}, {
+  "message" : "Preserve modal state",
+  "comment" : ""
+}, {
+  "message" : "Route to be rendered in the viewport inside the modal",
+  "comment" : ""
+}, {
+  "message" : "Select an available modal dialog",
+  "comment" : ""
+}, {
+  "message" : "The title of the modal. This will be announced by screen readers",
+  "comment" : ""
+}, {
+  "message" : "Use bare modal",
+  "comment" : ""
+}, {
+  "message" : "Viewport Fields",
+  "comment" : ""
+}, {
+  "message" : "Viewport ID",
+  "comment" : ""
+}, {
+  "message" : "Viewport Params",
+  "comment" : ""
+}, {
+  "message" : "Viewport Route",
+  "comment" : ""
+}, {
+  "message" : "Viewport component id to be rendered in the modal",
+  "comment" : ""
+}, {
+  "message" : "When true, the state of the content of the modal is preserved",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 01:01:32</sys_created_on>
+        <sys_id>7be8bb89c3919a10bbce341d05013165</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open or close modal dialog Relay (Default)</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_event_7be8bb89c3919a10bbce341d05013165</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 01:01:32</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=7be8bb89c3919a10bbce341d05013165"/>
+</record_update>
