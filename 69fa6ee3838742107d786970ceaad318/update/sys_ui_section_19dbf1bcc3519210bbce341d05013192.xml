@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="6e08fbeb83cb42107d786970ceaad38d" sys_domain="global" table="x_snc_bam_you_i_0_contact" version="3" view="">
+    <sys_ui_section caption="" section_id="19dbf1bcc3519210bbce341d05013192" sys_domain="global" table="x_snc_bam_you_i_0_contact" version="3" view="New">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 15:45:30</sys_created_on>
-            <sys_id>70788b99c3d51210bbce341d050131f0</sys_id>
+            <sys_created_on>2024-10-14 20:55:42</sys_created_on>
+            <sys_id>054c7d70c3919210bbce341d0501312b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="Default view">6e08fbeb83cb42107d786970ceaad38d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="5ddb31bcc3519210bbce341d0501310b">19dbf1bcc3519210bbce341d05013192</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 15:45:30</sys_updated_on>
+            <sys_updated_on>2024-10-14 20:55:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 15:45:30</sys_created_on>
-            <sys_id>3078cb99c3d51210bbce341d0501312f</sys_id>
+            <sys_created_on>2024-10-14 20:55:42</sys_created_on>
+            <sys_id>0d4c7d70c3919210bbce341d0501312b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="Default view">6e08fbeb83cb42107d786970ceaad38d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="5ddb31bcc3519210bbce341d0501310b">19dbf1bcc3519210bbce341d05013192</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 15:45:30</sys_updated_on>
+            <sys_updated_on>2024-10-14 20:55:42</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>location_met</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 15:45:30</sys_created_on>
-            <sys_id>3878cb99c3d51210bbce341d0501312f</sys_id>
+            <sys_created_on>2024-10-14 20:55:42</sys_created_on>
+            <sys_id>054c7d70c3919210bbce341d0501312c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="Default view">6e08fbeb83cb42107d786970ceaad38d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="5ddb31bcc3519210bbce341d0501310b">19dbf1bcc3519210bbce341d05013192</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 15:45:30</sys_updated_on>
+            <sys_updated_on>2024-10-14 20:55:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.end_split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 15:45:30</sys_created_on>
-            <sys_id>3078cb99c3d51210bbce341d05013130</sys_id>
+            <sys_created_on>2024-10-14 20:55:42</sys_created_on>
+            <sys_id>4d4c7d70c3919210bbce341d0501312c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="Default view">6e08fbeb83cb42107d786970ceaad38d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="5ddb31bcc3519210bbce341d0501310b">19dbf1bcc3519210bbce341d05013192</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 15:45:30</sys_updated_on>
+            <sys_updated_on>2024-10-14 20:55:42</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>note</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 15:45:30</sys_created_on>
-            <sys_id>3878cb99c3d51210bbce341d05013130</sys_id>
+            <sys_created_on>2024-10-14 20:55:42</sys_created_on>
+            <sys_id>454c7d70c3919210bbce341d0501312d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="Default view">6e08fbeb83cb42107d786970ceaad38d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="5ddb31bcc3519210bbce341d0501310b">19dbf1bcc3519210bbce341d05013192</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 15:45:30</sys_updated_on>
+            <sys_updated_on>2024-10-14 20:55:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>follow_up_action</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 15:45:30</sys_created_on>
-            <sys_id>3078cb99c3d51210bbce341d05013131</sys_id>
+            <sys_created_on>2024-10-14 20:55:42</sys_created_on>
+            <sys_id>4d4c7d70c3919210bbce341d0501312d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="Default view">6e08fbeb83cb42107d786970ceaad38d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="5ddb31bcc3519210bbce341d0501310b">19dbf1bcc3519210bbce341d05013192</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 15:45:30</sys_updated_on>
+            <sys_updated_on>2024-10-14 20:55:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -90,23 +90,23 @@
             <name>x_snc_bam_you_i_0_contact</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 22:38:29</sys_created_on>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-14 20:53:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6e08fbeb83cb42107d786970ceaad38d</sys_id>
+            <sys_id>19dbf1bcc3519210bbce341d05013192</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_snc_bam_you_i_0_contact</sys_name>
             <sys_overrides/>
             <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
             <sys_policy/>
             <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
-            <sys_update_name>sys_ui_section_6e08fbeb83cb42107d786970ceaad38d</sys_update_name>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 22:38:29</sys_updated_on>
+            <sys_update_name>sys_ui_section_19dbf1bcc3519210bbce341d05013192</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-14 20:53:48</sys_updated_on>
             <sys_user/>
-            <title>true</title>
-            <view display_value="Default view" name="NULL">Default view</view>
+            <title>false</title>
+            <view display_value="New" name="New">5ddb31bcc3519210bbce341d0501310b</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Event information" section_id="785d7fa3830f42107d786970ceaad373" sys_domain="global" table="x_snc_bam_you_i_0_contact" version="3" view="workspace-uampi-conference-notes-0">
+    <sys_ui_section caption="Event information" section_id="99dbf1bcc3519210bbce341d05013195" sys_domain="global" table="x_snc_bam_you_i_0_contact" version="3" view="New">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>event_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 15:55:43</sys_created_on>
-            <sys_id>26ca839dc3d51210bbce341d050131e1</sys_id>
+            <sys_created_on>2024-10-14 20:53:49</sys_created_on>
+            <sys_id>eddbf1bcc3519210bbce341d050131ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">785d7fa3830f42107d786970ceaad373</sys_ui_section>
+            <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="5ddb31bcc3519210bbce341d0501310b">99dbf1bcc3519210bbce341d05013195</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 15:55:43</sys_updated_on>
+            <sys_updated_on>2024-10-14 20:53:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>session_attended</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 15:55:43</sys_created_on>
-            <sys_id>2eca839dc3d51210bbce341d050131e1</sys_id>
+            <sys_created_on>2024-10-14 20:53:49</sys_created_on>
+            <sys_id>e5db35bcc3519210bbce341d05013100</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">785d7fa3830f42107d786970ceaad373</sys_ui_section>
+            <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="5ddb31bcc3519210bbce341d0501310b">99dbf1bcc3519210bbce341d05013195</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 15:55:43</sys_updated_on>
+            <sys_updated_on>2024-10-14 20:53:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 15:55:43</sys_created_on>
-            <sys_id>26ca839dc3d51210bbce341d050131e2</sys_id>
+            <sys_created_on>2024-10-14 20:53:49</sys_created_on>
+            <sys_id>eddb35bcc3519210bbce341d05013100</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">785d7fa3830f42107d786970ceaad373</sys_ui_section>
+            <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="5ddb31bcc3519210bbce341d0501310b">99dbf1bcc3519210bbce341d05013195</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 15:55:43</sys_updated_on>
+            <sys_updated_on>2024-10-14 20:53:49</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>event_role</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 15:55:43</sys_created_on>
-            <sys_id>2eca839dc3d51210bbce341d050131e2</sys_id>
+            <sys_created_on>2024-10-14 20:53:49</sys_created_on>
+            <sys_id>e5db35bcc3519210bbce341d05013101</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">785d7fa3830f42107d786970ceaad373</sys_ui_section>
+            <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="5ddb31bcc3519210bbce341d0501310b">99dbf1bcc3519210bbce341d05013195</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 15:55:43</sys_updated_on>
+            <sys_updated_on>2024-10-14 20:53:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -62,23 +62,23 @@
             <name>x_snc_bam_you_i_0_contact</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 23:01:34</sys_created_on>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-14 20:53:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>785d7fa3830f42107d786970ceaad373</sys_id>
+            <sys_id>99dbf1bcc3519210bbce341d05013195</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_snc_bam_you_i_0_contact</sys_name>
             <sys_overrides/>
             <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
             <sys_policy/>
             <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
-            <sys_update_name>sys_ui_section_785d7fa3830f42107d786970ceaad373</sys_update_name>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 23:01:34</sys_updated_on>
+            <sys_update_name>sys_ui_section_99dbf1bcc3519210bbce341d05013195</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-14 20:53:48</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Workspace UampI Conference notes 0" name="workspace-uampi-conference-notes-0">cb4dbba37d0f4210a9f85ca0a36a23f9</view>
+            <view display_value="New" name="New">5ddb31bcc3519210bbce341d0501310b</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

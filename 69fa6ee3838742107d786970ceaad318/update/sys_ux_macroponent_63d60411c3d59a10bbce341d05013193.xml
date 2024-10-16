@@ -219,7 +219,7 @@
                         "id": "d356d14b6e293a3020a244b63d278d8f",
                         "type": "MACROPONENT"
                     },
-                    "elementId": "__cmccjjgggiixxaabbwrddffiiffroiiyccpggp__column_1",
+                    "elementId": "__cmccbyaajffggaabbwjjddffiiffqovccklyi__column_1",
                     "elementLabel": "Column 1",
                     "eventMappings": [],
                     "isHidden": {
@@ -422,7 +422,7 @@
                     "isInline": null,
                     "items": [
                         {
-                            "element_id": "__cmccjjgggiixxaabbwrddffiiffroiiyccpggp__column_1"
+                            "element_id": "__cmccbyaajffggaabbwjjddffiiffqovccklyi__column_1"
                         }
                     ],
                     "root": null,
@@ -765,7 +765,7 @@
                                                 "id": "d356d14b6e293a3020a244b63d278d8f",
                                                 "type": "MACROPONENT"
                                             },
-                                            "elementId": "__cmccaxcrlffaaddrcddffiiffrpeenbblkw__column_1",
+                                            "elementId": "__cmcccaafftjmaabbxccddffiifftlvccijjjff__column_1",
                                             "elementLabel": "Column 1",
                                             "eventMappings": [],
                                             "isHidden": {
@@ -779,11 +779,11 @@
                                                             "id": "d37ce8abca89d02905fed903c8e34d8e",
                                                             "type": "MACROPONENT"
                                                         },
-                                                        "elementId": "button_1",
-                                                        "elementLabel": "Button 1",
+                                                        "elementId": "create_new_contact_entry",
+                                                        "elementLabel": "Create new contact entry",
                                                         "eventMappings": [
                                                             {
-                                                                "eventMappingId": "cmccaxtxgguaaddteddffiiffqqpggfybx",
+                                                                "eventMappingId": "cmcccaaoiiaaddaabbwjjddffiiffqndxeejwn",
                                                                 "isConfiguration": false,
                                                                 "offRowStorageId": null,
                                                                 "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
@@ -801,35 +801,7 @@
                                                                         "conditional": null,
                                                                         "declarativeAction": null,
                                                                         "event": {
-                                                                            "apiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_05eee970c35d5210bbce341d05013113",
-                                                                            "payload": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": {
-                                                                                    "external": null,
-                                                                                    "fields": null,
-                                                                                    "multiInstField": null,
-                                                                                    "navigationOptions": null,
-                                                                                    "params": null,
-                                                                                    "passiveNavigation": null,
-                                                                                    "redirect": null,
-                                                                                    "route": null,
-                                                                                    "targetRoute": null,
-                                                                                    "title": null
-                                                                                }
-                                                                            },
-                                                                            "sysId": "347b3a8dc35d1a10bbce341d050131bd"
-                                                                        },
-                                                                        "operation": null,
-                                                                        "targetId": "cmccaxtxgguaaddtfddffiiffeaezeedzo",
-                                                                        "type": "EVENT"
-                                                                    },
-                                                                    {
-                                                                        "broker": null,
-                                                                        "clientScript": null,
-                                                                        "conditional": null,
-                                                                        "declarativeAction": null,
-                                                                        "event": {
-                                                                            "apiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_05eee970c35d5210bbce341d05013113",
+                                                                            "apiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_63d60411c3d59a10bbce341d05013193",
                                                                             "payload": {
                                                                                 "container": {
                                                                                     "external": {
@@ -884,10 +856,10 @@
                                                                                 },
                                                                                 "type": "MAP_CONTAINER"
                                                                             },
-                                                                            "sysId": "347b3a8dc35d1a10bbce341d050131bd"
+                                                                            "sysId": "f9b00399c3151210bbce341d050131bc"
                                                                         },
                                                                         "operation": null,
-                                                                        "targetId": "cmccaxwhhbbbaaddueeddffiiffaahhqdaavxff",
+                                                                        "targetId": "cmcccaaoiiaaddaabbwaddffiiffddffjxyvhhff",
                                                                         "type": "EVENT"
                                                                     },
                                                                     {
@@ -896,7 +868,7 @@
                                                                         "conditional": null,
                                                                         "declarativeAction": null,
                                                                         "event": {
-                                                                            "apiName": "x_snc_bam_you_i_0.MODAL_SELECTED_RELAY_05eee970c35d5210bbce341d05013113",
+                                                                            "apiName": "x_snc_bam_you_i_0.MODAL_SELECTED_RELAY_63d60411c3d59a10bbce341d05013193",
                                                                             "payload": {
                                                                                 "type": "JSON_LITERAL",
                                                                                 "value": {
@@ -912,10 +884,10 @@
                                                                                     "viewportRoute": null
                                                                                 }
                                                                             },
-                                                                            "sysId": "7be8bb89c3919a10bbce341d05013165"
+                                                                            "sysId": "3db00399c3151210bbce341d050131bc"
                                                                         },
                                                                         "operation": null,
-                                                                        "targetId": "cmccbggggrkggaaddsjjddffiiffpqfiiuchf",
+                                                                        "targetId": "cmcccbbanqqaabbyuddffiiffqaaaaggwoej",
                                                                         "type": "EVENT"
                                                                     }
                                                                 ]
@@ -944,7 +916,7 @@
                                                                 "value": {
                                                                     "code": null,
                                                                     "comment": "",
-                                                                    "message": "Create new contact"
+                                                                    "message": "Create New Contact"
                                                                 }
                                                             },
                                                             "landmark": {
@@ -977,7 +949,7 @@
                                                         "children": null,
                                                         "items": [
                                                             {
-                                                                "element_id": "button_1"
+                                                                "element_id": "create_new_contact_entry"
                                                             }
                                                         ],
                                                         "root": null,
@@ -1025,7 +997,7 @@
                                                 "id": "d356d14b6e293a3020a244b63d278d8f",
                                                 "type": "MACROPONENT"
                                             },
-                                            "elementId": "__cmccaxcrlffaaddrdddffiiffwkccckffrg__column_2",
+                                            "elementId": "__cmcccaafftjmaabbxddddffiiffzkiiljmdh__column_2",
                                             "elementLabel": "Column 2",
                                             "eventMappings": [],
                                             "isHidden": {
@@ -1043,7 +1015,7 @@
                                                         "elementLabel": "Go to form",
                                                         "eventMappings": [
                                                             {
-                                                                "eventMappingId": "cmccbeekaakraabbwhhddffiiffggfddgxbbyn",
+                                                                "eventMappingId": "cmcccaarjjggxaabbwxddffiiffzqkddpdsr",
                                                                 "isConfiguration": false,
                                                                 "offRowStorageId": null,
                                                                 "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
@@ -1061,7 +1033,7 @@
                                                                         "conditional": null,
                                                                         "declarativeAction": null,
                                                                         "event": {
-                                                                            "apiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_05eee970c35d5210bbce341d05013113",
+                                                                            "apiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_63d60411c3d59a10bbce341d05013193",
                                                                             "payload": {
                                                                                 "container": {
                                                                                     "external": {
@@ -1126,10 +1098,10 @@
                                                                                 },
                                                                                 "type": "MAP_CONTAINER"
                                                                             },
-                                                                            "sysId": "347b3a8dc35d1a10bbce341d050131bd"
+                                                                            "sysId": "f9b00399c3151210bbce341d050131bc"
                                                                         },
                                                                         "operation": null,
-                                                                        "targetId": "cmccbeekaaksaabbwiiddffiiffccpxjlfvh",
+                                                                        "targetId": "cmcccaarjjggxaabbwyddffiiffegglzxuzo",
                                                                         "type": "EVENT"
                                                                     },
                                                                     {
@@ -1138,7 +1110,7 @@
                                                                         "conditional": null,
                                                                         "declarativeAction": null,
                                                                         "event": {
-                                                                            "apiName": "x_snc_bam_you_i_0.MODAL_SELECTED_RELAY_05eee970c35d5210bbce341d05013113",
+                                                                            "apiName": "x_snc_bam_you_i_0.MODAL_SELECTED_RELAY_63d60411c3d59a10bbce341d05013193",
                                                                             "payload": {
                                                                                 "type": "JSON_LITERAL",
                                                                                 "value": {
@@ -1154,10 +1126,10 @@
                                                                                     "viewportRoute": null
                                                                                 }
                                                                             },
-                                                                            "sysId": "7be8bb89c3919a10bbce341d05013165"
+                                                                            "sysId": "3db00399c3151210bbce341d050131bc"
                                                                         },
                                                                         "operation": null,
-                                                                        "targetId": "cmccbggiimlwaaddsoddffiiffjjwynmbbiiz",
+                                                                        "targetId": "cmcccbbbpffffaabbzjjddffiiffyihzoptq",
                                                                         "type": "EVENT"
                                                                     }
                                                                 ]
@@ -1186,7 +1158,7 @@
                                                                 "value": {
                                                                     "code": null,
                                                                     "comment": "",
-                                                                    "message": "Go to record page"
+                                                                    "message": "Go to Record"
                                                                 }
                                                             },
                                                             "landmark": {
@@ -1211,7 +1183,11 @@
                                                             }
                                                         },
                                                         "slot": null,
-                                                        "styles": null
+                                                        "styles": {
+                                                            "default": {
+                                                                "align-self": "flex-end"
+                                                            }
+                                                        }
                                                     }
                                                 ],
                                                 "layout": {
@@ -1269,16 +1245,19 @@
                                             "isInline": null,
                                             "items": [
                                                 {
-                                                    "element_id": "__cmccaxcrlffaaddrcddffiiffrpeenbblkw__column_1"
+                                                    "element_id": "__cmcccaafftjmaabbxccddffiifftlvccijjjff__column_1"
                                                 },
                                                 {
-                                                    "element_id": "__cmccaxcrlffaaddrdddffiiffwkccckffrg__column_2"
+                                                    "element_id": "__cmcccaafftjmaabbxddddffiiffzkiiljmdh__column_2"
                                                 }
                                             ],
                                             "root": null,
                                             "rules": null,
                                             "styles": {
                                                 "box-sizing": "border-box",
+                                                "display": "grid",
+                                                "grid-auto-columns": "1fr",
+                                                "grid-auto-rows": "1fr",
                                                 "grid-template-columns": "50fr 50fr",
                                                 "grid-template-rows": "1fr",
                                                 "width": "auto"
@@ -1984,7 +1963,7 @@
                 ]
             },
             {
-                "eventMappingId": "cmccbggbbwytaaddruddffiiffbqocteeii",
+                "eventMappingId": "cmcccbbggzhhzaabbyiiddffiiffpjknyaaiis",
                 "isConfiguration": false,
                 "offRowStorageId": null,
                 "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#FORM_SUBMIT_COMPLETED",
@@ -2002,7 +1981,7 @@
                         "conditional": null,
                         "declarativeAction": null,
                         "event": {
-                            "apiName": "x_snc_bam_you_i_0.MODAL_SELECTED_RELAY_05eee970c35d5210bbce341d05013113",
+                            "apiName": "x_snc_bam_you_i_0.MODAL_SELECTED_RELAY_63d60411c3d59a10bbce341d05013193",
                             "payload": {
                                 "type": "JSON_LITERAL",
                                 "value": {
@@ -2018,10 +1997,10 @@
                                     "viewportRoute": null
                                 }
                             },
-                            "sysId": "7be8bb89c3919a10bbce341d05013165"
+                            "sysId": "3db00399c3151210bbce341d050131bc"
                         },
                         "operation": null,
-                        "targetId": "cmccbggbbwytaaddrvddffiiffrtpmosgj",
+                        "targetId": "cmcccbbggzhhzaabbyjjddffiiffvzqggddbbaam",
                         "type": "EVENT"
                     }
                 ]
@@ -2209,7 +2188,7 @@
 ]</data>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <dispatched_events>347b3a8dc35d1a10bbce341d050131bd,7be8bb89c3919a10bbce341d05013165</dispatched_events>
+        <dispatched_events>f9b00399c3151210bbce341d050131bc,3db00399c3151210bbce341d050131bc</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -2237,148 +2216,148 @@
     "version": "3.1.0"
 }</layout>
         <macroponent_dependencies/>
-        <name>Default</name>
+        <name>amoore-coder Contact entry</name>
         <output_prop_mapping/>
         <props>[
     {
-        "description": "",
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
         "fieldType": "string",
-        "id": "cmccjjgjbbccaaaabbwsddffiifftjjohggoffii",
-        "inherited": false,
         "label": "Table",
         "mandatory": false,
         "name": "table",
-        "readOnly": false,
+        "readOnly": true,
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
     },
     {
-        "description": "",
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
         "fieldType": "string",
-        "id": "cmccjjgjbbccbbaabbwtddffiiffggbbkbbxeetn",
-        "inherited": false,
         "label": "sysId",
         "mandatory": false,
         "name": "sysId",
-        "readOnly": false,
+        "readOnly": true,
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
     },
     {
-        "description": "",
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
         "fieldType": "string",
-        "id": "cmccjjgjbbccbbaabbwuddffiiffddhhjuqbbub",
-        "inherited": false,
         "label": "query",
         "mandatory": false,
         "name": "query",
-        "readOnly": false,
+        "readOnly": true,
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
     },
     {
-        "description": "",
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
         "fieldType": "string",
-        "id": "cmccjjgjbbccbbaabbwvddffiiffiieeqvddeoh",
-        "inherited": false,
         "label": "views",
         "mandatory": false,
         "name": "views",
-        "readOnly": false,
+        "readOnly": true,
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
     },
     {
-        "description": "",
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
         "fieldType": "string",
-        "id": "cmccjjgjbbccbbaabbwwddffiiffbbaaadhhtiid",
-        "inherited": false,
         "label": "activityLogs",
         "mandatory": false,
         "name": "activityLogs",
-        "readOnly": false,
+        "readOnly": true,
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
     },
     {
-        "description": "",
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
         "fieldType": "string",
-        "id": "cmccjjgjbbccbbaabbwxddffiiffzwnxjdxw",
-        "inherited": false,
         "label": "extraParams",
         "mandatory": false,
         "name": "extraParams",
-        "readOnly": false,
+        "readOnly": true,
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
     },
     {
-        "description": "",
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
         "fieldType": "string",
-        "id": "cmccjjgjbbccbbaabbwyddffiiffmtchfroq",
-        "inherited": false,
         "label": "fields",
         "mandatory": false,
         "name": "fields",
-        "readOnly": false,
+        "readOnly": true,
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
     },
     {
-        "description": "",
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
         "fieldType": "string",
-        "id": "cmccjjgjbbccbbaabbwzddffiiffvgiimeekpee",
-        "inherited": false,
         "label": "screen",
         "mandatory": false,
         "name": "screen",
-        "readOnly": false,
+        "readOnly": true,
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
     },
     {
-        "description": "",
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
         "fieldType": "string",
-        "id": "cmccjjgjbbccbbaabbxaaddffiiffcoccaaqkddv",
-        "inherited": false,
         "label": "selectedTabIndex",
         "mandatory": false,
         "name": "selectedTabIndex",
-        "readOnly": false,
+        "readOnly": true,
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
     },
     {
-        "description": "",
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
         "fieldType": "string",
-        "id": "cmccjjgjbbccbbaabbxbbddffiiffddhhmgziipc",
-        "inherited": false,
         "label": "userPrefs",
         "mandatory": false,
         "name": "userPrefs",
-        "readOnly": false,
+        "readOnly": true,
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
     }
 ]</props>
         <required_translations>[ {
-  "message" : "Create new contact",
+  "message" : "Create New Contact",
   "comment" : ""
 }, {
   "message" : "Enter a label",
   "comment" : ""
 }, {
-  "message" : "Go to record page",
+  "message" : "Go to Record",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -2389,16 +2368,16 @@
         <state_properties>[]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 19:57:16</sys_created_on>
-        <sys_id>05eee970c35d5210bbce341d05013113</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_name>Default</sys_name>
+        <sys_created_on>2024-10-16 01:39:44</sys_created_on>
+        <sys_id>63d60411c3d59a10bbce341d05013193</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>amoore-coder Contact entry</sys_name>
         <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
         <sys_policy/>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
-        <sys_update_name>sys_ux_macroponent_05eee970c35d5210bbce341d05013113</sys_update_name>
+        <sys_update_name>sys_ux_macroponent_63d60411c3d59a10bbce341d05013193</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 15:59:16</sys_updated_on>
+        <sys_updated_on>2024-10-16 15:57:01</sys_updated_on>
     </sys_ux_macroponent>
-    <sys_translated_text action="delete_multiple" query="documentkey=05eee970c35d5210bbce341d05013113"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=63d60411c3d59a10bbce341d05013193"/>
 </record_update>

@@ -3,140 +3,140 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 23:01:34</sys_created_on>
-            <sys_id>b85d3fa3830f42107d786970ceaad3f8</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:55:43</sys_created_on>
+            <sys_id>daca839dc3d51210bbce341d050131d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">705d3fa3830f42107d786970ceaad3f6</sys_ui_section>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 23:01:34</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:55:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>
             <position>1</position>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 23:01:34</sys_created_on>
-            <sys_id>b45d7fa3830f42107d786970ceaad36b</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:55:43</sys_created_on>
+            <sys_id>d2ca839dc3d51210bbce341d050131d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">705d3fa3830f42107d786970ceaad3f6</sys_ui_section>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 23:01:34</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:55:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reached_out</element>
             <position>2</position>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 23:01:34</sys_created_on>
-            <sys_id>b45d7fa3830f42107d786970ceaad369</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:55:43</sys_created_on>
+            <sys_id>daca839dc3d51210bbce341d050131d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">705d3fa3830f42107d786970ceaad3f6</sys_ui_section>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 23:01:34</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:55:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>3</position>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 23:01:34</sys_created_on>
-            <sys_id>bc5d7fa3830f42107d786970ceaad36b</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:55:43</sys_created_on>
+            <sys_id>d2ca839dc3d51210bbce341d050131d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">705d3fa3830f42107d786970ceaad3f6</sys_ui_section>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 23:01:34</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:55:43</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>date_met</element>
             <position>4</position>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 23:01:34</sys_created_on>
-            <sys_id>bc5d7fa3830f42107d786970ceaad369</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:55:43</sys_created_on>
+            <sys_id>daca839dc3d51210bbce341d050131d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">705d3fa3830f42107d786970ceaad3f6</sys_ui_section>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 23:01:34</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:55:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>location_met</element>
             <position>5</position>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 23:01:34</sys_created_on>
-            <sys_id>b45d7fa3830f42107d786970ceaad36c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:55:43</sys_created_on>
+            <sys_id>d2ca839dc3d51210bbce341d050131d8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">705d3fa3830f42107d786970ceaad3f6</sys_ui_section>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 23:01:34</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:55:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>photo</element>
             <position>6</position>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 23:01:34</sys_created_on>
-            <sys_id>b45d7fa3830f42107d786970ceaad36a</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:55:43</sys_created_on>
+            <sys_id>daca839dc3d51210bbce341d050131d8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">705d3fa3830f42107d786970ceaad3f6</sys_ui_section>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 23:01:34</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:55:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
             <position>7</position>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 23:01:34</sys_created_on>
-            <sys_id>bc5d7fa3830f42107d786970ceaad36c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:55:43</sys_created_on>
+            <sys_id>d2ca839dc3d51210bbce341d050131d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">705d3fa3830f42107d786970ceaad3f6</sys_ui_section>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 23:01:34</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:55:43</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>note</element>
             <position>8</position>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 23:01:34</sys_created_on>
-            <sys_id>bc5d7fa3830f42107d786970ceaad36a</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:55:43</sys_created_on>
+            <sys_id>daca839dc3d51210bbce341d050131d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">705d3fa3830f42107d786970ceaad3f6</sys_ui_section>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 23:01:34</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:55:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>follow_up_action</element>
             <position>9</position>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 23:01:34</sys_created_on>
-            <sys_id>b45d7fa3830f42107d786970ceaad36d</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:55:43</sys_created_on>
+            <sys_id>d2ca839dc3d51210bbce341d050131da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">705d3fa3830f42107d786970ceaad3f6</sys_ui_section>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 23:01:34</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:55:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
