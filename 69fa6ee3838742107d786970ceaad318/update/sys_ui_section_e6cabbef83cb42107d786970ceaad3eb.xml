@@ -1,58 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Event information" section_id="e6cabbef83cb42107d786970ceaad3eb" sys_domain="global" table="x_snc_bam_you_i_0_contact" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>event_name</element>
-            <position>0</position>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 22:57:07</sys_created_on>
-            <sys_id>234cf763830f42107d786970ceaad39d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="Default view">e6cabbef83cb42107d786970ceaad3eb</sys_ui_section>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 22:57:07</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>session_attended</element>
-            <position>1</position>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 22:57:07</sys_created_on>
-            <sys_id>2b4cf763830f42107d786970ceaad39d</sys_id>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:45:31</sys_created_on>
+            <sys_id>8978cb99c3d51210bbce341d05013138</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="Default view">e6cabbef83cb42107d786970ceaad3eb</sys_ui_section>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 22:57:07</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:45:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 22:57:07</sys_created_on>
-            <sys_id>234cf763830f42107d786970ceaad39e</sys_id>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:45:31</sys_created_on>
+            <sys_id>8178cb99c3d51210bbce341d05013139</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="Default view">e6cabbef83cb42107d786970ceaad3eb</sys_ui_section>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 22:57:07</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:45:31</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>event_role</element>
-            <position>3</position>
-            <sys_created_by>MGOPW</sys_created_by>
-            <sys_created_on>2024-07-03 22:57:07</sys_created_on>
-            <sys_id>2b4cf763830f42107d786970ceaad39e</sys_id>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:45:31</sys_created_on>
+            <sys_id>8978cb99c3d51210bbce341d05013139</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Event information" display_value="Event information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="Default view">e6cabbef83cb42107d786970ceaad3eb</sys_ui_section>
-            <sys_updated_by>MGOPW</sys_updated_by>
-            <sys_updated_on>2024-07-03 22:57:07</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:45:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
