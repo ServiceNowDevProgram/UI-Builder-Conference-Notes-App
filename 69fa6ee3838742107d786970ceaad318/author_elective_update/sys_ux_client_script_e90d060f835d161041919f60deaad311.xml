@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Analytics center">190d4ecb835d161041919f60deaad3e8</macroponent>
+        <name>analytics_qa_1/NODE__isHidden</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[
+			/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {any} params.imports
+  */
+function evaluateProperty({api}) {
+  // Hide Analytics Q and A if the user session is not in a language supported by the NLQ Parser.
+  // NLQ Parser currently supports English, German, French, Spanish and Japanese.
+	return ['en', 'de', 'fr', 'es', 'ja'].indexOf(api.context.session.user.language) < 0;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 21:55:14</sys_created_on>
+        <sys_id>e90d060f835d161041919f60deaad311</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>analytics_qa_1/NODE__isHidden</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_client_script_e90d060f835d161041919f60deaad311</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 21:55:14</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</application>
+        <file_path/>
+        <instance_id>e649d2e21bddc2147d9d2f8dee4bcbec</instance_id>
+        <instance_name>dev254646</instance_name>
+        <name>sys_ux_client_script_e90d060f835d161041919f60deaad311</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Analytics center"&gt;190d4ecb835d161041919f60deaad3e8&lt;/macroponent&gt;&lt;name&gt;analytics_qa_1/NODE__isHidden&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[
+			/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {any} params.imports
+  */
+function evaluateProperty({api}) {
+  // Hide Analytics Q and A if the user session is not in a language supported by the NLQ Parser.
+  // NLQ Parser currently supports English, German, French, Spanish and Japanese.
+	return ['en', 'de', 'fr', 'es', 'ja'].indexOf(api.context.session.user.language) &lt; 0;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 21:55:14&lt;/sys_created_on&gt;&lt;sys_id&gt;e90d060f835d161041919f60deaad311&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;analytics_qa_1/NODE__isHidden&lt;/sys_name&gt;&lt;sys_package display_value="BAM - You &amp;amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0"&gt;69fa6ee3838742107d786970ceaad318&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BAM - You &amp;amp; I Builder Live! Conference Notes"&gt;69fa6ee3838742107d786970ceaad318&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_e90d060f835d161041919f60deaad311&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 21:55:14&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2070278268</payload_hash>
+        <record_name>analytics_qa_1/NODE__isHidden</record_name>
+        <reverted_from/>
+        <source>8d6090368311d21041919f60deaad319</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 21:55:14</sys_created_on>
+        <sys_id>e50d060f835d161041919f60deaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b113c09e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 21:55:14</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>e90d060ff25d1610f405becf81af3f12</update_guid>
+        <update_guid_history>e90d060ff25d1610f405becf81af3f12:2070278268</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 21:58:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>63523214afd049da9ec412316085ab44</sys_id>
+        <sys_metadata>e90d060f835d161041919f60deaad311</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>analytics_qa_1/NODE__isHidden</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_scope_delete display_value="">8e6b586c18d945e4a392cb47d16fdc89</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_e90d060f835d161041919f60deaad311</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_e90d060f835d161041919f60deaad311">e50d060f835d161041919f60deaad313</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 21:58:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
