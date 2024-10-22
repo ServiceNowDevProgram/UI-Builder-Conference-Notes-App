@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=476000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>contact_greeting_email</internal_name>
+        <label_cache>[{"name":"Created_1.current.name","label":"Trigger - Record Created➛Contact Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_bam_you_i_0_contact","column_name":"name","usedInstances":{"f08a3e30-d03f-4d15-afb4-5f557181d49f":[null]}},{"name":"Created_1.current.event_name","label":"Trigger - Record Created➛Contact Record➛Event name","reference":"","reference_display":"Event name","type":"string","base_type":"string","parent_table_name":"x_snc_bam_you_i_0_contact","column_name":"event_name","usedInstances":{"f08a3e30-d03f-4d15-afb4-5f557181d49f":["ah_subject",null]}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Contact Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_snc_bam_you_i_0_contact","column_name":"email","usedInstances":{"f08a3e30-d03f-4d15-afb4-5f557181d49f":["ah_to"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Contact Record","reference":"x_snc_bam_you_i_0_contact","reference_display":"Contact","type":"reference","base_type":"reference","usedInstances":{"f08a3e30-d03f-4d15-afb4-5f557181d49f":["record"]},"attributes":{}}]</label_cache>
+        <master_snapshot>17b4ab4fc3551610eb11ba2ed4013198</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Contact Greeting Email</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>d7b4ab4fc3551610eb11ba2ed40131d0</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:10:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f2e2eb8bc3551610eb11ba2ed40131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contact Greeting Email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_hub_flow_f2e2eb8bc3551610eb11ba2ed40131f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:21:01</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f2e2eb8bc3551610eb11ba2ed40131f9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f2e2eb8bc3551610eb11ba2ed40131f9"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_bam_you_i_0_contact">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d7b4ab4fc3551610eb11ba2ed40131d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:28</sys_updated_on>
+        <table>x_snc_bam_you_i_0_contact</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>f2e2eb8bc3551610eb11ba2ed40131f9</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:28</sys_created_on>
+        <sys_id>17b4ab4fc3551610eb11ba2ed40131d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:28</sys_updated_on>
+        <trigger display_value="">d7b4ab4fc3551610eb11ba2ed40131d0</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f2e2eb8bc3551610eb11ba2ed40131f9^sys_idNOT IN17b4ab4fc3551610eb11ba2ed40131d1"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f2e2eb8bc3551610eb11ba2ed40131f9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f2e2eb8bc3551610eb11ba2ed40131f9^sys_idNOT IN76e2eb8bc3551610eb11ba2ed40131fc"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f2e2eb8bc3551610eb11ba2ed40131f9</id>
+        <name>Contact Greeting Email</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:10:31</sys_created_on>
+        <sys_id>76e2eb8bc3551610eb11ba2ed40131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:10:31</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=76e2eb8bc3551610eb11ba2ed40131fc"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f2e2eb8bc3551610eb11ba2ed40131f9^sys_idNOT IN02b4ab4fc3551610eb11ba2ed4013106,42b4ab4fc3551610eb11ba2ed4013109"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Contact Greeting Email">f2e2eb8bc3551610eb11ba2ed40131f9</model>
+        <model_id>f2e2eb8bc3551610eb11ba2ed40131f9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f2e2eb8bc3551610eb11ba2ed40131f9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:23</sys_created_on>
+        <sys_id>02b4ab4fc3551610eb11ba2ed4013106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=02b4ab4fc3551610eb11ba2ed4013106"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Contact Greeting Email">f2e2eb8bc3551610eb11ba2ed40131f9</model>
+        <model_id>f2e2eb8bc3551610eb11ba2ed40131f9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f2e2eb8bc3551610eb11ba2ed40131f9</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:23</sys_created_on>
+        <sys_id>42b4ab4fc3551610eb11ba2ed4013109</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=42b4ab4fc3551610eb11ba2ed4013109"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=f2e2eb8bc3551610eb11ba2ed40131f9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f2e2eb8bc3551610eb11ba2ed40131f9"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=f2e2eb8bc3551610eb11ba2ed40131f9^sys_idNOT IN5ab4ab4fc3551610eb11ba2ed401310d"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Contact Greeting Email">f2e2eb8bc3551610eb11ba2ed40131f9</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:23</sys_created_on>
+        <sys_id>5ab4ab4fc3551610eb11ba2ed401310d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:27</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VZXW/bNhT9K4KeNiAD9GFbdt5aJ8UCdM3mZOtDkBEURdrCaMqTKCVekf++S4uSZVlKZDvZ7PSlgEnq8p7Dc88l07tvJsc+5ea5eYt9Ts0zMxSSxgLz2+WCwrBUw0jguZqbYxFgGcVL81zGKT0zozigsXlun5kZ5im9WSZXAXwES1df6M9NPQ2/H1EiCPLxHC2jFIXIQiQSEhMJa4IwWXC8/EMvHZcTCxxDNKl2+maSWciDmArz/O4eslXbEUbwyKEWcW3XcSzLGfZsf+D6thO4mFoWhKijrKUnG8CusdFHSUVAYSuGeUIbeIgpDq4FX5YrZkBjTsQcPybhPxB9aKl1jELuhOZzZBaFhF4vZBiJfCRPKJ+MeDoXX/JEFT2U4ZTLgh4YSROKArpQuand9NbsZhY9TIqNPoViBUNP8ohgXv7CUsahn0qaKGZZyIFjlJOQRGm8SnNyOb6eXKCvH27HP19O0OTy5nZyNb69vDCfVnjQ36mKmGeoc0E5nKfyTD+FlKuT0tQmJA4X8gORYUZ1Mk9naynGqYAIqKR9S5Q5byWBn8ME4N8BgoKcVUiYZ591yEkqjAgOCP4xSBoDNdIoDp9dzfFUU8p+LbS2okTLJMMxQnOULBM0S30EpE2nwFQoFqlE3mg4sge4RX0e2SBmVQcQ+s4075/UWVFOiaxIi/2eVH/9EiZJKKYVkkqMSnnbEEt0IFGjYDCHmpwW1vuNOtOLiqK0rFbL2VZPVlNFzWg6OIxtM+ZT5lieQm1brs9sy7P6mAWuZRGn4jDb27fmJWtqroJ7znP0SBfT6bWZTrIqGN6hPOrsFVlWK7aT9rJN4eo4jjpo7W3jI0yt5tHuTiZdKi4fvtgU3nPQXtnbcZBh+CIoMHbx7g4u/TCjAiVUSlW3u9u0gHpYfYPzTSpupoRtKIJYFBtfIvHT1XqdcUPBKSDPk/Kzqnd3AQ3BYuNdofYjOat3LIX0I4xvIFVF2nLm31ETqxVXtsniHk2M9ob9EXOJB5ihbbEe9bHdc/p45A1cNqo1sdr27YkdTxvraBpZq/00NZCuRZk11nbZSmotaR/d1xSgQ7svNNDvl5SDWndRZq2de59kT6OrMx49gAb2aOg+Jn9N4ygVwZbPQ0wjFMZ6hfGD5vbH07L0akcDDdDn8W6uOB2UhzSutX6K4sRiuVfLcpntj2iPWvDccqFl+f3RyCfYYcwbeNSxay1rvXFjNsfTqDpURNZUUm0PnEa1ZU0i3eHV9f8neJCBa801+nc+d/xuPI5EEMq8lda9uJhKzD1LlVSCF0fx5+Vv24WaD75Uq4MBxgFtcyefVWq1CqshGdmA8E1q1XrrP8nmfx3eW1HzKKD8Yh3O3OgHipYHLGSCZIRwEKAKYR0lmGPb4a0P+OKDHvxqY4oiVu2XF5EBEwZsYoTM0BhpYPhLQ84oeAYH94ANDbX7iT0Aq7eFbeTlNfpd487dduvZD8MrZKcF7OAXfa2EDr0i0cDD/b7rNb/qR/UrUlMKL2R4PNemnY0ia/KdZ9+zu8Wtx2x80VZ0vnnYHR/w7xj1m13wGrI4/tveZgFy1T23WuyUhwEt5l7BiHSkbG04u1sQG45I3/ZaLGjYb7UgvflzickG2P/JXVB1Gq2c4/pv+tcS3v2/oW/H5P0hAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=f2e2eb8bc3551610eb11ba2ed40131f9^sys_idNOT IN9ab4ab4fc3551610eb11ba2ed401310f"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Contact Greeting Email">f2e2eb8bc3551610eb11ba2ed40131f9</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:24</sys_created_on>
+        <sys_id>9ab4ab4fc3551610eb11ba2ed401310f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:24</sys_updated_on>
+        <ui_id>f08a3e30-d03f-4d15-afb4-5f557181d49f</ui_id>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=f2e2eb8bc3551610eb11ba2ed40131f9"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=f2e2eb8bc3551610eb11ba2ed40131f9"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f2e2eb8bc3551610eb11ba2ed40131f9^sys_idNOT IN56b4ab4fc3551610eb11ba2ed4013137,92b4ab4fc3551610eb11ba2ed4013137"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f2e2eb8bc3551610eb11ba2ed40131f9</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.event_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:24</sys_created_on>
+        <sys_id>56b4ab4fc3551610eb11ba2ed4013137</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>939d9052-3f15-4f3c-ba0c-a18f2802c6a9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f2e2eb8bc3551610eb11ba2ed40131f9</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:24</sys_created_on>
+        <sys_id>92b4ab4fc3551610eb11ba2ed4013137</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e8349dc3-d074-4ff5-9627-7d10ff36f8a5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f2e2eb8bc3551610eb11ba2ed40131f9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f2e2eb8bc3551610eb11ba2ed40131f9^sys_idNOT IN12b4ab4fc3551610eb11ba2ed401310b,86b4ab4fc3551610eb11ba2ed4013108"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f2e2eb8bc3551610eb11ba2ed40131f9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:23</sys_created_on>
+        <sys_id>12b4ab4fc3551610eb11ba2ed401310b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f2e2eb8bc3551610eb11ba2ed40131f9_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f2e2eb8bc3551610eb11ba2ed40131f9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:23</sys_created_on>
+        <sys_id>86b4ab4fc3551610eb11ba2ed4013108</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f2e2eb8bc3551610eb11ba2ed40131f9_current_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f2e2eb8bc3551610eb11ba2ed40131f9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f2e2eb8bc3551610eb11ba2ed40131f9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f2e2eb8bc3551610eb11ba2ed40131f9"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>contact_greeting_email</internal_name>
+        <label_cache>[{"name":"Created_1.current.name","label":"Trigger - Record Created➛Contact Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_bam_you_i_0_contact","column_name":"name","usedInstances":{"f08a3e30-d03f-4d15-afb4-5f557181d49f":[null]}},{"name":"Created_1.current.event_name","label":"Trigger - Record Created➛Contact Record➛Event name","reference":"","reference_display":"Event name","type":"string","base_type":"string","parent_table_name":"x_snc_bam_you_i_0_contact","column_name":"event_name","usedInstances":{"f08a3e30-d03f-4d15-afb4-5f557181d49f":["ah_subject",null]}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Contact Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_snc_bam_you_i_0_contact","column_name":"email","usedInstances":{"f08a3e30-d03f-4d15-afb4-5f557181d49f":["ah_to"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Contact Record","reference":"x_snc_bam_you_i_0_contact","reference_display":"Contact","type":"reference","base_type":"reference","usedInstances":{"f08a3e30-d03f-4d15-afb4-5f557181d49f":["record"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Contact Greeting Email</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Contact Greeting Email">f2e2eb8bc3551610eb11ba2ed40131f9</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>17b4ab4fc3551610eb11ba2ed4013198</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:28</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=17b4ab4fc3551610eb11ba2ed4013198"/>
+    <sys_variable_value action="delete_multiple" query="document_key=17b4ab4fc3551610eb11ba2ed4013198"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=17b4ab4fc3551610eb11ba2ed4013198"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=17b4ab4fc3551610eb11ba2ed4013198^sys_idNOT IN9bb4ab4fc3551610eb11ba2ed4013198"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>17b4ab4fc3551610eb11ba2ed4013198</id>
+        <name>Contact Greeting Email</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:28</sys_created_on>
+        <sys_id>9bb4ab4fc3551610eb11ba2ed4013198</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:28</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=9bb4ab4fc3551610eb11ba2ed4013198"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=17b4ab4fc3551610eb11ba2ed4013198^sys_idNOT IN17b4ab4fc3551610eb11ba2ed40131a6,9bb4ab4fc3551610eb11ba2ed40131b0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Contact Greeting Email">17b4ab4fc3551610eb11ba2ed4013198</model>
+        <model_id>17b4ab4fc3551610eb11ba2ed4013198</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_17b4ab4fc3551610eb11ba2ed4013198</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:28</sys_created_on>
+        <sys_id>17b4ab4fc3551610eb11ba2ed40131a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=17b4ab4fc3551610eb11ba2ed40131a6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Contact Greeting Email">17b4ab4fc3551610eb11ba2ed4013198</model>
+        <model_id>17b4ab4fc3551610eb11ba2ed4013198</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_17b4ab4fc3551610eb11ba2ed4013198</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:28</sys_created_on>
+        <sys_id>9bb4ab4fc3551610eb11ba2ed40131b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9bb4ab4fc3551610eb11ba2ed40131b0"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=17b4ab4fc3551610eb11ba2ed4013198"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=17b4ab4fc3551610eb11ba2ed4013198"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=17b4ab4fc3551610eb11ba2ed4013198^sys_idNOT INdbb4ab4fc3551610eb11ba2ed40131c7"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Contact Greeting Email">17b4ab4fc3551610eb11ba2ed4013198</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:28</sys_created_on>
+        <sys_id>dbb4ab4fc3551610eb11ba2ed40131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:28</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VZXW/bNhT9K4KeNiAD9GFbdt5aJ8UCdM3mZOtDkBEURdrCaMqTKCVekf++S4uSZVlKZDvZ7PSlgEnq8p7Dc88l07tvJsc+5ea5eYt9Ts0zMxSSxgLz2+WCwrBUw0jguZqbYxFgGcVL81zGKT0zozigsXlun5kZ5im9WSZXAXwES1df6M9NPQ2/H1EiCPLxHC2jFIXIQiQSEhMJa4IwWXC8/EMvHZcTCxxDNKl2+maSWciDmArz/O4eslXbEUbwyKEWcW3XcSzLGfZsf+D6thO4mFoWhKijrKUnG8CusdFHSUVAYSuGeUIbeIgpDq4FX5YrZkBjTsQcPybhPxB9aKl1jELuhOZzZBaFhF4vZBiJfCRPKJ+MeDoXX/JEFT2U4ZTLgh4YSROKArpQuand9NbsZhY9TIqNPoViBUNP8ohgXv7CUsahn0qaKGZZyIFjlJOQRGm8SnNyOb6eXKCvH27HP19O0OTy5nZyNb69vDCfVnjQ36mKmGeoc0E5nKfyTD+FlKuT0tQmJA4X8gORYUZ1Mk9naynGqYAIqKR9S5Q5byWBn8ME4N8BgoKcVUiYZ591yEkqjAgOCP4xSBoDNdIoDp9dzfFUU8p+LbS2okTLJMMxQnOULBM0S30EpE2nwFQoFqlE3mg4sge4RX0e2SBmVQcQ+s4075/UWVFOiaxIi/2eVH/9EiZJKKYVkkqMSnnbEEt0IFGjYDCHmpwW1vuNOtOLiqK0rFbL2VZPVlNFzWg6OIxtM+ZT5lieQm1brs9sy7P6mAWuZRGn4jDb27fmJWtqroJ7znP0SBfT6bWZTrIqGN6hPOrsFVlWK7aT9rJN4eo4jjpo7W3jI0yt5tHuTiZdKi4fvtgU3nPQXtnbcZBh+CIoMHbx7g4u/TCjAiVUSlW3u9u0gHpYfYPzTSpupoRtKIJYFBtfIvHT1XqdcUPBKSDPk/Kzqnd3AQ3BYuNdofYjOat3LIX0I4xvIFVF2nLm31ETqxVXtsniHk2M9ob9EXOJB5ihbbEe9bHdc/p45A1cNqo1sdr27YkdTxvraBpZq/00NZCuRZk11nbZSmotaR/d1xSgQ7svNNDvl5SDWndRZq2de59kT6OrMx49gAb2aOg+Jn9N4ygVwZbPQ0wjFMZ6hfGD5vbH07L0akcDDdDn8W6uOB2UhzSutX6K4sRiuVfLcpntj2iPWvDccqFl+f3RyCfYYcwbeNSxay1rvXFjNsfTqDpURNZUUm0PnEa1ZU0i3eHV9f8neJCBa801+nc+d/xuPI5EEMq8lda9uJhKzD1LlVSCF0fx5+Vv24WaD75Uq4MBxgFtcyefVWq1CqshGdmA8E1q1XrrP8nmfx3eW1HzKKD8Yh3O3OgHipYHLGSCZIRwEKAKYR0lmGPb4a0P+OKDHvxqY4oiVu2XF5EBEwZsYoTM0BhpYPhLQ84oeAYH94ANDbX7iT0Aq7eFbeTlNfpd487dduvZD8MrZKcF7OAXfa2EDr0i0cDD/b7rNb/qR/UrUlMKL2R4PNemnY0ia/KdZ9+zu8Wtx2x80VZ0vnnYHR/w7xj1m13wGrI4/tveZgFy1T23WuyUhwEt5l7BiHSkbG04u1sQG45I3/ZaLGjYb7UgvflzickG2P/JXVB1Gq2c4/pv+tcS3v2/oW/H5P0hAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=17b4ab4fc3551610eb11ba2ed4013198^sys_idNOT IN17b4ab4fc3551610eb11ba2ed40131c7"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Contact Greeting Email">17b4ab4fc3551610eb11ba2ed4013198</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:28</sys_created_on>
+        <sys_id>17b4ab4fc3551610eb11ba2ed40131c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:28</sys_updated_on>
+        <ui_id>f08a3e30-d03f-4d15-afb4-5f557181d49f</ui_id>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=17b4ab4fc3551610eb11ba2ed4013198"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=17b4ab4fc3551610eb11ba2ed4013198"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=17b4ab4fc3551610eb11ba2ed4013198^sys_idNOT IN5fb4ab4fc3551610eb11ba2ed40131c7,dfb4ab4fc3551610eb11ba2ed40131c7"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>17b4ab4fc3551610eb11ba2ed4013198</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:28</sys_created_on>
+        <sys_id>5fb4ab4fc3551610eb11ba2ed40131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:28</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e8349dc3-d074-4ff5-9627-7d10ff36f8a5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>17b4ab4fc3551610eb11ba2ed4013198</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.event_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:28</sys_created_on>
+        <sys_id>dfb4ab4fc3551610eb11ba2ed40131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:28</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>939d9052-3f15-4f3c-ba0c-a18f2802c6a9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=17b4ab4fc3551610eb11ba2ed4013198"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_17b4ab4fc3551610eb11ba2ed4013198^sys_idNOT IN53b4ab4fc3551610eb11ba2ed40131c1,57b4ab4fc3551610eb11ba2ed40131ae"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_17b4ab4fc3551610eb11ba2ed4013198</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:28</sys_created_on>
+        <sys_id>53b4ab4fc3551610eb11ba2ed40131c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_17b4ab4fc3551610eb11ba2ed4013198</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:28</sys_created_on>
+        <sys_id>57b4ab4fc3551610eb11ba2ed40131ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_17b4ab4fc3551610eb11ba2ed4013198"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_17b4ab4fc3551610eb11ba2ed4013198"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_17b4ab4fc3551610eb11ba2ed4013198"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>f2e2eb8bc3551610eb11ba2ed40131f9</sys_id>
+        <latest_snapshot>17b4ab4fc3551610eb11ba2ed4013198</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f2e2eb8bc3551610eb11ba2ed40131f9^sys_idNOT IN1bb4ab4fc3551610eb11ba2ed40131d2"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>f2e2eb8bc3551610eb11ba2ed40131f9</plan_id>
+        <snapshot>17b4ab4fc3551610eb11ba2ed4013198</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:18:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1bb4ab4fc3551610eb11ba2ed40131d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:18:28</sys_updated_on>
+        <trigger display_value="">d7b4ab4fc3551610eb11ba2ed40131d0</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f2e2eb8bc3551610eb11ba2ed40131f9"/>
+</record_update>
