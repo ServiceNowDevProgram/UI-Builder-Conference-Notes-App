@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_panel>74b55f6347151210788164f2e16d43c8</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>maheshkhatal27</path>
+        <root_macroponent display_value="Breadcrumb App Shell">e341e22cc32e2010ea04a5a1d840dd02</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 16:29:44</sys_created_on>
+        <sys_id>09b5df2747151210788164f2e16d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>maheshkhatal27</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_page_registry_09b5df2747151210788164f2e16d43b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 16:29:44</sys_updated_on>
+        <title>maheshkhatal27</title>
+    </sys_ux_page_registry>
+</record_update>

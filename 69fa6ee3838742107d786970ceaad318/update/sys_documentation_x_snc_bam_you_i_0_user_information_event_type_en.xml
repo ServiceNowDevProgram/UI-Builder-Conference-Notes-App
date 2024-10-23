@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="event_type" label="Event Type" language="en" table="x_snc_bam_you_i_0_user_information">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>event_type</element>
+            <help/>
+            <hint/>
+            <label>Event Type</label>
+            <language>en</language>
+            <name>x_snc_bam_you_i_0_user_information</name>
+            <plural>Event Types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-23 16:50:08</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Event Type</sys_name>
+            <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_bam_you_i_0_user_information_event_type_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-23 16:50:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

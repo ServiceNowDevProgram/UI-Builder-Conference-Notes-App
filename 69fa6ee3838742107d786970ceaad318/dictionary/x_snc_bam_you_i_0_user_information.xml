@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="696957ab47151210788164f2e16d43e4" label="User Information" max_length="40" name="x_snc_bam_you_i_0_user_information" type="collection">
+        <element label="Manager Name" max_length="32" name="manager_name" reference="sys_user" type="reference"/>
+        <element label="Name" max_length="200" name="name" type="string"/>
+        <element label="Organization Name" max_length="200" name="organization_name" type="string"/>
+        <element label="Email ID" max_length="100" name="email_id" type="string"/>
+        <element choice="1" label="Event Type" max_length="40" name="event_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AI" value="ai"/>
+                <element inactive_on_update="false" label="Social Entrepreneurship" value="soc"/>
+                <element inactive_on_update="false" label="Technology" value="tech"/>
+                <element inactive_on_update="false" label="Presentation" value="present"/>
+            </choice>
+        </element>
+        <element label="Registration Number" max_length="200" name="registration_number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Contact No" max_length="10" name="contact_no" type="string"/>
+        <element label="Notes" max_length="500" name="notes" type="string"/>
+        <index name="index">
+            <element name="manager_name"/>
+        </index>
+    </element>
+</database>
