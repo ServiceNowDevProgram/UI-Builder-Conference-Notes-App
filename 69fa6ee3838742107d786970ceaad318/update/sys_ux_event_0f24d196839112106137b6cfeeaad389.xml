@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>CONTENT_ITEMS_SELECTED_RELAY_ed5d781a831112106137b6cfeeaad370</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Content Items Selected Relay (zdn-workspace)</label>
+        <props>[
+    {
+        "defaultValue": null,
+        "description": "Record's table",
+        "fieldType": "string",
+        "label": "Table",
+        "name": "table",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Screen Sys Id",
+        "fieldType": "string",
+        "label": "Sys Id",
+        "name": "sysId",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "List of screen configuration links.",
+        "fieldType": "json",
+        "label": "Items",
+        "name": "items",
+        "type": "json",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Options",
+        "fieldType": "json",
+        "label": "Options",
+        "name": "options",
+        "type": "json",
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Items",
+  "comment" : ""
+}, {
+  "message" : "List of screen configuration links.",
+  "comment" : ""
+}, {
+  "message" : "Options",
+  "comment" : ""
+}, {
+  "message" : "Record's table",
+  "comment" : ""
+}, {
+  "message" : "Screen Sys Id",
+  "comment" : ""
+}, {
+  "message" : "Sys Id",
+  "comment" : ""
+}, {
+  "message" : "Table",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 10:16:10</sys_created_on>
+        <sys_id>0f24d196839112106137b6cfeeaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content Items Selected Relay (zdn-workspace)</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_event_0f24d196839112106137b6cfeeaad389</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 10:16:10</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=0f24d196839112106137b6cfeeaad389"/>
+</record_update>
