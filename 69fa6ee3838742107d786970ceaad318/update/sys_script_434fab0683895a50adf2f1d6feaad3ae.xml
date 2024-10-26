@@ -30,6 +30,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
+	gs.eventQueue('x_snc_bam_you_i_0.new.contact.added',current,gs.getUser().getEmail());
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -38,17 +39,28 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>434fab0683895a50adf2f1d6feaad3ae</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Display Confirmation Message</sys_name>
         <sys_overrides/>
         <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
         <sys_policy/>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_update_name>sys_script_434fab0683895a50adf2f1d6feaad3ae</sys_update_name>
-        <sys_updated_by>Debendu.Das</sys_updated_by>
-        <sys_updated_on>2024-10-06 17:10:18</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-26 06:10:58</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=434fab0683895a50adf2f1d6feaad3ae"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>434fab0683895a50adf2f1d6feaad3ae</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-26 06:10:57</sys_created_on>
+        <sys_id>02d4642c53a15610c3fdf301a0490e42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-26 06:10:57</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
