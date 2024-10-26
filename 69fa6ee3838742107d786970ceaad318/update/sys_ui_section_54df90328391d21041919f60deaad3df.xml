@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Contact information" section_id="54df90328391d21041919f60deaad3df" sys_domain="global" table="x_snc_bam_you_i_0_contact" version="3" view="Hacktoberfest_Contact_Entry">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_title</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-20 19:19:38</sys_created_on>
+            <sys_id>14dfd0328391d21041919f60deaad301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact information" display_value="Contact information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="d4df90328391d21041919f60deaad369">54df90328391d21041919f60deaad3df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-20 19:19:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-20 19:19:38</sys_created_on>
+            <sys_id>1cdfd0328391d21041919f60deaad301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact information" display_value="Contact information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="d4df90328391d21041919f60deaad369">54df90328391d21041919f60deaad3df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-20 19:19:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tags_interests</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-20 19:19:38</sys_created_on>
+            <sys_id>14dfd0328391d21041919f60deaad302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact information" display_value="Contact information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="d4df90328391d21041919f60deaad369">54df90328391d21041919f60deaad3df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-20 19:19:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-20 19:19:38</sys_created_on>
+            <sys_id>1cdfd0328391d21041919f60deaad302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact information" display_value="Contact information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="d4df90328391d21041919f60deaad369">54df90328391d21041919f60deaad3df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-20 19:19:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company_organization</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-20 19:19:38</sys_created_on>
+            <sys_id>14dfd0328391d21041919f60deaad303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact information" display_value="Contact information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="d4df90328391d21041919f60deaad369">54df90328391d21041919f60deaad3df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-20 19:19:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone_number</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-20 19:19:38</sys_created_on>
+            <sys_id>1cdfd0328391d21041919f60deaad303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact information" display_value="Contact information" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="d4df90328391d21041919f60deaad369">54df90328391d21041919f60deaad3df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-20 19:19:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Contact information</caption>
+            <header>false</header>
+            <name>x_snc_bam_you_i_0_contact</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-20 19:19:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54df90328391d21041919f60deaad3df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_bam_you_i_0_contact</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+            <sys_update_name>sys_ui_section_54df90328391d21041919f60deaad3df</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-20 19:19:37</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Hacktoberfest Contact Entry" name="Hacktoberfest_Contact_Entry">d4df90328391d21041919f60deaad369</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

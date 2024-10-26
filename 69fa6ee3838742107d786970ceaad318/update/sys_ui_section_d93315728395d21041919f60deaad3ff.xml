@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Activities" section_id="d93315728395d21041919f60deaad3ff" sys_domain="global" table="x_snc_bam_you_i_0_contact" version="3" view="workspace-uampi-conference-notes-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-20 23:04:10</sys_created_on>
+            <sys_id>293355728395d21041919f60deaad306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">d93315728395d21041919f60deaad3ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-20 23:04:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-20 23:04:10</sys_created_on>
+            <sys_id>e13355728395d21041919f60deaad320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">d93315728395d21041919f60deaad3ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-20 23:04:10</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Activities</caption>
+            <header>false</header>
+            <name>x_snc_bam_you_i_0_contact</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-20 23:04:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d93315728395d21041919f60deaad3ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_bam_you_i_0_contact</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+            <sys_update_name>sys_ui_section_d93315728395d21041919f60deaad3ff</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-20 23:04:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace UampI Conference notes 0" name="workspace-uampi-conference-notes-0">cb4dbba37d0f4210a9f85ca0a36a23f9</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

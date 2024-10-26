@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes>59c9674460031110f87729648b07b76b</includes>
+        <macroponent display_value="Analytics center">190d4ecb835d161041919f60deaad3e8</macroponent>
+        <name>Update URL Params</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/*** @param {params} params*
+ * @param {api} params.api*
+ * @param {any} params.event*
+ * @param {any} params.imports*
+ * @param {ApiHelpers} params.helpers*/
+function handler({api, event, helpers, imports}) {
+	const acceptedDashboardFilters = ['recent', 'bookmarked', 'certified', 'created_by_me', 'shared_with_me', 'none'];
+	const acceptedVizFilters = ['all', 'bookmarked', 'certified', 'created_by_me', 'shared_with_me'];
+	const acceptedKpiFilters = api.state.kpiCategoryList.map(e => e.id);
+	let currentFilter;
+	switch(api.state.selectedTabIndex) {
+		case '1':
+		case 1:
+			currentFilter = acceptedDashboardFilters.find(e => e === api.state.dashboardFilter) || 'recent';
+			if(api.state.dashboardFilter !== currentFilter) {
+				api.setState('dashboardFilter', currentFilter);
+			}
+			break;
+		case '2':
+		case 2:
+			currentFilter = acceptedVizFilters.find(e => e === api.state.predefinedFilterType) || 'all';
+			if(api.state.predefinedFilterType !== currentFilter) {
+				api.setState('predefinedFilterType', currentFilter);
+			}
+			break;
+		case '3':
+		case 3:
+			currentFilter = acceptedKpiFilters.find(e => e === api.state.kpiFilter) || acceptedKpiFilters[0];
+			const {reloadListWithFilters} = imports['sn_app_analytics_w.GenerateFilter']();
+			const { showBookmarked, filterCondition } = reloadListWithFilters(currentFilter, api.state.kpiSearchTerm, api.context.session.user.userName);
+			if(api.state.kpiFilter !== currentFilter || api.state.filterCondition !== api.state.filterCondition || api.state.showBookmarked !== showBookmarked) {
+				api.setState('kpiFilter', currentFilter);
+				api.setState('showBookmarked', showBookmarked);
+				api.setState('filterCondition', filterCondition);
+			}
+			break;
+	}
+	api.emit("CONTENT_UPDATED", {params: {tab: api.state.selectedTabIndex, filter: currentFilter,}});
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 21:55:14</sys_created_on>
+        <sys_id>ed0dc20f835d161041919f60deaad3fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Update URL Params</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_client_script_ed0dc20f835d161041919f60deaad3fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 21:55:14</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</application>
+        <file_path/>
+        <instance_id>e649d2e21bddc2147d9d2f8dee4bcbec</instance_id>
+        <instance_name>dev254646</instance_name>
+        <name>sys_ux_client_script_ed0dc20f835d161041919f60deaad3fa</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes&gt;59c9674460031110f87729648b07b76b&lt;/includes&gt;&lt;macroponent display_value="Analytics center"&gt;190d4ecb835d161041919f60deaad3e8&lt;/macroponent&gt;&lt;name&gt;Update URL Params&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/*** @param {params} params*
+ * @param {api} params.api*
+ * @param {any} params.event*
+ * @param {any} params.imports*
+ * @param {ApiHelpers} params.helpers*/
+function handler({api, event, helpers, imports}) {
+	const acceptedDashboardFilters = ['recent', 'bookmarked', 'certified', 'created_by_me', 'shared_with_me', 'none'];
+	const acceptedVizFilters = ['all', 'bookmarked', 'certified', 'created_by_me', 'shared_with_me'];
+	const acceptedKpiFilters = api.state.kpiCategoryList.map(e =&gt; e.id);
+	let currentFilter;
+	switch(api.state.selectedTabIndex) {
+		case '1':
+		case 1:
+			currentFilter = acceptedDashboardFilters.find(e =&gt; e === api.state.dashboardFilter) || 'recent';
+			if(api.state.dashboardFilter !== currentFilter) {
+				api.setState('dashboardFilter', currentFilter);
+			}
+			break;
+		case '2':
+		case 2:
+			currentFilter = acceptedVizFilters.find(e =&gt; e === api.state.predefinedFilterType) || 'all';
+			if(api.state.predefinedFilterType !== currentFilter) {
+				api.setState('predefinedFilterType', currentFilter);
+			}
+			break;
+		case '3':
+		case 3:
+			currentFilter = acceptedKpiFilters.find(e =&gt; e === api.state.kpiFilter) || acceptedKpiFilters[0];
+			const {reloadListWithFilters} = imports['sn_app_analytics_w.GenerateFilter']();
+			const { showBookmarked, filterCondition } = reloadListWithFilters(currentFilter, api.state.kpiSearchTerm, api.context.session.user.userName);
+			if(api.state.kpiFilter !== currentFilter || api.state.filterCondition !== api.state.filterCondition || api.state.showBookmarked !== showBookmarked) {
+				api.setState('kpiFilter', currentFilter);
+				api.setState('showBookmarked', showBookmarked);
+				api.setState('filterCondition', filterCondition);
+			}
+			break;
+	}
+	api.emit("CONTENT_UPDATED", {params: {tab: api.state.selectedTabIndex, filter: currentFilter,}});
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 21:55:14&lt;/sys_created_on&gt;&lt;sys_id&gt;ed0dc20f835d161041919f60deaad3fa&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update URL Params&lt;/sys_name&gt;&lt;sys_package display_value="BAM - You &amp;amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0"&gt;69fa6ee3838742107d786970ceaad318&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BAM - You &amp;amp; I Builder Live! Conference Notes"&gt;69fa6ee3838742107d786970ceaad318&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_ed0dc20f835d161041919f60deaad3fa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 21:55:14&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1482357844</payload_hash>
+        <record_name>Update URL Params</record_name>
+        <reverted_from/>
+        <source>8d6090368311d21041919f60deaad319</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 21:55:14</sys_created_on>
+        <sys_id>e90dc20f835d161041919f60deaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b113c0110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 21:55:14</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>ed0dc20f595d161032abb076b67b64fb</update_guid>
+        <update_guid_history>ed0dc20f595d161032abb076b67b64fb:-1482357844</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 21:58:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>2e504760f20547709c5758bf9aff1100</sys_id>
+        <sys_metadata>ed0dc20f835d161041919f60deaad3fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update URL Params</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_scope_delete display_value="">8e6b586c18d945e4a392cb47d16fdc89</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_ed0dc20f835d161041919f60deaad3fa</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_ed0dc20f835d161041919f60deaad3fa">e90dc20f835d161041919f60deaad3fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 21:58:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
