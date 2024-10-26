@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="4a08ffeb83cb42107d786970ceaad3b9" label="Contact" max_length="40" name="x_snc_bam_you_i_0_contact" text_index="true" type="collection">
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Event role" max_length="40" name="event_role" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Event staff" sequence="3" value="event_staff"/>
-                <element inactive_on_update="false" label="Attendee" sequence="1" value="attendee"/>
-                <element inactive_on_update="false" label="Event organizer" sequence="0" value="event_organizer"/>
-                <element inactive_on_update="false" label="Presenter" sequence="2" value="presenter"/>
-            </choice>
-        </element>
-        <element label="Name" mandatory="true" max_length="255" name="name" type="string"/>
-        <element label="Date met" max_length="255" name="date_met" type="glide_date"/>
-        <element label="Follow-up action" max_length="1000" name="follow_up_action" type="string"/>
-        <element attributes="edge_encryption_enabled=true,default_rows=3" label="Note" max_length="5000" name="note" type="string"/>
-        <element label="Email" max_length="255" name="email" type="string"/>
-        <element label="Job title" max_length="255" name="job_title" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    <element db_object_id="4a08ffeb83cb42107d786970ceaad3b9" label="Contact" max_length="40" name="x_snc_bam_you_i_0_contact" text_index="true" type="collection">
         <element label="Event name" max_length="255" name="event_name" type="string"/>
-        <element label="Location met" max_length="255" name="location_met" type="string"/>
-        <element label="Comments" max_length="255" name="comments" type="journal_input"/>
-        <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Photo" max_length="255" name="photo" type="user_image"/>
-        <element attributes="edge_encryption_enabled=true" label="Reached out" max_length="255" name="reached_out" type="boolean"/>
-        <element label="Session attended" max_length="255" name="session_attended" type="string"/>
+        <element label="Name" mandatory="true" max_length="255" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Phone number" max_length="255" name="phone_number" type="phone_number_e164"/>
         <element label="Tags/interests" max_length="1000" name="tags_interests" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Event role" max_length="40" name="event_role" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Event organizer" sequence="0" value="event_organizer"/>
+                <element inactive_on_update="false" label="Presenter" sequence="2" value="presenter"/>
+                <element inactive_on_update="false" label="Event staff" sequence="3" value="event_staff"/>
+                <element inactive_on_update="false" label="Attendee" sequence="1" value="attendee"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,default_rows=3" label="Note" max_length="5000" name="note" type="string"/>
+        <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Photo" max_length="255" name="photo" type="user_image"/>
+        <element label="Date met" max_length="255" name="date_met" type="glide_date"/>
+        <element label="Job title" max_length="255" name="job_title" type="string"/>
+        <element label="Follow-up action" max_length="1000" name="follow_up_action" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reached out" max_length="255" name="reached_out" type="boolean"/>
         <element label="Company/Organization" max_length="255" name="company_organization" type="string"/>
+        <element label="Email" max_length="255" name="email" type="string"/>
+        <element label="Location met" max_length="255" name="location_met" type="string"/>
+        <element label="Session attended" max_length="255" name="session_attended" type="string"/>
     </element>
 </database>
