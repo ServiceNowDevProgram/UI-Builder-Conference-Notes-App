@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="U&amp;I Conference notes App Config">074dfba3440f42107ea67b33b7086b10</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings/>
+        <macroponent display_value="Analytics center">190d4ecb835d161041919f60deaad3e8</macroponent>
+        <macroponent_config/>
+        <name>Analytics Center Default - Copy</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Analytics Center">4b4dbba3900f42104536267276a5c5ee</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 21:55:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>210d060f835d161041919f60deaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Analytics Center Default - Copy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_screen_210d060f835d161041919f60deaad31e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 21:55:15</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=210d060f835d161041919f60deaad31e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</application>
+        <file_path/>
+        <instance_id>e649d2e21bddc2147d9d2f8dee4bcbec</instance_id>
+        <instance_name>dev254646</instance_name>
+        <name>sys_ux_screen_210d060f835d161041919f60deaad31e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="U&amp;I Conference notes App Config">074dfba3440f42107ea67b33b7086b10</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings/><macroponent display_value="Analytics center">190d4ecb835d161041919f60deaad3e8</macroponent><macroponent_config/><name>Analytics Center Default - Copy</name><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Analytics Center">4b4dbba3900f42104536267276a5c5ee</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-21 21:55:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>210d060f835d161041919f60deaad31e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Analytics Center Default - Copy</sys_name><sys_overrides/><sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package><sys_policy/><sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope><sys_update_name>sys_ux_screen_210d060f835d161041919f60deaad31e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-21 21:55:15</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=210d060f835d161041919f60deaad31e"/></record_update>]]></payload>
+        <payload_hash>-704165783</payload_hash>
+        <record_name>Analytics Center Default - Copy</record_name>
+        <reverted_from/>
+        <source>8d6090368311d21041919f60deaad319</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 21:55:15</sys_created_on>
+        <sys_id>250d060f835d161041919f60deaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b113c2300000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 21:55:15</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>e50d060fab5d1610151b53ffe752e520</update_guid>
+        <update_guid_history>e50d060fab5d1610151b53ffe752e520:-704165783</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 21:58:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>141b82887db847508972023df3e54b24</sys_id>
+        <sys_metadata>210d060f835d161041919f60deaad31e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Analytics Center Default - Copy</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_scope_delete display_value="">8e6b586c18d945e4a392cb47d16fdc89</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_210d060f835d161041919f60deaad31e</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_210d060f835d161041919f60deaad31e">250d060f835d161041919f60deaad321</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 21:58:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

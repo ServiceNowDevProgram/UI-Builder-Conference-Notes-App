@@ -42,6 +42,20 @@
             <sys_updated_by>MGOPW</sys_updated_by>
             <sys_updated_on>2024-07-03 23:01:34</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-20 23:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d3355728395d21041919f60deaad302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_bam_you_i_0_contact" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">f85d3fa3830f42107d786970ceaad3f2</sys_ui_form>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_snc_bam_you_i_0_contact" sys_domain="global" view="cb4dbba37d0f4210a9f85ca0a36a23f9">d93315728395d21041919f60deaad3ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-20 23:04:10</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_snc_bam_you_i_0_contact</name>
             <roles/>
