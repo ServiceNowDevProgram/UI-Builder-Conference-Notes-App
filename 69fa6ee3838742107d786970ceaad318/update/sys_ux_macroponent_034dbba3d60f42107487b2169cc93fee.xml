@@ -316,4 +316,5 @@
         <sys_updated_by>MGOPW</sys_updated_by>
         <sys_updated_on>2024-07-03 23:01:29</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=034dbba3d60f42107487b2169cc93fee"/>
 </record_update>

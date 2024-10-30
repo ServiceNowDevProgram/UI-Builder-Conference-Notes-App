@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_snc_bam_you_i_0_contact" element="NULL" name="x_snc_bam_you_i_0_contact" parent="NULL" relationship="NULL" sys_domain="global" view="db4b2790c3d912109511bb2ed40131e8">df4b2790c3d912109511bb2ed40131e9</list_id>
+            <list_id display_value="x_snc_bam_you_i_0_contact" element="NULL" name="x_snc_bam_you_i_0_contact" parent="NULL" relationship="NULL" sys_domain="global" view="73fef9bdc3a15250a8361dd1b40131f9">df4b2790c3d912109511bb2ed40131e9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_snc_bam_you_i_0_contact" element="NULL" name="x_snc_bam_you_i_0_contact" parent="NULL" relationship="NULL" sys_domain="global" view="db4b2790c3d912109511bb2ed40131e8">df4b2790c3d912109511bb2ed40131e9</list_id>
+            <list_id display_value="x_snc_bam_you_i_0_contact" element="NULL" name="x_snc_bam_you_i_0_contact" parent="NULL" relationship="NULL" sys_domain="global" view="73fef9bdc3a15250a8361dd1b40131f9">df4b2790c3d912109511bb2ed40131e9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>job_title</element>
-            <list_id display_value="x_snc_bam_you_i_0_contact" element="NULL" name="x_snc_bam_you_i_0_contact" parent="NULL" relationship="NULL" sys_domain="global" view="db4b2790c3d912109511bb2ed40131e8">df4b2790c3d912109511bb2ed40131e9</list_id>
+            <list_id display_value="x_snc_bam_you_i_0_contact" element="NULL" name="x_snc_bam_you_i_0_contact" parent="NULL" relationship="NULL" sys_domain="global" view="73fef9bdc3a15250a8361dd1b40131f9">df4b2790c3d912109511bb2ed40131e9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>event_name</element>
-            <list_id display_value="x_snc_bam_you_i_0_contact" element="NULL" name="x_snc_bam_you_i_0_contact" parent="NULL" relationship="NULL" sys_domain="global" view="db4b2790c3d912109511bb2ed40131e8">df4b2790c3d912109511bb2ed40131e9</list_id>
+            <list_id display_value="x_snc_bam_you_i_0_contact" element="NULL" name="x_snc_bam_you_i_0_contact" parent="NULL" relationship="NULL" sys_domain="global" view="73fef9bdc3a15250a8361dd1b40131f9">df4b2790c3d912109511bb2ed40131e9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>event_role</element>
-            <list_id display_value="x_snc_bam_you_i_0_contact" element="NULL" name="x_snc_bam_you_i_0_contact" parent="NULL" relationship="NULL" sys_domain="global" view="db4b2790c3d912109511bb2ed40131e8">df4b2790c3d912109511bb2ed40131e9</list_id>
+            <list_id display_value="x_snc_bam_you_i_0_contact" element="NULL" name="x_snc_bam_you_i_0_contact" parent="NULL" relationship="NULL" sys_domain="global" view="73fef9bdc3a15250a8361dd1b40131f9">df4b2790c3d912109511bb2ed40131e9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -78,7 +78,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>reached_out</element>
-            <list_id display_value="x_snc_bam_you_i_0_contact" element="NULL" name="x_snc_bam_you_i_0_contact" parent="NULL" relationship="NULL" sys_domain="global" view="db4b2790c3d912109511bb2ed40131e8">df4b2790c3d912109511bb2ed40131e9</list_id>
+            <list_id display_value="x_snc_bam_you_i_0_contact" element="NULL" name="x_snc_bam_you_i_0_contact" parent="NULL" relationship="NULL" sys_domain="global" view="73fef9bdc3a15250a8361dd1b40131f9">df4b2790c3d912109511bb2ed40131e9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -93,7 +93,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>company_organization</element>
-            <list_id display_value="x_snc_bam_you_i_0_contact" element="NULL" name="x_snc_bam_you_i_0_contact" parent="NULL" relationship="NULL" sys_domain="global" view="db4b2790c3d912109511bb2ed40131e8">df4b2790c3d912109511bb2ed40131e9</list_id>
+            <list_id display_value="x_snc_bam_you_i_0_contact" element="NULL" name="x_snc_bam_you_i_0_contact" parent="NULL" relationship="NULL" sys_domain="global" view="73fef9bdc3a15250a8361dd1b40131f9">df4b2790c3d912109511bb2ed40131e9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -130,7 +130,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-10-13 15:43:51</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt174b2790c3d912109511bb2ed40131da" name="RPT174b2790c3d912109511bb2ed40131da">db4b2790c3d912109511bb2ed40131e8</view>
+            <view display_value="Rpt174b2790c3d912109511bb2ed40131da" name="RPT174b2790c3d912109511bb2ed40131da">73fef9bdc3a15250a8361dd1b40131f9</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

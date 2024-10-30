@@ -13,7 +13,7 @@
         <label>Contact Task</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_snc_bam_you_i_0_contact_task</name>
-        <number_ref display_value="CONT">d26b1b50c35512109511bb2ed4013119</number_ref>
+        <number_ref display_value="">d26b1b50c35512109511bb2ed4013119</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

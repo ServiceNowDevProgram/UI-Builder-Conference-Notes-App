@@ -43,11 +43,13 @@
         <vendor_prefix/>
         <version>1.0.1</version>
     </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=69fa6ee3838742107d786970ceaad318"/>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color/>
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>You &amp; I Builder Live!.png</file_name>
         <hash>935159864f16e2cd98467ef4b9cd70ed085d261db92389a47744ffe352031413</hash>
         <image_height>720</image_height>
