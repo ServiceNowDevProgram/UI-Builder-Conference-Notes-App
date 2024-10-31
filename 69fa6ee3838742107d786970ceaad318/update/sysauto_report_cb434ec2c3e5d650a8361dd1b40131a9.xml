@@ -18,8 +18,8 @@
         <page_height_in_pixels>612</page_height_in_pixels>
         <page_size>Letter</page_size>
         <page_width_in_pixels>792</page_width_in_pixels>
-        <report display_value="Reached out is false">b3e34a86c3e5d650a8361dd1b4013153</report>
-        <report_body><![CDATA[<p>Please find the below report for false reach out value.</p>]]></report_body>
+        <report display_value="Reached out value is false">b3e34a86c3e5d650a8361dd1b4013153</report>
+        <report_body><![CDATA[<p>Please find the below report for false reach out contacts</p>]]></report_body>
         <report_title/>
         <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
@@ -33,14 +33,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:55:32</sys_created_on>
         <sys_id>cb434ec2c3e5d650a8361dd1b40131a9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Reminder for YOU &amp; I</sys_name>
         <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
         <sys_policy/>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_update_name>sysauto_report_cb434ec2c3e5d650a8361dd1b40131a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:58:23</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:22:25</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
         <user_list/>

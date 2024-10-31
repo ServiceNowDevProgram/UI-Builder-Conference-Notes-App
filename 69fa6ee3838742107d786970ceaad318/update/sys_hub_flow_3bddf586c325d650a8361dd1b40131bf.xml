@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,timeFromCreateToActivate=725000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,timeFromCreateToActivate=21153000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -18,7 +18,7 @@
         <label_cache>[{"name":"d5627992-c177-483f-9192-efc15d3d928f.state","label":"14 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.error_message","label":"15 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.status","label":"15 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.error_message","label":"10 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.status","label":"10 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.error_message","label":"3 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to.sys_id","label":"15 - Look Up Record➛task_sla Record➛Task➛Assigned to➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to.manager.sys_id","label":"15 - Look Up Record➛task_sla Record➛Task➛Assigned to➛Manager➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record.task.assigned_to.sys_id","label":"10 - Look Up Record➛task_sla Record➛Task➛Assigned to➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record.task.assigned_to.manager.sys_id","label":"10 - Look Up Record➛task_sla Record➛Task➛Assigned to➛Manager➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task.cmdb_ci.supported_by.sys_id","label":"3 - Look Up Record➛task_sla Record➛Task➛Configuration item➛Supported by➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task.assigned_to.sys_id","label":"3 - Look Up Record➛task_sla Record➛Task➛Assigned to➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task","label":"3 - Look Up Record➛task_sla Record➛Task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"task_sla","column_name":"task"},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task.cmdb_ci","label":"3 - Look Up Record➛task_sla Record➛Task➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"cmdb_ci"},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to.manager","label":"15 - Look Up Record➛task_sla Record➛Task➛Assigned to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record.task.assigned_to.manager","label":"10 - Look Up Record➛task_sla Record➛Task➛Assigned to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task.priority","label":"3 - Look Up Record➛task_sla Record➛Task➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"task","column_name":"priority","choices":[{"label":"-- None --","image":"","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"image":"","label":"1 - Critical","used":false,"rawLabel":"1 - Critical","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"image":"","label":"2 - High","used":false,"rawLabel":"2 - High","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"image":"","label":"3 - Moderate","used":false,"rawLabel":"3 - Moderate","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"image":"","label":"4 - Low","used":false,"rawLabel":"4 - Low","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"image":"","label":"5 - Planning","used":false,"rawLabel":"5 - Planning","selected":false,"missing":false,"reference":false,"value":"5","parameters":{"name":"task","dependent_values":[""]}}]},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task.cmdb_ci.supported_by","label":"3 - Look Up Record➛task_sla Record➛Task➛Configuration item➛Supported by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"cmdb_ci","column_name":"supported_by"},{"name":"7cd8edaa-54d3-4ca1-9428-bb6c3a2f0816.table_name","label":"18 - Create Record➛sysevent Table","reference":"sysevent","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7cd8edaa-54d3-4ca1-9428-bb6c3a2f0816.record","label":"18 - Create Record➛sysevent Record","reference":"sysevent","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to","label":"15 - Look Up Record➛task_sla Record➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to"},{"name":"cc2dbae9-e4a5-41d5-b098-27d370caf7cb.table_name","label":"16 - Create Record➛sysevent Table","reference":"sysevent","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cc2dbae9-e4a5-41d5-b098-27d370caf7cb.record","label":"16 - Create Record➛sysevent Record","reference":"sysevent","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Table","label":"15 - Look Up Record➛task_sla Table","reference":"task_sla","reference_display":"Task SLA","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","filter_table_source":"v_cluster_transaction"}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record","label":"15 - Look Up Record➛task_sla Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a5b4e75b-fb57-4bd0-81f5-92b721393ebd.table_name","label":"13 - Create Record➛sysevent Table","reference":"sysevent","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a5b4e75b-fb57-4bd0-81f5-92b721393ebd.record","label":"13 - Create Record➛sysevent Record","reference":"sysevent","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record.task.assigned_to","label":"10 - Look Up Record➛task_sla Record➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to"},{"name":"333e94ce-7745-4c6d-9575-a2b961101c07.table_name","label":"11 - Create Record➛sysevent Table","reference":"sysevent","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"333e94ce-7745-4c6d-9575-a2b961101c07.record","label":"11 - Create Record➛sysevent Record","reference":"sysevent","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3132448d-a5d7-48a3-acc7-34e5341f88eb.table_name","label":"7 - Create Record➛sysevent Table","reference":"sysevent","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3132448d-a5d7-48a3-acc7-34e5341f88eb.record","label":"7 - Create Record➛sysevent Record","reference":"sysevent","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task.assigned_to","label":"3 - Look Up Record➛task_sla Record➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to"},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Table","label":"3 - Look Up Record➛task_sla Table","reference":"task_sla","reference_display":"Task SLA","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","filter_table_source":"v_cluster_transaction"}},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record","label":"3 - Look Up Record➛task_sla Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"SLA Task_1.task_sla_record.task.assigned_to","label":"Trigger➛Task SLA Record➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to"},{"name":"b469b3be-e287-41ed-8ca5-4b4e417b229e.table_name","label":"4 - Create Record➛sysevent Table","reference":"sysevent","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b469b3be-e287-41ed-8ca5-4b4e417b229e.record","label":"4 - Create Record➛sysevent Record","reference":"sysevent","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9da255d3-8572-499b-b4c7-6353e0707fd3.scheduled_end_date_time","label":"1 - SLA Percentage Timer➛Scheduled End Date/Time","reference_display":"Scheduled End Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"uiType":"glide_date_time","uiTypeLabel":"Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9da255d3-8572-499b-b4c7-6353e0707fd3.status","label":"1 - SLA Percentage Timer➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Paused","value":"paused","order":0.0},{"label":"Completed","value":"completed","order":1.0},{"label":"Repair","value":"repair","order":2.0},{"label":"Skipped","value":"skipped","order":3.0},{"label":"Cancelled","value":"cancelled","order":4.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9da255d3-8572-499b-b4c7-6353e0707fd3.total_duration","label":"1 - SLA Percentage Timer➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"SLA Task_1.task_sla_record","label":"Trigger➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference"},{"name":"SLA Task_1.sla_flow_inputs","label":"Trigger➛sla_flow_inputs","type":"object","base_type":"object"},{"name":"SLA Task_1.task_sla_record.business_percentage","label":"Trigger➛Task SLA Record➛Business elapsed percentage","reference":"","reference_display":"Business elapsed percentage","type":"percent_complete","base_type":"percent_complete","parent_table_name":"task_sla","column_name":"business_percentage"},{"name":"d558c410-d874-4f7c-b9da-a59cc3d9442c.scheduled_end_date_time","label":"8 - SLA Percentage Timer➛Scheduled End Date/Time","reference_display":"Scheduled End Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"uiType":"glide_date_time","uiTypeLabel":"Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d558c410-d874-4f7c-b9da-a59cc3d9442c.status","label":"8 - SLA Percentage Timer➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Paused","value":"paused","order":0.0},{"label":"Completed","value":"completed","order":1.0},{"label":"Repair","value":"repair","order":2.0},{"label":"Skipped","value":"skipped","order":3.0},{"label":"Cancelled","value":"cancelled","order":4.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d558c410-d874-4f7c-b9da-a59cc3d9442c.total_duration","label":"8 - SLA Percentage Timer➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8dcd36f8-6e66-4e71-8c03-1253a41291dc.Record","label":"2.1➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference"},{"name":"8dcd36f8-6e66-4e71-8c03-1253a41291dc.Table","label":"2.1➛Task SLA Table","reference":"task_sla","reference_display":"Task SLA","type":"table_name","base_type":"table_name"},{"name":"SLA Task_1.task_sla_record.sys_id","label":"Trigger➛Task SLA Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task_sla","column_name":"sys_id"},{"name":"8dcd36f8-6e66-4e71-8c03-1253a41291dc.Record.business_percentage","label":"2.1➛Task SLA Record➛Business elapsed percentage","reference":"","reference_display":"Business elapsed percentage","type":"percent_complete","base_type":"percent_complete","parent_table_name":"task_sla","column_name":"business_percentage"},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record","label":"10 - Look Up Record➛task_sla Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Table","label":"10 - Look Up Record➛task_sla Table","reference":"task_sla","reference_display":"Task SLA","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","filter_table_source":"v_cluster_transaction"}},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record.business_percentage","label":"10 - Look Up Record➛task_sla Record➛Business elapsed percentage","reference":"","reference_display":"Business elapsed percentage","type":"percent_complete","base_type":"percent_complete","parent_table_name":"task_sla","column_name":"business_percentage"}]</label_cache>
         <master_snapshot>a11e350ac325d650a8361dd1b401312d</master_snapshot>
         <master_snapshot_digest/>
-        <name>SLA notification and escalation flow Reminder</name>
+        <name>SLA notification and escalation flow Reminders</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -36,15 +36,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3bddf586c325d650a8361dd1b40131bf</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>SLA notification and escalation flow Reminder</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>SLA notification and escalation flow Reminders</sys_name>
         <sys_overrides/>
         <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
         <sys_policy/>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_update_name>sys_hub_flow_3bddf586c325d650a8361dd1b40131bf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:56</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:24</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -83,16 +83,16 @@
     <sys_hub_flow_input action="delete_multiple" query="model=3bddf586c325d650a8361dd1b40131bf^sys_idNOT IN3bdd3986c325d650a8361dd1b4013113,3fddf586c325d650a8361dd1b40131f1"/>
     <sys_complex_object action="INSERT_OR_UPDATE">
         <label/>
-        <name>FD24a00e4eb165d650d4e673438cfa2879</name>
+        <name>FD738e8b4288255a503c0616a8e54c1343</name>
         <namespace>FlowDesigner</namespace>
         <scope_name>69fa6ee3838742107d786970ceaad318</scope_name>
-        <serialized_content>{"FlowDesigner:FD24a00e4eb165d650d4e673438cfa2879":{"duration":"String","duration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"duration\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}"},"relative_duration_works_on":"String","relative_duration_works_on.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"relative_duration_works_on\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"32\"}"},"is_repair":"Boolean","is_repair.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"choiceOption\":\"\",\"default_value\":\"false\",\"label\":\"is_repair\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"32\"}"},"duration_type":"String","duration_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"duration_type\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"32\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"32\"}"}},"FlowDesigner:FD24a00e4eb165d650d4e673438cfa2879.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD24a00e4eb165d650d4e673438cfa2879\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sla_flow_inputs\",\"mandatory\":\"false\",\"order\":\"100\",\"max_length\":\"4096\"}"}}</serialized_content>
+        <serialized_content>{"FlowDesigner:FD738e8b4288255a503c0616a8e54c1343":{"duration":"String","duration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"duration\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}"},"relative_duration_works_on":"String","relative_duration_works_on.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"relative_duration_works_on\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"32\"}"},"is_repair":"Boolean","is_repair.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"choiceOption\":\"\",\"default_value\":\"false\",\"label\":\"is_repair\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"32\"}"},"duration_type":"String","duration_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"duration_type\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"32\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"32\"}"}},"FlowDesigner:FD738e8b4288255a503c0616a8e54c1343.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD738e8b4288255a503c0616a8e54c1343\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sla_flow_inputs\",\"mandatory\":\"false\",\"order\":\"100\",\"max_length\":\"4096\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-31 04:42:52</sys_created_on>
+        <sys_created_on>2024-10-31 10:23:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>e4a00e4ec365d650a8361dd1b4013179</sys_id>
+        <sys_id>378e8b42c3255a50a8361dd1b4013143</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
@@ -101,14 +101,14 @@
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:52</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:21</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD24a00e4eb165d650d4e673438cfa2879,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <attributes>co_type_name=FD738e8b4288255a503c0616a8e54c1343,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -144,7 +144,7 @@
         <label>sla_flow_inputs</label>
         <mandatory>false</mandatory>
         <max_length>4096</max_length>
-        <model display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</model>
+        <model display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</model>
         <model_id>3bddf586c325d650a8361dd1b40131bf</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_3bddf586c325d650a8361dd1b40131bf</name>
@@ -167,14 +167,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:30:49</sys_created_on>
         <sys_id>3bdd3986c325d650a8361dd1b4013113</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:52</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -228,7 +228,7 @@
         <label>task_sla_record</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</model>
+        <model display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</model>
         <model_id>3bddf586c325d650a8361dd1b40131bf</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_3bddf586c325d650a8361dd1b40131bf</name>
@@ -278,7 +278,7 @@
     <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <name>SLA Task</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
@@ -301,7 +301,7 @@
         <comment/>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <generation_source/>
         <order>10</order>
         <parent_ui_id>f08e1f89-5a6d-492a-afee-5c564fdb90e9</parent_ui_id>
@@ -323,7 +323,7 @@
         <comment/>
         <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <generation_source/>
         <order>14</order>
         <parent_ui_id/>
@@ -345,7 +345,7 @@
         <comment>"sla.warning.parm" Event with Parm1 set to Assigned To from the Task</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <generation_source/>
         <order>11</order>
         <parent_ui_id>f08e1f89-5a6d-492a-afee-5c564fdb90e9</parent_ui_id>
@@ -367,7 +367,7 @@
         <comment/>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <generation_source/>
         <order>15</order>
         <parent_ui_id/>
@@ -389,7 +389,7 @@
         <comment>Completes when the SLA reaches 50%</comment>
         <compiled_snapshot>a1a50c4573873300d70877186bf6a762</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <generation_source/>
         <order>1</order>
         <parent_ui_id/>
@@ -411,7 +411,7 @@
         <comment>"sla.warning.parm" Event with Parm1 set to Manager of Assigned To from the Task</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <generation_source/>
         <order>13</order>
         <parent_ui_id>ba6cbc18-5d32-449c-b7f0-2a3d789512b2</parent_ui_id>
@@ -433,7 +433,7 @@
         <comment>"sla.warning.breach.parm" Event with Parm1 set to Assigned To from the Task</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <generation_source/>
         <order>16</order>
         <parent_ui_id/>
@@ -455,7 +455,7 @@
         <comment>"sla.warning.breach.parm" Event with Parm1 set to Manager of Assigned To from the Task</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <generation_source/>
         <order>18</order>
         <parent_ui_id>5803d005-6297-4032-89bb-ed8406e6316f</parent_ui_id>
@@ -477,7 +477,7 @@
         <comment/>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <generation_source/>
         <order>3</order>
         <parent_ui_id>1f55dcda-131d-48c8-9924-8f6d7cbf95b8</parent_ui_id>
@@ -499,7 +499,7 @@
         <comment>"sla.warning.ci" Event with Parm1 set to Supported By of the Configuration Item from the Task</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <generation_source/>
         <order>7</order>
         <parent_ui_id>70274d3b-1f85-4333-bb88-6e63bcabe6b8</parent_ui_id>
@@ -521,7 +521,7 @@
         <comment>"sla.warning.parm" Event with Parm1 set to Assigned To from the Task</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <generation_source/>
         <order>4</order>
         <parent_ui_id>1f55dcda-131d-48c8-9924-8f6d7cbf95b8</parent_ui_id>
@@ -543,7 +543,7 @@
         <comment>Completes when the SLA reaches 75%</comment>
         <compiled_snapshot>a1a50c4573873300d70877186bf6a762</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <generation_source/>
         <order>8</order>
         <parent_ui_id/>
@@ -567,7 +567,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -578,10 +578,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:30:49</sys_created_on>
         <sys_id>3bdd3986c325d650a8361dd1b401311b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:53</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:21</sys_updated_on>
         <ui_id>1f55dcda-131d-48c8-9924-8f6d7cbf95b8</ui_id>
         <values>H4sIAAAAAAAA/+VUXW/TMBT9KyjPaeQkTbv2bQJNQgImsWkvMEU3ttNaOLaxnXal6n/nOh9ttXUCAW+8xef63nPO9VH2kW69ab2719fOiZWKll8e40iogOH3PlLQ8GgZUa2Y8EKrsgPiaAOyDQX8ZMIZCbuHE0LXQjLLh2kGLPZ4bqPl/lnJ7wwvJVRcYuOdt0KtsF0wPNUE6nRBU5pnszwjJLuaptUsr9KM5cAhx3tj49tR3JsPHRK/qjrwIe5GJm1ZkJWSOOJPnivGkboG6XgcNaAYeG13R8RyYLdKnoC1UL533MCTEz9wdlYU4WLN0SM9rkMLym9NUNIjHio5FrVsG/WpFxy2yWtopT/bZut4ybgJ6gLdwF3frfX280h0I1TnZChKTUEeT+DRb9V67sILcMkbHFQ2YAxuoTRWb0TXjFqaZCXxkNRSb5E0RCIBGoQnuAxIbhB/18EPYEVw8RHHYHMvswInaNnFB8d5ixYO3TrK720Q1BscrJT9NvCCo1YYf408Gz6oPsQvs3cWu/1+wQB3zfLJVTHPJtPFoppUUzqfzPIi52RO5jXLE+fBt+5w+NoSkjO0ZyQGkb0M7V/P+xeRX0BRFykpLkd+OrsU+Qthfz3n2S9yHh7sN2NOCPlPcy5c2ed18NaR/3HMH0OmewbXB4RxKhwKuQ/Y+/FPHAo7fGlBz6Gttt+ChRN2+AnMHQ4N0wUAAA==</values>
         <workflow_reference/>
@@ -593,7 +593,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -604,10 +604,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:30:49</sys_created_on>
         <sys_id>3bdd3986c325d650a8361dd1b4013145</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:53</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:21</sys_updated_on>
         <ui_id>f08e1f89-5a6d-492a-afee-5c564fdb90e9</ui_id>
         <values>H4sIAAAAAAAA/+VUy27bMBD8lUJnWdDTsX0LWgQo0DZAE+TSBsKKpGyiFMmSlB1X8L93qYdtJA5atL31Js5yd2aWA3WBap1unb1X19bytQxWXx7DgEuP4XcXSGhYsAqIkpQ7rmTZA2GwBdH6An5SbrWA/cMJIRsuqGHjNA0Gexwzwap7VnJ7zUoBFRPYeOcMl2ts5xRPdQx1siQJydJ5lsZxusiTap5VSUozYJDhvanx7STuzYceCV9V7fkQtxOTMtTLSuIwYE+OScqQugZhWRg0ICk4ZfZHxDCgt1KcgA2XbnDcwJPlP3B2WhT+Ys3QIzmuQ3HCbrVXMiAOKjEVlWgb+WkQ7LfJamiFO9tma1lJmfbqPN3IXd9t1O7zRHTDZe9kLApFQBxP4NBv1Tpm/QswwRocVDagNW6h1EZted+MWppoLfAQ1ULtkNRHIgLihUe4DIhuEH/Xww9guHfxEcdg8yCzAstJ2ccHxzmDFg79OsrvrRc0GBytlMM28IIlhmt3jTxbNqo+hC+zdxa7rqNFsSB5Es/o4iqf5fUVmVVLCjMoloRkdJnnKYmsA9faw+FrG8cZRXtaYBDpy9D+9bx/EfklFHWRxMXlyOfzS5G/EPbXc57+Iuf+wX4z5nEc/6c557Yc8jp668n/OOaPPtMDgx0CQhnhFoXce+z99Cf2hT2+NCfn0E6Zb97CCTv8BOEFxwPTBQAA</values>
         <workflow_reference/>
@@ -619,7 +619,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -630,10 +630,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:30:49</sys_created_on>
         <sys_id>73dd3986c325d650a8361dd1b4013147</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:53</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:21</sys_updated_on>
         <ui_id>ba6cbc18-5d32-449c-b7f0-2a3d789512b2</ui_id>
         <values>H4sIAAAAAAAA/+VVTW/aQBD9K67PYK1toIFb1CpSpaaREpRLE1nD7hhWWe+6u2sIRfz3zto4QQ1Rq6aHSr3hNx/vzew8sYtN4+vGu7k5d04udTz7ej+IpQ4Y/d7FGiqMZzE3WkgvjS5aYBCvQTUh0JWhiOYmki4SsizRovaRN9ElaFiijUwZHaVRsZCuVrC9fUsPvpJKUFanuAZLujzaeLb7KeS3NRYKFqiI6sZbqZdULgV9lQzKdMpTnmeTPGMsOxuli0m+SDORA0JOeX3hh34B0ecWGby6mcBHuOuZjBVBVsoGMT561AKJugTlcBBXoAV4Y7dPiEUQV1o9AyupPbWLQ/Kjk9+pdzYeh8R2SRy7IF8ZyfGqDko6xMNC9UGjmkp/6QSH/WMJjfL9/glpHBYC66Au0B24y5uV2Vz3RBdSt5McgspwUE9f4GneRePRhRdAhRU1Kiqoa9pCUVuzlm0xaamSpaKPpFRmQ6ThURPgQXhCy4DkgvCPLXwLVoYpLqkNFXcyF+AkL9oTpXbe0gj7dh3FtyYI6gY8jFJ026AEx62s/TnxrPGgej94ed9Hp73b8alI8yxPh4ydTYejMmXDaYowzCaMTdkZMvEek2vk9MSJB/eQwOFEC2+SqrvcxG1dIcV+/+6uYSwXb+zad3vpon9d7t8w7BTG5Thl49OGHU1OGfaEVV93afYLl4Zz+02TMsb+U5dKV3RuO8zWkv+xSe+DIzsG1x2IQC4dCZkH7FP/XxUCW3ppyY+hjbEPYYRnbP8DdyR0OPUGAAA=</values>
         <workflow_reference/>
@@ -645,7 +645,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -656,10 +656,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:30:49</sys_created_on>
         <sys_id>b3dd3986c325d650a8361dd1b4013143</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:53</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:21</sys_updated_on>
         <ui_id>666c9bbf-b39e-4a90-bb59-d87314c6e98e</ui_id>
         <values>H4sIAAAAAAAA/+VVXU/bMBT9K1me2yhN2kL7xpiQkLYhQcXLhqwb+7q1cOLMdoCs6n/fddIUNECbEA+T9hafa99z7sdRtrFpfN14tzInzql1FS+/3YxiVQWMvrdxBSXGy5ibSiivTMU6YBTfgW5C4Kqpa2M9iuhjGxkZ+Q1GK3C335s0zY5cdHoeKRcJJSVarHwkrSmjnoverAylEsrVGtrr98vIN0oLCvbV1GBJs0cbL7e/hXxbI9NQoA7E3qpqTc+VoJNMQU4WfMLzbJ5nRH08nRTzvJhkIgeEnO4ND0+H5kSfO2T0atcCH+FuYDJWBFmTdBTjg8dKIFFL0A5HcQmVAG9se0Asgrio9COwUZWndHG4/ODUT8qdzWbhYtcbjn2Qb4zieFEHJT3iodBD0OimrL72gsM0UEKj/TANQhqHTGAd1AW6Pbe82pj7y4HoTFVdJfugNhz04QSe6i0ajy5MADWWlIiVUNfUBVZbc6e6x6SlTNaaDonU5p5Iw1AT4EF4Qs2A5IzwTx18DVaFKr5QGnrcyyzAKc669aV03lIJu64d7EcTBPUF7kthfTfoguNW1f6EeO5wr3o3er77T9Z+u5XHc57PCxhLORXjaZHNxpAu8vGUoyyOsyO5WGByiZxGnHha3wT2K8q8SVzrmBK73Yew1Ll4QzZeioJxlbjBLaxoD2mfm+qf1/sell3ATM4m6exly07nL1n2BbO+7tPsDz4NC/eXNk3T9D/1qXKs99u+to78zTa9CZ7sGVy/IAK5ciRkFbDz4U8WAi1NWvGn0L2xt6GER2z3C+TNTJoTBwAA</values>
         <workflow_reference/>
@@ -671,7 +671,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -682,10 +682,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:30:49</sys_created_on>
         <sys_id>b7dd3986c325d650a8361dd1b4013144</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:53</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:21</sys_updated_on>
         <ui_id>70274d3b-1f85-4333-bb88-6e63bcabe6b8</ui_id>
         <values>H4sIAAAAAAAA/+VVTW/bMAz9K4bPieGPJE1yKzYUGLC1W1v0snUGLVGJUNnyJDlpFuS/l/JHW2wpVgw9DNjNeqT4Hik+eB/qxtWNs9f61Fq5qsLl19tRKCuP0fc+rKDEcBkyXXHppK7yFhiFG1CND1yDvfvWxHF6YoPPRmoj3S6QNkgCbYKUErm0tYLdzWvz2VoqbrBXUoMhPocmXO5/CbldjbmCAhWVvXJGViu6LjmdRAwiWbCEZeksS4lsPkmKWVYkKc8AIaO84eK7obHgY4uMXuzY8xFuByZtuJeVxKMQ7x1WHIlagLI4CkuoODhtdo+IQeAXlXoC1rJyVC70yfdW/qTa6XTqEwVSjwy7IFtryfCi9ko6xEGhhqBWTVmdd4L9rFFAo9wwa0IaiznH2qvzdD23uFrr7eVAdCartpM+qDQD9XgCR/0WjUPrXwAVllQoL6GuaQp5bfRGtpdJSxmtFB0iofSWSP06RcC88IiGAdEZ4e9b+AaM9F18ojJ0uZNZgJUsb1ePyjlDLRzaceQ/Gi+oa7BvJe+mQQmWGVm7U+LZYK/6MPp9b5+t7H4v5jOWzQoYCzHh40mRTscQL7LxhKEo5umJWCwwukRGTxw5Wtio7jf1cPC7m/Hk+/mXNyhzxB//lri3MOMCpmKaxNPjZpzMjpnxiA1fdmD6Bwf6VXqlAeM4/k8dKG3eOanvrSX/awPeerd1DLZbEI5MWhJy7bEPw//FB3b00pI9h7ba3PkWnrDDA2HaqdupBgAA</values>
         <workflow_reference/>
@@ -697,7 +697,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -708,10 +708,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:30:49</sys_created_on>
         <sys_id>f3dd3986c325d650a8361dd1b4013148</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:53</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:21</sys_updated_on>
         <ui_id>5803d005-6297-4032-89bb-ed8406e6316f</ui_id>
         <values>H4sIAAAAAAAA/+VVTU/bQBD9K67PibWO7dDkhlohVSpFAsSlIGu8O05WrHfd3TWQRvnvnbVjiAqoVemhUm/xm4/3Znaeso1N59vOu0tz7Jxc6Xj59WYSSx0w+r2NNTQYL2NutJBeGl32wCS+A9WFwFCGIro0kXSRkHWNFrWPvIlOQcMKbWTq6CCNioV0rYLN1Vt68LVUgrIGxS1Y0uXRxsvtTyG/abFUUKEiqgtvpV5RuRT0VTOo0wVPeTabZzPGZu/ztJpnVToTGSBklDcWfhgXEH3ukcmrmwl8hLuRyVgRZKVsEuODRy2QqGtQDidxA1qAN3bziFgEcabVE7CW2lO7OCQ/OPmdes+KIiT2S+I4BPnaSI5nbVAyIB4qNQaN6hr9ZRAc9o81dMqP+yekc1gKbIO6QLfnri/W5v58JDqRup9kH1SGg3r8Ak/zVp1HF14AFTbUqGygbWkLZWvNneyLSUuTrBR9JLUy90QaHjUBHoQntAxITgj/2MNXYGWY4pTaUPEgswInedmfKLXzlkbY9esov3VB0DDgfpRy2AYlOG5l64+J5w73qneT5/d9cNrbLWZZVs0ZmxZHAqZ5nmfTBYijaZGC4Dmb1yzPknPk9MSJB3ebwP5ES2+SZrjcxG1cKcVu9+66YywTb+w6dnvuon9d7t8w7AKKukhZ8bJh8/lLhn3Bqq+7dPYLl4Zz+02TMsb+U5dKVw5u28/Wk/+xSW+CIwcGNxyIQC4dCbkM2KfxvyoENvTSkh9C98behhGesN0PuRsRzvUGAAA=</values>
         <workflow_reference/>
@@ -818,10 +818,10 @@
         <internal_name>copy_of_sla_notification_and_escalation_flow</internal_name>
         <label_cache>[{"name":"d5627992-c177-483f-9192-efc15d3d928f.state","label":"14 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.error_message","label":"15 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.status","label":"15 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.error_message","label":"10 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.status","label":"10 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.error_message","label":"3 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to.sys_id","label":"15 - Look Up Record➛task_sla Record➛Task➛Assigned to➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to.manager.sys_id","label":"15 - Look Up Record➛task_sla Record➛Task➛Assigned to➛Manager➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record.task.assigned_to.sys_id","label":"10 - Look Up Record➛task_sla Record➛Task➛Assigned to➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record.task.assigned_to.manager.sys_id","label":"10 - Look Up Record➛task_sla Record➛Task➛Assigned to➛Manager➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task.cmdb_ci.supported_by.sys_id","label":"3 - Look Up Record➛task_sla Record➛Task➛Configuration item➛Supported by➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task.assigned_to.sys_id","label":"3 - Look Up Record➛task_sla Record➛Task➛Assigned to➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task","label":"3 - Look Up Record➛task_sla Record➛Task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"task_sla","column_name":"task"},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task.cmdb_ci","label":"3 - Look Up Record➛task_sla Record➛Task➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"cmdb_ci"},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to.manager","label":"15 - Look Up Record➛task_sla Record➛Task➛Assigned to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record.task.assigned_to.manager","label":"10 - Look Up Record➛task_sla Record➛Task➛Assigned to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task.priority","label":"3 - Look Up Record➛task_sla Record➛Task➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"task","column_name":"priority","choices":[{"label":"-- None --","image":"","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"image":"","label":"1 - Critical","used":false,"rawLabel":"1 - Critical","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"image":"","label":"2 - High","used":false,"rawLabel":"2 - High","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"image":"","label":"3 - Moderate","used":false,"rawLabel":"3 - Moderate","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"image":"","label":"4 - Low","used":false,"rawLabel":"4 - Low","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"image":"","label":"5 - Planning","used":false,"rawLabel":"5 - Planning","selected":false,"missing":false,"reference":false,"value":"5","parameters":{"name":"task","dependent_values":[""]}}]},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task.cmdb_ci.supported_by","label":"3 - Look Up Record➛task_sla Record➛Task➛Configuration item➛Supported by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"cmdb_ci","column_name":"supported_by"},{"name":"7cd8edaa-54d3-4ca1-9428-bb6c3a2f0816.table_name","label":"18 - Create Record➛sysevent Table","reference":"sysevent","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7cd8edaa-54d3-4ca1-9428-bb6c3a2f0816.record","label":"18 - Create Record➛sysevent Record","reference":"sysevent","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to","label":"15 - Look Up Record➛task_sla Record➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to"},{"name":"cc2dbae9-e4a5-41d5-b098-27d370caf7cb.table_name","label":"16 - Create Record➛sysevent Table","reference":"sysevent","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cc2dbae9-e4a5-41d5-b098-27d370caf7cb.record","label":"16 - Create Record➛sysevent Record","reference":"sysevent","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Table","label":"15 - Look Up Record➛task_sla Table","reference":"task_sla","reference_display":"Task SLA","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","filter_table_source":"v_cluster_transaction"}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record","label":"15 - Look Up Record➛task_sla Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a5b4e75b-fb57-4bd0-81f5-92b721393ebd.table_name","label":"13 - Create Record➛sysevent Table","reference":"sysevent","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a5b4e75b-fb57-4bd0-81f5-92b721393ebd.record","label":"13 - Create Record➛sysevent Record","reference":"sysevent","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record.task.assigned_to","label":"10 - Look Up Record➛task_sla Record➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to"},{"name":"333e94ce-7745-4c6d-9575-a2b961101c07.table_name","label":"11 - Create Record➛sysevent Table","reference":"sysevent","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"333e94ce-7745-4c6d-9575-a2b961101c07.record","label":"11 - Create Record➛sysevent Record","reference":"sysevent","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3132448d-a5d7-48a3-acc7-34e5341f88eb.table_name","label":"7 - Create Record➛sysevent Table","reference":"sysevent","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3132448d-a5d7-48a3-acc7-34e5341f88eb.record","label":"7 - Create Record➛sysevent Record","reference":"sysevent","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task.assigned_to","label":"3 - Look Up Record➛task_sla Record➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to"},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Table","label":"3 - Look Up Record➛task_sla Table","reference":"task_sla","reference_display":"Task SLA","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","filter_table_source":"v_cluster_transaction"}},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record","label":"3 - Look Up Record➛task_sla Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"SLA Task_1.task_sla_record.task.assigned_to","label":"Trigger➛Task SLA Record➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to"},{"name":"b469b3be-e287-41ed-8ca5-4b4e417b229e.table_name","label":"4 - Create Record➛sysevent Table","reference":"sysevent","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b469b3be-e287-41ed-8ca5-4b4e417b229e.record","label":"4 - Create Record➛sysevent Record","reference":"sysevent","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9da255d3-8572-499b-b4c7-6353e0707fd3.scheduled_end_date_time","label":"1 - SLA Percentage Timer➛Scheduled End Date/Time","reference_display":"Scheduled End Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"uiType":"glide_date_time","uiTypeLabel":"Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9da255d3-8572-499b-b4c7-6353e0707fd3.status","label":"1 - SLA Percentage Timer➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Paused","value":"paused","order":0.0},{"label":"Completed","value":"completed","order":1.0},{"label":"Repair","value":"repair","order":2.0},{"label":"Skipped","value":"skipped","order":3.0},{"label":"Cancelled","value":"cancelled","order":4.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9da255d3-8572-499b-b4c7-6353e0707fd3.total_duration","label":"1 - SLA Percentage Timer➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"SLA Task_1.task_sla_record","label":"Trigger➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference"},{"name":"SLA Task_1.sla_flow_inputs","label":"Trigger➛sla_flow_inputs","type":"object","base_type":"object"},{"name":"SLA Task_1.task_sla_record.business_percentage","label":"Trigger➛Task SLA Record➛Business elapsed percentage","reference":"","reference_display":"Business elapsed percentage","type":"percent_complete","base_type":"percent_complete","parent_table_name":"task_sla","column_name":"business_percentage"},{"name":"d558c410-d874-4f7c-b9da-a59cc3d9442c.scheduled_end_date_time","label":"8 - SLA Percentage Timer➛Scheduled End Date/Time","reference_display":"Scheduled End Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"uiType":"glide_date_time","uiTypeLabel":"Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d558c410-d874-4f7c-b9da-a59cc3d9442c.status","label":"8 - SLA Percentage Timer➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Paused","value":"paused","order":0.0},{"label":"Completed","value":"completed","order":1.0},{"label":"Repair","value":"repair","order":2.0},{"label":"Skipped","value":"skipped","order":3.0},{"label":"Cancelled","value":"cancelled","order":4.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d558c410-d874-4f7c-b9da-a59cc3d9442c.total_duration","label":"8 - SLA Percentage Timer➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8dcd36f8-6e66-4e71-8c03-1253a41291dc.Record","label":"2.1➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference"},{"name":"8dcd36f8-6e66-4e71-8c03-1253a41291dc.Table","label":"2.1➛Task SLA Table","reference":"task_sla","reference_display":"Task SLA","type":"table_name","base_type":"table_name"},{"name":"SLA Task_1.task_sla_record.sys_id","label":"Trigger➛Task SLA Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task_sla","column_name":"sys_id"},{"name":"8dcd36f8-6e66-4e71-8c03-1253a41291dc.Record.business_percentage","label":"2.1➛Task SLA Record➛Business elapsed percentage","reference":"","reference_display":"Business elapsed percentage","type":"percent_complete","base_type":"percent_complete","parent_table_name":"task_sla","column_name":"business_percentage"},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record","label":"10 - Look Up Record➛task_sla Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Table","label":"10 - Look Up Record➛task_sla Table","reference":"task_sla","reference_display":"Task SLA","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","filter_table_source":"v_cluster_transaction"}},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record.business_percentage","label":"10 - Look Up Record➛task_sla Record➛Business elapsed percentage","reference":"","reference_display":"Business elapsed percentage","type":"percent_complete","base_type":"percent_complete","parent_table_name":"task_sla","column_name":"business_percentage"}]</label_cache>
         <master>true</master>
-        <name>SLA notification and escalation flow Reminder</name>
+        <name>SLA notification and escalation flow Reminders</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="SLA notification and escalation flow Reminder">3bddf586c325d650a8361dd1b40131bf</parent_flow>
+        <parent_flow display_value="SLA notification and escalation flow Reminders">3bddf586c325d650a8361dd1b40131bf</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -833,7 +833,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a11e350ac325d650a8361dd1b401312d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -841,7 +841,7 @@
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:55</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:23</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -864,16 +864,16 @@
     <sys_hub_flow_input action="delete_multiple" query="model=a11e350ac325d650a8361dd1b401312d^sys_idNOT IN291e350ac325d650a8361dd1b4013163,fd1e350ac325d650a8361dd1b40131cb"/>
     <sys_complex_object action="INSERT_OR_UPDATE">
         <label/>
-        <name>FD45a08e4e4f65d65017c8b78ddf1fe08e</name>
+        <name>FD549e8b42d1255a5064d0a282ce7c2fe4</name>
         <namespace>FlowDesigner</namespace>
         <scope_name>69fa6ee3838742107d786970ceaad318</scope_name>
-        <serialized_content>{"FlowDesigner:FD45a08e4e4f65d65017c8b78ddf1fe08e":{"duration":"String","duration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"duration\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}"},"relative_duration_works_on":"String","relative_duration_works_on.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"relative_duration_works_on\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"32\"}"},"is_repair":"Boolean","is_repair.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"choiceOption\":\"\",\"default_value\":\"false\",\"label\":\"is_repair\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"32\"}"},"duration_type":"String","duration_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"duration_type\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"32\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"32\"}"}},"FlowDesigner:FD45a08e4e4f65d65017c8b78ddf1fe08e.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD45a08e4e4f65d65017c8b78ddf1fe08e\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sla_flow_inputs\",\"mandatory\":\"false\",\"order\":\"100\",\"max_length\":\"4096\"}"}}</serialized_content>
+        <serialized_content>{"FlowDesigner:FD549e8b42d1255a5064d0a282ce7c2fe4":{"duration":"String","duration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"duration\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}"},"relative_duration_works_on":"String","relative_duration_works_on.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"relative_duration_works_on\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"32\"}"},"is_repair":"Boolean","is_repair.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"choiceOption\":\"\",\"default_value\":\"false\",\"label\":\"is_repair\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"32\"}"},"duration_type":"String","duration_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"duration_type\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"32\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"32\"}"}},"FlowDesigner:FD549e8b42d1255a5064d0a282ce7c2fe4.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD549e8b42d1255a5064d0a282ce7c2fe4\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sla_flow_inputs\",\"mandatory\":\"false\",\"order\":\"100\",\"max_length\":\"4096\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-31 04:42:55</sys_created_on>
+        <sys_created_on>2024-10-31 10:23:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>09a08e4ec365d650a8361dd1b401318e</sys_id>
+        <sys_id>189e8b42c3255a50a8361dd1b40131e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
@@ -882,14 +882,14 @@
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:55</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:23</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD45a08e4e4f65d65017c8b78ddf1fe08e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <attributes>co_type_name=FD549e8b42d1255a5064d0a282ce7c2fe4,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -925,7 +925,7 @@
         <label>sla_flow_inputs</label>
         <mandatory>false</mandatory>
         <max_length>4096</max_length>
-        <model display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</model>
+        <model display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</model>
         <model_id>a11e350ac325d650a8361dd1b401312d</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_a11e350ac325d650a8361dd1b401312d</name>
@@ -948,14 +948,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:31:45</sys_created_on>
         <sys_id>291e350ac325d650a8361dd1b4013163</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:55</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1009,7 +1009,7 @@
         <label>task_sla_record</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</model>
+        <model display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</model>
         <model_id>a11e350ac325d650a8361dd1b401312d</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_a11e350ac325d650a8361dd1b401312d</name>
@@ -1032,14 +1032,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:31:46</sys_created_on>
         <sys_id>fd1e350ac325d650a8361dd1b40131cb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:55</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1059,7 +1059,7 @@
     <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <name>SLA Task</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
@@ -1082,7 +1082,7 @@
         <comment/>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <generation_source/>
         <order>15</order>
         <parent_ui_id/>
@@ -1104,7 +1104,7 @@
         <comment/>
         <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <generation_source/>
         <order>14</order>
         <parent_ui_id/>
@@ -1126,7 +1126,7 @@
         <comment>"sla.warning.breach.parm" Event with Parm1 set to Assigned To from the Task</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <generation_source/>
         <order>16</order>
         <parent_ui_id/>
@@ -1148,7 +1148,7 @@
         <comment>Completes when the SLA reaches 75%</comment>
         <compiled_snapshot>a1a50c4573873300d70877186bf6a762</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <generation_source/>
         <order>8</order>
         <parent_ui_id/>
@@ -1170,7 +1170,7 @@
         <comment>"sla.warning.parm" Event with Parm1 set to Assigned To from the Task</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <generation_source/>
         <order>11</order>
         <parent_ui_id>f08e1f89-5a6d-492a-afee-5c564fdb90e9</parent_ui_id>
@@ -1192,7 +1192,7 @@
         <comment>"sla.warning.breach.parm" Event with Parm1 set to Manager of Assigned To from the Task</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <generation_source/>
         <order>18</order>
         <parent_ui_id>5803d005-6297-4032-89bb-ed8406e6316f</parent_ui_id>
@@ -1214,7 +1214,7 @@
         <comment/>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <generation_source/>
         <order>10</order>
         <parent_ui_id>f08e1f89-5a6d-492a-afee-5c564fdb90e9</parent_ui_id>
@@ -1236,7 +1236,7 @@
         <comment>"sla.warning.parm" Event with Parm1 set to Manager of Assigned To from the Task</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <generation_source/>
         <order>13</order>
         <parent_ui_id>ba6cbc18-5d32-449c-b7f0-2a3d789512b2</parent_ui_id>
@@ -1258,7 +1258,7 @@
         <comment>"sla.warning.ci" Event with Parm1 set to Supported By of the Configuration Item from the Task</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <generation_source/>
         <order>7</order>
         <parent_ui_id>70274d3b-1f85-4333-bb88-6e63bcabe6b8</parent_ui_id>
@@ -1280,7 +1280,7 @@
         <comment>Completes when the SLA reaches 50%</comment>
         <compiled_snapshot>a1a50c4573873300d70877186bf6a762</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <generation_source/>
         <order>1</order>
         <parent_ui_id/>
@@ -1302,7 +1302,7 @@
         <comment/>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <generation_source/>
         <order>3</order>
         <parent_ui_id>1f55dcda-131d-48c8-9924-8f6d7cbf95b8</parent_ui_id>
@@ -1324,7 +1324,7 @@
         <comment>"sla.warning.parm" Event with Parm1 set to Assigned To from the Task</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <generation_source/>
         <order>4</order>
         <parent_ui_id>1f55dcda-131d-48c8-9924-8f6d7cbf95b8</parent_ui_id>
@@ -1348,7 +1348,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1359,10 +1359,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:31:46</sys_created_on>
         <sys_id>311e750ac325d650a8361dd1b4013102</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:55</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:23</sys_updated_on>
         <ui_id>f08e1f89-5a6d-492a-afee-5c564fdb90e9</ui_id>
         <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPjvFnmuStJBQG3Qpr6ctWzLUkJ2Ky5Uly0szkv+/KdpzQZmxlfdybdaR7dc7RPbglqrF1Y82DujZGrCuy+PrkEVE5DL9bUkHJyYJQVTFhhaqyDvDIFmTjNvCTCVNL2D+eELoRkmk+dKtBY43lmizaF1uCYUERQBHOaUjjaBpHQRDNkjCfxnkYsRg4xNhQQs4lHl0eaXy47RDvt/zsvna4sVpU62F9O3S5P4JKM8cqDDzCny2vGEc+BUjDPVJCxcAqvR8RzYHdVfIEbERle8ElPBvxEy+M0tQdLDhKpIMb4/IBcslXvVv9VrECC0inobbRo3lKUG56gxgvoJF2eY71B+5qJ7cvsa7xUK1kU1afe1fI2ODscRrDM8Zrp9bRH7QU9xu1+3JkeiOqzplhUyoKclyBRf/yxjo+LeGSl9goK6Gu0dWs1morumLkUvpriQu/kGqHl7oJ84E64j6aC/4N4qsOfgQtnIpP2AaLe5o5GEGzbhqxHdrEycEjZm+WEow5iUSHsx+No9hLHsRlvT+uhGpR22u8ecsHHQfv9XCfzXXbsjSd0SQMJmx2lUyS4opO8jmDCaRzSmM2T5KI+saCbczh8K0Jgpih4FripLPXqfjnfm/L1BzSIg2D9HKmkumlTF1I0xuDFP0hSO4F/zJHQRD8D9K7BEmYrB//QVt3+Tvm6MmFpr9z9JoKg9S6Z/p4/Je4jT0OmKDn0E7p707UCTv8Ap9LArSVBgAA</values>
         <workflow_reference/>
@@ -1374,7 +1374,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1385,10 +1385,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:31:46</sys_created_on>
         <sys_id>791e750ac325d650a8361dd1b4013103</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:55</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:23</sys_updated_on>
         <ui_id>ba6cbc18-5d32-449c-b7f0-2a3d789512b2</ui_id>
         <values>H4sIAAAAAAAA/+1V30/bMBD+VzI/t5GT0I7yhkBIk2BIgPayoehqX1oLx85iB+iq/u87x2mpBtOG4GEPe6u/+/Xdl7vrmtnON513N/bYObUw7Ojr7YgpEzD6vWYGamRHTFgjlVfWlD0wYvegu2CIYSiTG5sol0hVVdii8Ym3yQUYWGCb2CrZc6NgqVyjYfXlLTnEUmlJXpFxAy3x8tiyo/UvJiWpRMWhymYiE0U+LXLO88ODbD4t5lkuC0AoKKGGOWpyPdm2mpz3yOi3GvhVE3DnW2UWw/t8yHK9BW0rA6uMjxg+ejQSiU8F2uGI1WAkeNuudkiLIC+NfgKWynhKx4Lzo1M/qGA+mQTHXiOB0bh73sBc42nUN5qqU/BAdDrhu3ZwF0urBLookMQKOu1P9rHocNmEdmOID4mHaKu72nyOqrBdgu3nJKRzWEpsQreB/tBLdb20D1dbpmfK9MoMRm0F6N0LPOk373zgs2aosaZEZQ1NQ6qWTWvvVR9MXOp0oemRVto+UNEwIymIQDwlcSE9I/y0h79Aq0IXF5SGgiPNOTglyn7iKR3JhGwzYm7lTjQ499QkKVx+7wLF2PLQXBn1CSGiVY0/psr3OPSxGT1foL3dWa/FTGZFXmRjzg9n44Mq4+NZhjDOp5zP+CFy+RHTKxQ0RKkHd5fCsAOlt2kdVyMlrqWSm82Hbx3nhXxj1m2252v6r9N93UWYwaSaZHzy8kU4mL50EV64Ba88A/kfzkCYv7+8Apzz/2fgXc6AcmVc3qG3vvg7XoHbsPKx5k5roRxR6z/Tp+2/bTCsaMCU2IcebHsXmnrCNj8BMV7Eo7cHAAA=</values>
         <workflow_reference/>
@@ -1400,7 +1400,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1411,10 +1411,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:31:46</sys_created_on>
         <sys_id>b91e750ac325d650a8361dd1b401311d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:55</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:23</sys_updated_on>
         <ui_id>5803d005-6297-4032-89bb-ed8406e6316f</ui_id>
         <values>H4sIAAAAAAAA/+1V30/bMBD+VzI/p5HTJGXlDYGQJsGQAPEyUHSxndbCsbPYAbqq//vOcVqqwbQheNjD3urvfn335e66JqZ3be/stTmyVi40Ofx2FxOpPYa/10RDI8ghYUZz6aTR5QDE5AFU7w0hTPDo2kTSRlzWteiEdpEz0TloWIguMnW054bBXNpWwermPTnYUiqOXoFxCx3ycqIjh+tfTJJjiZpCnc5ZyrLpLJtSOv2cp9Usq9Ipz0BAhgkVVEKh6/G21ehsQOLfauBWrcet66RejO+zMcvVFjQd96xSGhPx5ITmAvnUoKyISQOagzPdaod0AviFVs/AUmqH6Yh3frLyBxacFoV3HDRiIhh3z2uolDgJ+gZTfQIOkE7PXN+N7mxpJBM2CMRFDb1yx/tYcLhofbshxPnEY7RRfaO/BlXILsH2cyLSW1Fy0fpuPf2xl/pqaR4vt0xPpR6UGY3KMFC7FzjUr+qd57MmQokGE5UNtC2qWradeZBDMHJpkoXCR1Ir84hF/YwkwDzxBMWF5BTxkwG+gU76Ls4xDQYHmhVYycph4jEdyiTIJiZ2ZY8VWPvcJCpcfu89xdDy2FwZ9PEhrJOtO8LKD2LsYxO/XKC93VmvRZZl1YzSSXHAYZLneTaZAz+YFClwltNZTfMsuRQMhyhxYO8TGHegdCZpwmokyLWUfLP5dNtTmvF3Zt1me7mm/zrdt12EORR1kdLi9YuQz167CK/cgjeegekfzoCfv7+8ApTS/2fgQ86AtGVY3rG3ofgHXoE7v/Kh5k5rJi1SGz7Tl+2/rTescMAk24ceTXfvm3rGNj8Bg6Hm47cHAAA=</values>
         <workflow_reference/>
@@ -1426,7 +1426,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1437,10 +1437,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:31:46</sys_created_on>
         <sys_id>bd1e350ac325d650a8361dd1b40131fe</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:55</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:23</sys_updated_on>
         <ui_id>666c9bbf-b39e-4a90-bb59-d87314c6e98e</ui_id>
         <values>H4sIAAAAAAAA/+1VTU/bQBD9K+6eHcuxk0C40SAkJFokiLi0yBrvR7Ji7XV314Ab5b931usEVKhaqhx66C37ZufNm+edyYbo1jWts0t9aq1c1eTky11MZO0x/L0hNVScnBCqayad1HXRAzF5ANX6wE3bNNo4zqKPXaRF5NY8WoK9/9qmaXZko8VFJG3EpBDc8NpFwugqCrUwZ6mRiknbKOhuD8dI11IxDIZuGjCo2XFDTjY/hSTDgiIFMZ7TMc2zWZ5hkePJuJzl5ThjOXDIkVBByRVeXexsiC57JP6lP65rPG6dkfVqOF8OLDc7UBvmVY3TmPAnx2vGUY8AZXlMKqgZOG26PWI4sKtaPQNrWTukI/7yk5XfsWA2nfqLvTWUh+D+uIRS8bPgdgiJM3CAclrqWjNcp2stKbfBIMYFtMotXmLhwlXj2w0pzhMP2Vq1Vf05uEL2BLuPi0hrecF447v18odexM1aP17vlJ7LundmCCpNQe1P4NC/snVez4ZwxSskKipoGnS1aIx+kH0yaqmSlcJDIpR+xKL+jSRAvfAEzYXkHPGzHr4FI30Xn5AGk4PMEqykRT8NSIc2cbKNie3sQoG1z02iw8W31ksMLQ/NFcEfn0KNbNwpVn7gQx/b+PVwvZirzUYcz2g+K2EkxISNJmU2HUE6z0cTykV5nB2J+Zwn15ziI0oczkcCwwwUTieosZBsu/3gpyZnf8FGK1YWVCZ2N45F2e1pX0/tP6/3fTthDlMxHafTt3fCZPbWTnhjG7xzEWS/WQT+Bf7hHkjT9P8iOMgikLYI4zv01hc/4B6480Mfau69ptKitP4zXez+i32gwwcm6UvoUZt739Qztv0BRbCASNUHAAA=</values>
         <workflow_reference/>
@@ -1452,7 +1452,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1463,10 +1463,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:31:46</sys_created_on>
         <sys_id>f51e750ac325d650a8361dd1b4013100</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:55</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:23</sys_updated_on>
         <ui_id>70274d3b-1f85-4333-bb88-6e63bcabe6b8</ui_id>
         <values>H4sIAAAAAAAA/+1VTW8aMRD9K8jnZbUfQIBbBIpUKU3aBOXSpqtZf4AVs97aXghF/PeOd5cPtVRNJA499IbfjGfee+sntkRXrqycnelra+W8IOMvzwGRhcfw95YUsORkTKgumHRSF1kNBGQFqvKFGdiXr1UUJVe288lIbaTbdKTtxB1tOgk2MmlLBZunt/bThVTM8JZJCQb3OW7IePtLSTIcJyIQ8YjGNE0GaYJjh704H6R5nLAUOKQ4UEHOFbZO9hI6tzUS/FGb25Qet87IYt6eb9spj3tQG+ZZxVFA+KvjBePIR4CyPCBLKBg4bTYHxHBg94U6AgtZOBxHfPOrlT9wYdLv+0bBUSLlTfFwnEGu+LTxsimJKThAOhV1lWnb6UJLym1jEOMCKuUmp1jTcF96uc0V5we3t7WqlsVd4wo5DNh/OkQqyzPGS6/W02+1iMeFXj/smd7IonamLSpNQR1O4NC/vHKez5ZwxZc4KFtCWaKrWWn0StaXkcsynCs8hELpNS71rzME6omHaC6EN4hPa/gJjPQqPuIYvNzQzMFKmtUvGcehTZzsAmI3dqLA2qNIdDj7XnmKjeRWXNb4469QI0t3jZtXvNWxC34PxkkmtlsxHNB0kENXiB7r9vKk34VolHZ7lIt8mFyJ0YiHD5ziIwodJiIs2yjsdj4cKYu/3X2+wJgzAfy3yL0v7SPoi34c9c+nvTc4l/YzOX9nxJO/RNy/rTcmPIqi/xG/SMSlzZpgttrq5RdM+LOPc7Pz4DWVFqnVn+nD/h/SFzb4wCQ9hdbavHhRR2z3E4psrlBrBwAA</values>
         <workflow_reference/>
@@ -1478,7 +1478,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="SLA notification and escalation flow Reminder">a11e350ac325d650a8361dd1b401312d</flow>
+        <flow display_value="SLA notification and escalation flow Reminders">a11e350ac325d650a8361dd1b401312d</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1489,10 +1489,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-31 04:31:46</sys_created_on>
         <sys_id>f91e350ac325d650a8361dd1b40131fc</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-31 04:42:55</sys_updated_on>
+        <sys_updated_on>2024-10-31 10:23:23</sys_updated_on>
         <ui_id>1f55dcda-131d-48c8-9924-8f6d7cbf95b8</ui_id>
         <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPjvFHnDR5KwmFQbfCWvqyFXMtyYmYbHmWlDQL+e+7shwntBlbWR/3Zh3pXp1zdA/eE2VNY41+UNdai1VN5l+fAiJqh+H3ntRQcTInVNVMGKHqvAMCsgFp3QZ+MqEbCbvHE0LXQrKW990aaLHG8JbM9y+2BMOCMoIyntGYpskkTaIouRrHxSQt4oSlwCHFhhIKLvHo4kjjw22HBL/lZ3aNw7VpRb3q17d9l/sjqFrmWMVRQPiz4TXjyKcEqXlAKqgZGNXuBqTlwO5qeQLWojZecAXPWvzEC5MscwdLjhJp78awfIBC8qV3y2+VSzCAdCw1th3MU4Jy7Q1ivAQrzeIc8wfuGifXlxjXuK9W0lb1Z+8KGRqcPY7VPGe8cWod/V5Leb9W2y9Hpjei7pzpN6WiIIcVGPSvsMbx2RMueYWN8gqaBl3Nm1ZtRFeMXKpwJXERllJt8VI3YSFQRzxEcyG8QXzZwY/QCqfiE7bBYk+zAC1o3k0jtkObODkERO/0QoLWJ5HocP7DOopeci8u9/64EtqKxlzjzRve6zgEr4f7bK73+xkDfE2Wjq6yaTIaz2bFqBjT6WiSZimPptG0ZGmoDRirD4dvNopShoIbiZPOXqfin/u9LVMzyMosjrLLmRpPLmXqQpreGKTkD0FyL/iXOYqi6H+Q3iVIQud+/Htt3eXvmKMnFxp/5+A1FRqpdc/08fgvcRs7HDBBz6Gtar87USfs8AssGAZYlQYAAA==</values>
         <workflow_reference/>
