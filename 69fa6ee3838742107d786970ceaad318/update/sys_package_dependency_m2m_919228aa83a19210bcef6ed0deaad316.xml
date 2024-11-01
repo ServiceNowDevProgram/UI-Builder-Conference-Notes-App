@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">bf35bf08e412021008dda4ccc4008001</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 11:08:55</sys_created_on>
+        <sys_id>919228aa83a19210bcef6ed0deaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 11:08:55</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
