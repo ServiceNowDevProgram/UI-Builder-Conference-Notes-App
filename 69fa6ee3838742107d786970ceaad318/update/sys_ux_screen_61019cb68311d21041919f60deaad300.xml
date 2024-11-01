@@ -3,16 +3,16 @@
         <active>true</active>
         <app_config display_value="U&amp;I Conference notes App Config">074dfba3440f42107ea67b33b7086b10</app_config>
         <description/>
-        <disable_auto_reflow>true</disable_auto_reflow>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[
     {
-        "eventMappingId": "cmccgaaaayltaaccaabbddjiiffjdraapzffe",
-        "isConfiguration": null,
+        "eventMappingId": "cmccibbipyiaaddutddbhhwigeedsyu",
+        "isConfiguration": false,
         "offRowStorageId": null,
-        "sourceEventApiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_ed5d781a831112106137b6cfeeaad370",
+        "sourceEventApiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_55015cb68311d21041919f60deaad3fd",
         "sourceEventCorrelationId": null,
         "sourceEventDefinition": {
-            "apiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_ed5d781a831112106137b6cfeeaad370",
+            "apiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_55015cb68311d21041919f60deaad3fd",
             "id": null,
             "type": "UXEVENT"
         },
@@ -115,19 +115,19 @@
                     "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
                 },
                 "operation": null,
-                "targetId": "cmccgaaaayltaaccaaaaddjiiffemnvutqo",
+                "targetId": "cmccibbipyiaaddusddbhhwaljjitskii",
                 "type": "EVENT"
             }
         ]
     },
     {
-        "eventMappingId": "cmccgaahhbaggaacccczddjiiffjjweeaawlqg",
-        "isConfiguration": null,
+        "eventMappingId": "cmccibbpiymaaddwvddbhhwxzzaanggcce",
+        "isConfiguration": false,
         "offRowStorageId": null,
-        "sourceEventApiName": "x_snc_bam_you_i_0.CONTENT_ITEMS_SELECTED_RELAY_ed5d781a831112106137b6cfeeaad370",
+        "sourceEventApiName": "x_snc_bam_you_i_0.MODAL_SELECTED_RELAY_55015cb68311d21041919f60deaad3fd",
         "sourceEventCorrelationId": null,
         "sourceEventDefinition": {
-            "apiName": "x_snc_bam_you_i_0.CONTENT_ITEMS_SELECTED_RELAY_ed5d781a831112106137b6cfeeaad370",
+            "apiName": "x_snc_bam_you_i_0.MODAL_SELECTED_RELAY_55015cb68311d21041919f60deaad3fd",
             "id": null,
             "type": "UXEVENT"
         },
@@ -141,37 +141,77 @@
                 "conditional": null,
                 "declarativeAction": null,
                 "event": {
-                    "apiName": "polaris_app_shell.CONTENT_ITEMS_SELECTED",
+                    "apiName": "sn_canvas_core.MODAL_SELECTED",
                     "payload": {
                         "container": {
-                            "items": {
+                            "bare": {
                                 "binding": {
                                     "address": [
-                                        "items"
+                                        "bare"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "options": {
+                            "displayOptions": {
                                 "binding": {
                                     "address": [
-                                        "options"
+                                        "displayOptions"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "sysId": {
+                            "headerLabel": {
                                 "binding": {
                                     "address": [
-                                        "sysId"
+                                        "headerLabel"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "table": {
+                            "modalId": {
                                 "binding": {
                                     "address": [
-                                        "table"
+                                        "modalId"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "showModal": {
+                                "binding": {
+                                    "address": [
+                                        "showModal"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportElementId": {
+                                "binding": {
+                                    "address": [
+                                        "viewportElementId"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportFields": {
+                                "binding": {
+                                    "address": [
+                                        "viewportFields"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportParams": {
+                                "binding": {
+                                    "address": [
+                                        "viewportParams"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportRoute": {
+                                "binding": {
+                                    "address": [
+                                        "viewportRoute"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
@@ -179,137 +219,22 @@
                         },
                         "type": "MAP_CONTAINER"
                     },
-                    "sysId": "93e48589a9ee4a69f8d3f5d45ffeb05d"
+                    "sysId": "882eed4091382d3a41f1bb3f382ae089"
                 },
                 "operation": null,
-                "targetId": "cmccgaahhbaggaaccccyddjiiffbzttaawbcc",
+                "targetId": "cmccibbpiylaaddwuddbhhwceebbjjszfr",
                 "type": "EVENT"
             }
         ]
     },
     {
-        "eventMappingId": "cmccgnkffrvaaccbbaaddjiiffggpwoeeiijjdd",
-        "isConfiguration": null,
+        "eventMappingId": "cmccibbthqkaaddxlddbhhwpbbbrtiiydd",
+        "isConfiguration": false,
         "offRowStorageId": null,
-        "sourceEventApiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_ed5d781a831112106137b6cfeeaad370",
+        "sourceEventApiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_55015cb68311d21041919f60deaad3fd",
         "sourceEventCorrelationId": null,
         "sourceEventDefinition": {
-            "apiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_ed5d781a831112106137b6cfeeaad370",
-            "id": null,
-            "type": "UXEVENT"
-        },
-        "sourceEventSysId": null,
-        "targets": [
-            {
-                "broker": null,
-                "clientScript": null,
-                "clientTransformScript": null,
-                "clientTransformScriptUxValue": null,
-                "conditional": null,
-                "declarativeAction": null,
-                "event": {
-                    "apiName": "sn_canvas_core.NAV_ITEM_SELECTED",
-                    "payload": {
-                        "container": {
-                            "external": {
-                                "binding": {
-                                    "address": [
-                                        "external"
-                                    ]
-                                },
-                                "type": "EVENT_PAYLOAD_BINDING"
-                            },
-                            "fields": {
-                                "binding": {
-                                    "address": [
-                                        "fields"
-                                    ]
-                                },
-                                "type": "EVENT_PAYLOAD_BINDING"
-                            },
-                            "multiInstField": {
-                                "binding": {
-                                    "address": [
-                                        "multiInstField"
-                                    ]
-                                },
-                                "type": "EVENT_PAYLOAD_BINDING"
-                            },
-                            "navigationOptions": {
-                                "binding": {
-                                    "address": [
-                                        "navigationOptions"
-                                    ]
-                                },
-                                "type": "EVENT_PAYLOAD_BINDING"
-                            },
-                            "params": {
-                                "binding": {
-                                    "address": [
-                                        "params"
-                                    ]
-                                },
-                                "type": "EVENT_PAYLOAD_BINDING"
-                            },
-                            "passiveNavigation": {
-                                "binding": {
-                                    "address": [
-                                        "passiveNavigation"
-                                    ]
-                                },
-                                "type": "EVENT_PAYLOAD_BINDING"
-                            },
-                            "redirect": {
-                                "binding": {
-                                    "address": [
-                                        "redirect"
-                                    ]
-                                },
-                                "type": "EVENT_PAYLOAD_BINDING"
-                            },
-                            "route": {
-                                "binding": {
-                                    "address": [
-                                        "route"
-                                    ]
-                                },
-                                "type": "EVENT_PAYLOAD_BINDING"
-                            },
-                            "targetRoute": {
-                                "binding": {
-                                    "address": [
-                                        "targetRoute"
-                                    ]
-                                },
-                                "type": "EVENT_PAYLOAD_BINDING"
-                            },
-                            "title": {
-                                "binding": {
-                                    "address": [
-                                        "title"
-                                    ]
-                                },
-                                "type": "EVENT_PAYLOAD_BINDING"
-                            }
-                        },
-                        "type": "MAP_CONTAINER"
-                    },
-                    "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
-                },
-                "operation": null,
-                "targetId": "cmccgnkffrvaaccaazddjiiffcjaadxpggg",
-                "type": "EVENT"
-            }
-        ]
-    },
-    {
-        "eventMappingId": "cmccgnnahkaaccddeddjiiffhtrgdtgd",
-        "isConfiguration": null,
-        "offRowStorageId": null,
-        "sourceEventApiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_ed5d781a831112106137b6cfeeaad370",
-        "sourceEventCorrelationId": null,
-        "sourceEventDefinition": {
-            "apiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_ed5d781a831112106137b6cfeeaad370",
+            "apiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_55015cb68311d21041919f60deaad3fd",
             "id": null,
             "type": "UXEVENT"
         },
@@ -412,19 +337,233 @@
                     "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
                 },
                 "operation": null,
-                "targetId": "cmccgnnahkaaccdddddjiiffiimyghqth",
+                "targetId": "cmccibbthqkaaddxkddbhhwmviddjohy",
                 "type": "EVENT"
             }
         ]
     },
     {
-        "eventMappingId": "cmccgqjzssaaccpgddjiiffxpmzbnjjp",
-        "isConfiguration": null,
+        "eventMappingId": "cmccibbvnjjuaaeeaajddbhhwffepiavecc",
+        "isConfiguration": false,
         "offRowStorageId": null,
-        "sourceEventApiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_ed5d781a831112106137b6cfeeaad370",
+        "sourceEventApiName": "x_snc_bam_you_i_0.MODAL_SELECTED_RELAY_55015cb68311d21041919f60deaad3fd",
         "sourceEventCorrelationId": null,
         "sourceEventDefinition": {
-            "apiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_ed5d781a831112106137b6cfeeaad370",
+            "apiName": "x_snc_bam_you_i_0.MODAL_SELECTED_RELAY_55015cb68311d21041919f60deaad3fd",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "clientTransformScript": null,
+                "clientTransformScriptUxValue": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_canvas_core.MODAL_SELECTED",
+                    "payload": {
+                        "container": {
+                            "bare": {
+                                "binding": {
+                                    "address": [
+                                        "bare"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "displayOptions": {
+                                "binding": {
+                                    "address": [
+                                        "displayOptions"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "headerLabel": {
+                                "binding": {
+                                    "address": [
+                                        "headerLabel"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "modalId": {
+                                "binding": {
+                                    "address": [
+                                        "modalId"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "showModal": {
+                                "binding": {
+                                    "address": [
+                                        "showModal"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportElementId": {
+                                "binding": {
+                                    "address": [
+                                        "viewportElementId"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportFields": {
+                                "binding": {
+                                    "address": [
+                                        "viewportFields"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportParams": {
+                                "binding": {
+                                    "address": [
+                                        "viewportParams"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportRoute": {
+                                "binding": {
+                                    "address": [
+                                        "viewportRoute"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "882eed4091382d3a41f1bb3f382ae089"
+                },
+                "operation": null,
+                "targetId": "cmccibbvnjjuaaeeaaiddbhhwgeetbbfkiijj",
+                "type": "EVENT"
+            }
+        ]
+    },
+    {
+        "eventMappingId": "cmccibbvzqiiaaeebbddddbhhwyrrbbsbeeg",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "x_snc_bam_you_i_0.MODAL_SELECTED_RELAY_55015cb68311d21041919f60deaad3fd",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "x_snc_bam_you_i_0.MODAL_SELECTED_RELAY_55015cb68311d21041919f60deaad3fd",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "clientTransformScript": null,
+                "clientTransformScriptUxValue": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_canvas_core.MODAL_SELECTED",
+                    "payload": {
+                        "container": {
+                            "bare": {
+                                "binding": {
+                                    "address": [
+                                        "bare"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "displayOptions": {
+                                "binding": {
+                                    "address": [
+                                        "displayOptions"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "headerLabel": {
+                                "binding": {
+                                    "address": [
+                                        "headerLabel"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "modalId": {
+                                "binding": {
+                                    "address": [
+                                        "modalId"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "showModal": {
+                                "binding": {
+                                    "address": [
+                                        "showModal"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportElementId": {
+                                "binding": {
+                                    "address": [
+                                        "viewportElementId"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportFields": {
+                                "binding": {
+                                    "address": [
+                                        "viewportFields"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportParams": {
+                                "binding": {
+                                    "address": [
+                                        "viewportParams"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportRoute": {
+                                "binding": {
+                                    "address": [
+                                        "viewportRoute"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "882eed4091382d3a41f1bb3f382ae089"
+                },
+                "operation": null,
+                "targetId": "cmccibbvzqhhaaeebbccddbhhwfoggiicaaai",
+                "type": "EVENT"
+            }
+        ]
+    },
+    {
+        "eventMappingId": "cmccibbzqaataaeeddaddbhhwsynoyjjhhw",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_55015cb68311d21041919f60deaad3fd",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_55015cb68311d21041919f60deaad3fd",
             "id": null,
             "type": "UXEVENT"
         },
@@ -527,19 +666,19 @@
                     "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
                 },
                 "operation": null,
-                "targetId": "cmccgqjzssaaccpfddjiiffeunvblcccc",
+                "targetId": "cmccibbzqaataaeeddjjddbhhwncccctbweer",
                 "type": "EVENT"
             }
         ]
     },
     {
-        "eventMappingId": "cmccgrkfzeaacctmddjiiffhhffvwjeebb",
-        "isConfiguration": null,
+        "eventMappingId": "cmcciccaaddrccaaeeddtddbhhwbbhaahesq",
+        "isConfiguration": false,
         "offRowStorageId": null,
-        "sourceEventApiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_ed5d781a831112106137b6cfeeaad370",
+        "sourceEventApiName": "x_snc_bam_you_i_0.MODAL_SELECTED_RELAY_55015cb68311d21041919f60deaad3fd",
         "sourceEventCorrelationId": null,
         "sourceEventDefinition": {
-            "apiName": "x_snc_bam_you_i_0.NAV_ITEM_SELECTED_RELAY_ed5d781a831112106137b6cfeeaad370",
+            "apiName": "x_snc_bam_you_i_0.MODAL_SELECTED_RELAY_55015cb68311d21041919f60deaad3fd",
             "id": null,
             "type": "UXEVENT"
         },
@@ -553,85 +692,77 @@
                 "conditional": null,
                 "declarativeAction": null,
                 "event": {
-                    "apiName": "sn_canvas_core.NAV_ITEM_SELECTED",
+                    "apiName": "sn_canvas_core.MODAL_SELECTED",
                     "payload": {
                         "container": {
-                            "external": {
+                            "bare": {
                                 "binding": {
                                     "address": [
-                                        "external"
+                                        "bare"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "fields": {
+                            "displayOptions": {
                                 "binding": {
                                     "address": [
-                                        "fields"
+                                        "displayOptions"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "multiInstField": {
+                            "headerLabel": {
                                 "binding": {
                                     "address": [
-                                        "multiInstField"
+                                        "headerLabel"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "navigationOptions": {
+                            "modalId": {
                                 "binding": {
                                     "address": [
-                                        "navigationOptions"
+                                        "modalId"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "params": {
+                            "showModal": {
                                 "binding": {
                                     "address": [
-                                        "params"
+                                        "showModal"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "passiveNavigation": {
+                            "viewportElementId": {
                                 "binding": {
                                     "address": [
-                                        "passiveNavigation"
+                                        "viewportElementId"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "redirect": {
+                            "viewportFields": {
                                 "binding": {
                                     "address": [
-                                        "redirect"
+                                        "viewportFields"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "route": {
+                            "viewportParams": {
                                 "binding": {
                                     "address": [
-                                        "route"
+                                        "viewportParams"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "targetRoute": {
+                            "viewportRoute": {
                                 "binding": {
                                     "address": [
-                                        "targetRoute"
-                                    ]
-                                },
-                                "type": "EVENT_PAYLOAD_BINDING"
-                            },
-                            "title": {
-                                "binding": {
-                                    "address": [
-                                        "title"
+                                        "viewportRoute"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
@@ -639,16 +770,16 @@
                         },
                         "type": "MAP_CONTAINER"
                     },
-                    "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
+                    "sysId": "882eed4091382d3a41f1bb3f382ae089"
                 },
                 "operation": null,
-                "targetId": "cmccgrkfzdaacctlddjiiffavccikorv",
+                "targetId": "cmcciccaaddrccaaeeddsddbhhwmjggznjjnr",
                 "type": "EVENT"
             }
         ]
     }
 ]</event_mappings>
-        <macroponent display_value="zdn-workspace">ed5d781a831112106137b6cfeeaad370</macroponent>
+        <macroponent display_value="Default">55015cb68311d21041919f60deaad3fd</macroponent>
         <macroponent_config>{
     "bare": {
         "type": "JSON_LITERAL",
@@ -679,28 +810,28 @@
         "value": "y"
     }
 }</macroponent_config>
-        <name>zdn-workspace</name>
+        <name>Default</name>
         <order>0</order>
         <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>
-        <screen_type display_value="Home">474dbba3530f421073502210bbe37ff9</screen_type>
+        <screen_type display_value="isaac-vicentini | Contact Entry">dd015cb68311d21041919f60deaad3f7</screen_type>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-19 08:11:38</sys_created_on>
+        <sys_created_on>2024-10-20 18:14:59</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>b95d745a831112106137b6cfeeaad375</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_name>zdn-workspace</sys_name>
+        <sys_id>61019cb68311d21041919f60deaad300</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
         <sys_policy/>
         <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
-        <sys_update_name>sys_ux_screen_b95d745a831112106137b6cfeeaad375</sys_update_name>
+        <sys_update_name>sys_ux_screen_61019cb68311d21041919f60deaad300</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-29 18:05:29</sys_updated_on>
+        <sys_updated_on>2024-10-20 20:42:13</sys_updated_on>
     </sys_ux_screen>
-    <sys_translated_text action="delete_multiple" query="documentkey=b95d745a831112106137b6cfeeaad375"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=61019cb68311d21041919f60deaad300"/>
 </record_update>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="DELETE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>Edit NAM KPIs</name>
+        <parent_macroponent display_value="Analytics center">190d4ecb835d161041919f60deaad3e8</parent_macroponent>
+        <source_component/>
+        <source_da display_value="edit_({{count}})">4a9232b273131010a0a79329faf6a732</source_da>
+        <source_element_id>nam_kpis</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 21:55:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d0d060f835d161041919f60deaad318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit NAM KPIs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_6d0d060f835d161041919f60deaad318</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 21:55:14</sys_updated_on>
+        <target_event display_value="Edit NAM KPIs">e713bad2a32211103ebf37af26fcdabe</target_event>
+        <target_payload_mapping>{
+    "container": {},
+    "type": "MAP_CONTAINER"
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</application>
+        <file_path/>
+        <instance_id>e649d2e21bddc2147d9d2f8dee4bcbec</instance_id>
+        <instance_name>dev254646</instance_name>
+        <name>sys_ux_addon_event_mapping_6d0d060f835d161041919f60deaad318</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping"><sys_ux_addon_event_mapping action="INSERT_OR_UPDATE"><active>true</active><controller/><description/><name>Edit NAM KPIs</name><parent_macroponent display_value="Analytics center">190d4ecb835d161041919f60deaad3e8</parent_macroponent><source_component/><source_da display_value="edit_({{count}})">4a9232b273131010a0a79329faf6a732</source_da><source_element_id>nam_kpis</source_element_id><sys_class_name>sys_ux_addon_event_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-21 21:55:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6d0d060f835d161041919f60deaad318</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Edit NAM KPIs</sys_name><sys_overrides/><sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package><sys_policy/><sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope><sys_update_name>sys_ux_addon_event_mapping_6d0d060f835d161041919f60deaad318</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-21 21:55:14</sys_updated_on><target_event display_value="Edit NAM KPIs">e713bad2a32211103ebf37af26fcdabe</target_event><target_payload_mapping>{
+    "container": {},
+    "type": "MAP_CONTAINER"
+}</target_payload_mapping></sys_ux_addon_event_mapping></record_update>]]></payload>
+        <payload_hash>-2029069286</payload_hash>
+        <record_name>Edit NAM KPIs</record_name>
+        <reverted_from/>
+        <source>8d6090368311d21041919f60deaad319</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 21:55:14</sys_created_on>
+        <sys_id>650d060f835d161041919f60deaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b113c1410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 21:55:14</sys_updated_on>
+        <type>UX Add-on Event Mapping</type>
+        <update_guid>690d060ffc5d1610128c827c44935019</update_guid>
+        <update_guid_history>690d060ffc5d1610128c827c44935019:-2029069286</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 21:58:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_addon_event_mapping">sys_ux_addon_event_mapping</sys_db_object>
+        <sys_id>05628791913e433c802866f0d72d34b1</sys_id>
+        <sys_metadata>6d0d060f835d161041919f60deaad318</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit NAM KPIs</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_scope_delete display_value="">8e6b586c18d945e4a392cb47d16fdc89</sys_scope_delete>
+        <sys_update_name>sys_ux_addon_event_mapping_6d0d060f835d161041919f60deaad318</sys_update_name>
+        <sys_update_version display_value="sys_ux_addon_event_mapping_6d0d060f835d161041919f60deaad318">650d060f835d161041919f60deaad31a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 21:58:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
