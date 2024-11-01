@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes>8f0ec3492c5f441781f1f44f36351242</includes>
+        <macroponent display_value="sheikhafsarzap">bb1d5e17c3d596109511bb2ed4013199</macroponent>
+        <name>Apply PAR Filters</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+	console.log("TEST >> before:parFilters:"+api.state.parFilters);
+const mergePARFiltersV2 = imports["global.mergePARFilters"]().v2;
+	const { appliedFilters } = event.payload;
+	api.setState("parFilters", ({ currentValue, api }) => {
+		const { parFilters } = mergePARFiltersV2(currentValue, appliedFilters);
+		return parFilters;
+	});
+
+	console.log("TEST >> parFilters:"+api.state.parFilters);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 15:41:50</sys_created_on>
+        <sys_id>5fef1378c32d1e109511bb2ed401315d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Apply PAR Filters</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_update_name>sys_ux_client_script_5fef1378c32d1e109511bb2ed401315d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 15:53:55</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</application>
+        <file_path/>
+        <instance_id>945baa2f1b514e1839a54089bd4bcb0f</instance_id>
+        <instance_name>dev258282</instance_name>
+        <name>sys_ux_client_script_5fef1378c32d1e109511bb2ed401315d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes&gt;8f0ec3492c5f441781f1f44f36351242&lt;/includes&gt;&lt;macroponent display_value="sheikhafsarzap"&gt;bb1d5e17c3d596109511bb2ed4013199&lt;/macroponent&gt;&lt;name&gt;Apply PAR Filters&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+	console.log("TEST &gt;&gt; before:parFilters:"+api.state.parFilters);
+const mergePARFiltersV2 = imports["global.mergePARFilters"]().v2;
+	const { appliedFilters } = event.payload;
+	api.setState("parFilters", ({ currentValue, api }) =&gt; {
+		const { parFilters } = mergePARFiltersV2(currentValue, appliedFilters);
+		return parFilters;
+	});
+
+	console.log("TEST &gt;&gt; parFilters:"+api.state.parFilters);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-27 15:41:50&lt;/sys_created_on&gt;&lt;sys_id&gt;5fef1378c32d1e109511bb2ed401315d&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Apply PAR Filters&lt;/sys_name&gt;&lt;sys_package display_value="BAM - You &amp;amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0"&gt;69fa6ee3838742107d786970ceaad318&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BAM - You &amp;amp; I Builder Live! Conference Notes"&gt;69fa6ee3838742107d786970ceaad318&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_5fef1378c32d1e109511bb2ed401315d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-27 15:53:55&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-850282078</payload_hash>
+        <record_name>Apply PAR Filters</record_name>
+        <reverted_from/>
+        <source>698afd14c39d16109511bb2ed401315b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 15:53:55</sys_created_on>
+        <sys_id>57d37b34c3655e109511bb2ed401316a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192ceaf1c770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 15:53:55</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>dbd37b347c655e107036207327d89069</update_guid>
+        <update_guid_history>dbd37b347c655e107036207327d89069:-850282078,6503bff8bb255e101393b064f085ebf3:-267472915,56113f7c81e15e1068de7d0384f150fd:-963898159</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 17:04:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>00810b6536d8491c8636af23079f0e90</sys_id>
+        <sys_metadata>5fef1378c32d1e109511bb2ed401315d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Apply PAR Filters</sys_name>
+        <sys_package display_value="BAM - You &amp; I Builder Live! Conference Notes" source="x_snc_bam_you_i_0">69fa6ee3838742107d786970ceaad318</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BAM - You &amp; I Builder Live! Conference Notes">69fa6ee3838742107d786970ceaad318</sys_scope>
+        <sys_scope_delete display_value="">8e6b586c18d945e4a392cb47d16fdc89</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_5fef1378c32d1e109511bb2ed401315d</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_5fef1378c32d1e109511bb2ed401315d">57d37b34c3655e109511bb2ed401316a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 17:04:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
